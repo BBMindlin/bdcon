@@ -1,0 +1,23 @@
+.DivScrollVertival01 {
+	margin: auto;
+}
+
+.DivScrollVertival01 img {
+	/*width: 110px;*/
+	/*height: 110px;*/
+	/*padding: 2px;*/
+}
+
+div.responsive img {
+	width: auto;
+	height: auto;
+}
+
+.DivScrollPaginacao {
+	position: static;
+	margin-top: 5px;
+}
+
+div.DivVertical {
+	/*width: 150px;*/
+}

@@ -1,0 +1,11 @@
+#Regras de reescrita de URLs.
+#**************************************************************************************
+RewriteEngine On
+#Incluir www nos endereços.
+#ref: https://stackoverflow.com/questions/4042309/www-and-non-www-sites
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule (.*) http://www.%{HTTP_HOST}/$1 [R=301,L]
+#Alternativa (funcionando).
+#RewriteCond %{HTTP_HOST} !^www\.domain\.com
+#RewriteRule ^(.*)$ http://www.domain.com/$1 [R=permanent,L]
+#**************************************************************************************

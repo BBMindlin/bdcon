@@ -1,0 +1,4286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+    <!--Referências-->
+    <!--**************************************************************************************-->
+    <!--Referência de caracteres especiais: http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references -->
+    <!--&#160; - Espaço não formatável.-->
+    <!--&lt;br&gt; - Quebra de linha.-->
+    <!--&#169; - Copyright.-->
+    <!--&lt; - < -->
+    <!--&gt; - > -->
+    <!--**************************************************************************************-->
+    
+    <!--Site-->
+
+    <!--Layout.-->
+    <!--**************************************************************************************-->
+    <data name="siteLayoutCriacao" xml:space="preserve">
+        <value>Criação</value>
+    </data>
+    <data name="siteLayoutCopyright1" xml:space="preserve">
+        <value>Todos direitos reservados.</value>
+    </data>
+    <data name="siteLayoutVersao" xml:space="preserve">
+        <value>Versão</value>
+    </data>
+
+    <data name="siteLayoutSubtotal" xml:space="preserve">
+        <value>Sub-Total das Compras:</value>
+    </data>
+    <data name="siteLayoutLogin" xml:space="preserve">
+        <value>Você está autenticado como:</value>
+    </data>
+    <data name="siteLayoutVersaoDesktop" xml:space="preserve">
+        <value>Acessar Versão Desktop</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Home.-->
+    <!--**************************************************************************************-->
+    <data name="siteHomeTitulo" xml:space="preserve">
+        <value>Home</value>
+    </data>
+    <data name="siteHomeTooTip" xml:space="preserve">
+        <value>Página inicial do site.</value>
+    </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Itens genéricos.-->
+    <!--**************************************************************************************-->
+    <data name="siteItemCategoriaVinculada" xml:space="preserve">
+        <value>Categoria Vinculada</value>
+    </data>
+    <data name="siteItemNenhumDropDown" xml:space="preserve">
+        <value>Nenhum</value>
+    </data>
+    <data name="siteItemArquivo" xml:space="preserve">
+        <value>Arquivo</value>
+    </data>
+    <data name="siteItemImagem" xml:space="preserve">
+        <value>Imagem</value>
+    </data>
+    <data name="siteItemImagemExcluir" xml:space="preserve">
+        <value>Excluir Imagem</value>
+    </data>
+    <data name="siteItemNClassificacao" xml:space="preserve">
+        <value>Nº de Classificação</value>
+    </data>
+        <data name="siteItemNClassificacaoA" xml:space="preserve">
+            <value>Nº de Class.</value>
+        </data>
+        <data name="siteItemClassificacaoPadrao" xml:space="preserve">
+            <value>Restaurar Classificação Padrao</value>
+        </data>
+    <data name="siteItemData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+        <data name="siteItemDataFormatoPT" xml:space="preserve">
+            <value>dd/mm/aaaa</value>
+        </data>
+        <data name="siteItemDataFormatoEN" xml:space="preserve">
+            <value>mm/dd/aaaa</value>
+        </data>
+		
+    <data name="siteItemObsInterno" xml:space="preserve">
+        <value>OBS (interno)</value>
+    </data>
+    <data name="siteItemVisualizacao" xml:space="preserve">
+        <value>Visualização</value>
+    </data>
+    <data name="siteItemRelatorio" xml:space="preserve">
+        <value>Relatório</value>
+    </data>
+    <data name="siteItemAtivacao" xml:space="preserve">
+        <value>Trava</value>
+    </data>
+        <data name="siteItemAtivacao0" xml:space="preserve">
+            <value>Blc</value>
+        </data>
+        <data name="siteItemAtivacao1" xml:space="preserve">
+            <value>Lib</value>
+        </data>
+    <data name="siteItemAtivacao3" xml:space="preserve">
+        <value>Trava</value>
+    </data>
+        <data name="siteItemAtivacao4" xml:space="preserve">
+            <value>Tratado</value>
+        </data>
+        <data name="siteItemAtivacao5" xml:space="preserve">
+            <value>Liberado</value>
+        </data>
+        <data name="siteItemAtivacaoSim" xml:space="preserve">
+            <value>Sim</value>
+        </data>
+        <data name="siteItemAtivacaoNao" xml:space="preserve">
+            <value>Não</value>
+        </data>
+    <data name="siteItemAcesso" xml:space="preserve">
+        <value>Acesso</value>
+    </data>
+        <data name="siteItemAcesso0" xml:space="preserve">
+            <value>L</value>
+        </data>
+        <data name="siteItemAcesso1" xml:space="preserve">
+            <value>R</value>
+        </data>
+    <data name="siteItemFuncoes" xml:space="preserve">
+        <value>Funções</value>
+    </data>
+    <data name="siteItemSim" xml:space="preserve">
+        <value>Sim</value>
+    </data>
+    <data name="siteItemNao" xml:space="preserve">
+        <value>Não</value>
+    </data>
+    <data name="siteItemInserir" xml:space="preserve">
+        <value>Inserir</value>
+    </data>
+        <data name="siteItemInserirConteudo" xml:space="preserve">
+            <value>Inserir&#160;Conteúdo</value>
+        </data>
+        <data name="siteItemInserirFotos" xml:space="preserve">
+            <value>Inserir&#160;Fotos</value>
+        </data>
+        <data name="siteItemInserirVideos" xml:space="preserve">
+            <value>Inserir&#160;Vídeos</value>
+        </data>
+        <data name="siteItemInserirArquivos" xml:space="preserve">
+            <value>Inserir&#160;Arquivos</value>
+        </data>
+        <data name="siteItemInserirZip" xml:space="preserve">
+            <value>Inserir&#160;Zip</value>
+        </data>
+        <data name="siteItemInserirSWFs" xml:space="preserve">
+            <value>Inserir&#160;SWFs</value>
+        </data>
+        <data name="siteItemInserirConteudo" xml:space="preserve">
+            <value>Inserir&#160;Conteúdo</value>
+        </data>
+        <data name="siteItemInserirConteudoHTML" xml:space="preserve">
+            <value>Inserir&#160;Conteúdo HTML</value>
+        </data>
+        <data name="sistemaItemInserirCategorias" xml:space="preserve">
+            <value>Inserir&#160;Categorias</value>
+        </data>
+        <data name="siteItemInserirCategorias" xml:space="preserve">
+            <value>Inserir&#160;Categorias</value>
+        </data>
+        <data name="siteItemInserirPublicacoes01" xml:space="preserve">
+            <value>Inserir&#160;Notícias</value>
+        </data>
+        <data name="siteItemInserirPublicacoes02" xml:space="preserve">
+            <value>Inserir&#160;Galeria de Fotos</value>
+        </data>
+        <data name="siteItemInserirPublicacoes03" xml:space="preserve">
+            <value>Inserir&#160;Artivos</value>
+        </data>
+        <data name="siteItemInserirPublicacoes04" xml:space="preserve">
+            <value>Inserir&#160;Matérias</value>
+        </data>
+        <data name="siteItemInserirTarefas" xml:space="preserve">
+            <value>Inserir&#160;Tarefas</value>
+        </data>
+        <data name="siteItemInserirProcessos" xml:space="preserve">
+            <value>Inserir&#160;Processos</value>
+        </data>
+		
+        <data name="siteItemInserirHistorico" xml:space="preserve">
+            <value>Inserir&#160;Ficha Técnica de Tratamento</value>
+        </data>
+        <data name="siteItemInserirModulos" xml:space="preserve">
+            <value>Inserir&#160;Módulos</value>
+        </data>
+        <data name="siteItemInserirAulas" xml:space="preserve">
+            <value>Inserir&#160;Aulas</value>
+        </data>
+		
+        <data name="siteItemGerenciar" xml:space="preserve">
+            <value>Gerenciar</value>
+        </data>
+        <data name="siteItemGerenciarIPs" xml:space="preserve">
+            <value>Gerenciar&#160;IPs</value>
+        </data>
+        <data name="siteItemGerenciarCadastros" xml:space="preserve">
+            <value>Gerenciar&#160;Cadastros</value>
+        </data>
+        <data name="siteItemGerenciarPaginas" xml:space="preserve">
+            <value>Gerenciar&#160;Livros</value>
+        </data>
+        <data name="siteItemGerenciarAula" xml:space="preserve">
+            <value>Gerenciar&#160;Aula</value>
+        </data>
+		
+        <data name="siteItemVincularCategorias" xml:space="preserve">
+            <value>Relacionar&#160;Categorias</value>
+        </data>
+        <data name="siteItemVincularProdutos" xml:space="preserve">
+            <value>Relacionar&#160;Produtos</value>
+        </data>
+        <data name="siteItemVincularDBIBGE" xml:space="preserve">
+            <value>Relacionar&#160;DB&#160;IBGE</value>
+        </data>
+    <data name="siteItemEditar" xml:space="preserve">
+        <value>E</value>
+    </data>
+    <data name="siteItemDetalhes" xml:space="preserve">
+        <value>Detalhes</value>
+    </data>
+    <data name="siteItemExcluir" xml:space="preserve">
+        <value>X</value>
+    </data>
+    <data name="siteItemSelecionar" xml:space="preserve">
+        <value>Selecionar</value>
+    </data>
+		<data name="siteItemSelecionarA" xml:space="preserve">
+			<value>Sel.</value>
+		</data>
+
+        <data name="siteItemVisualizacao1" xml:space="preserve">
+            <value>Link Para Pop-up</value>
+        </data>
+        <data name="siteItemVisualizacao2" xml:space="preserve">
+            <value>Direto Na Página</value>
+        </data>
+        <data name="siteItemVisualizacao3" xml:space="preserve">
+            <value>Link Para Download</value>
+        </data>
+        <data name="siteItemVisualizacao4" xml:space="preserve">
+            <value>Link Direto para Mídia</value>
+        </data>
+    <data name="siteItemCadastroVinculado" xml:space="preserve">
+        <value>Cadastro Vinculado</value>
+    </data>
+    <data name="siteItemTextoLink" xml:space="preserve">
+        <value>Texto Para Exibição Em Forma de Link Para Baixar o Arquivo</value>
+    </data>
+    <data name="siteItemValorDescicao01" xml:space="preserve">
+        <value>formato: 1000,00</value>
+    </data>
+    <data name="siteItemURL01" xml:space="preserve">
+        <value>Endereço URL (Link)</value>
+    </data>
+    <data name="siteItemURL02" xml:space="preserve">
+        <value>(endereço completo - incluir com o http://www.)</value>
+    </data>
+    <data name="siteItemHTML01" xml:space="preserve">
+        <value>Código HTML</value>
+    </data>
+    <data name="siteItemHTML02" xml:space="preserve">
+        <value>(Código em HTML para incorporar à página. Caso tenha dúvida sobre este recurso, entre em contato com o administrador do site.)</value>
+    </data>
+    <data name="siteItemPalavrasChave01" xml:space="preserve">
+        <value>Palavras-chave</value>
+    </data>
+    <data name="siteItemPalavrasChave02" xml:space="preserve">
+        <value>(Palavras separadas por vírgula (,).)</value>
+    </data>
+    <data name="siteItemLarguraPixels" xml:space="preserve">
+        <value>Largura (pxls)</value>
+    </data>
+    <data name="siteItemAlturaPixels" xml:space="preserve">
+        <value>Altura (pxls)</value>
+    </data>
+	
+	<!--Deixe a tecla "Ctrl" do seu teclado pressionada para permitir seleção múltipla.-->
+    <data name="siteItemFiltroGenerico01" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="siteItemFiltroGenerico02" xml:space="preserve">
+        <value>Selecione</value>
+    </data>
+    <data name="siteItemFiltroGenerico03" xml:space="preserve">
+        <value>Nenhum</value>
+    </data>
+	<!--Para incluir opções, acesse a área de manutenção.-->
+    <data name="siteItemFiltroGenerico04" xml:space="preserve">
+        <value>Incluir</value>
+    </data>
+    <data name="siteItemSelecionarCategoriasMultiplas" xml:space="preserve">
+        <value>Selecionar Categorias Múltiplas</value>
+    </data>
+	
+    <data name="siteItemDataCriacao" xml:space="preserve">
+        <value>Data de Criação</value>
+    </data>
+    <data name="siteItemMinutos" xml:space="preserve">
+        <value>Min</value>
+    </data>
+    <data name="siteItemSegundos" xml:space="preserve">
+        <value>Seg</value>
+    </data>
+    <data name="siteItemPublicadoPor" xml:space="preserve">
+        <value>Publicado Por</value>
+    </data>
+
+    <data name="siteItemDadosAprovacoes" xml:space="preserve">
+        <value>Aprovações</value>
+    </data>
+    <data name="siteItemDadosVisualizacoes" xml:space="preserve">
+        <value>Visualizações</value>
+    </data>
+    <data name="siteItemDadosNaoDisponivel" xml:space="preserve">
+        <value>Não Disponível</value>
+    </data>
+    <data name="siteItemSelecionarCategoriasMultiplas" xml:space="preserve">
+        <value>Selecionar Categorias Múltiplas</value>
+    </data>
+
+    <!--Paginação.-->
+    <data name="siteItemPaginacaoPaginaContador01" xml:space="preserve">
+        <value>Página</value>
+    </data>
+    <data name="siteItemPaginacaoPrimeira" xml:space="preserve">
+        <value>Primeira</value>
+    </data>
+    <data name="siteItemPaginacaoUltima" xml:space="preserve">
+        <value>Última</value>
+    </data>
+    <data name="siteItemPaginacaoAnterior" xml:space="preserve">
+        <value>&lt; Anterior</value>
+    </data>
+    <data name="siteItemPaginacaoProxima" xml:space="preserve">
+        <value>Próxima &gt;</value>
+    </data>
+
+    <!--Textos alternativos de botões.-->
+    <data name="siteBotaoEnviar" xml:space="preserve">
+        <value>Enviar</value>
+    </data>
+    <data name="siteBotaoCancelar" xml:space="preserve">
+        <value>Cancelar</value>
+    </data>
+    <data name="siteBotaoComprar" xml:space="preserve">
+        <value>Comprar</value>
+    </data>
+    <data name="siteBotaoAdicionar" xml:space="preserve">
+        <value>Adicionar</value>
+    </data>
+    <data name="siteBotaoSubtrair" xml:space="preserve">
+        <value>Subtrair</value>
+    </data>
+
+    <data name="siteBotaoVoltar" xml:space="preserve">
+        <value>Voltar</value>
+    </data>
+    <data name="siteBotaoExcluir" xml:space="preserve">
+        <value>Excluir</value>
+    </data>
+    <data name="siteBotaoIncluir" xml:space="preserve">
+        <value>Incluir</value>
+    </data>
+    <data name="siteBotaoAtualizar" xml:space="preserve">
+        <value>Atualizar</value>
+    </data>
+    <data name="siteBotaoUpload" xml:space="preserve">
+        <value>Upload</value>
+    </data>
+    <data name="siteBotaoSalvar" xml:space="preserve">
+        <value>Salvar</value>
+    </data>
+    <data name="siteBotaoAplicar" xml:space="preserve">
+        <value>Aplicar</value>
+    </data>
+    <data name="siteBotaoFechar" xml:space="preserve">
+        <value>Fechar</value>
+    </data>
+    <data name="siteBotaoFinalizar" xml:space="preserve">
+        <value>Finalizar</value>
+    </data>
+    <data name="siteBotaoLogin" xml:space="preserve">
+        <value>Login</value>
+    </data>
+    <data name="siteBotaoLoginLembrar" xml:space="preserve">
+        <value>Lembrar Senha</value>
+    </data>
+    <data name="siteBotaoProsseguir" xml:space="preserve">
+        <value>Prosseguir</value>
+    </data>
+    <data name="siteBotaoBuscar" xml:space="preserve">
+        <value>Buscar</value>
+    </data>
+    <data name="siteBotaoDetalhes" xml:space="preserve">
+        <value>Detalhes</value>
+    </data>
+    <data name="siteBotaoNovo" xml:space="preserve">
+        <value>Novo</value>
+    </data>
+    <data name="siteBotaoImportar" xml:space="preserve">
+        <value>Importar</value>
+    </data>
+
+    <data name="siteBotaoPagamentoPagSeguro" xml:space="preserve">
+        <value>Pague Com PagSeguro</value>
+    </data>
+    <data name="siteBotaoPagamentoPayPal" xml:space="preserve">
+        <value>Pague Com PayPal</value>
+    </data>
+
+    <!--Interatividade.-->
+    <data name="siteBotaoItensSelecionar" xml:space="preserve">
+        <value>Selecionar</value>
+    </data>
+    
+    <data name="siteBotaoItensEnviar" xml:space="preserve">
+        <value>Enviar</value>
+    </data>
+    <data name="siteBotaoItensEnviado" xml:space="preserve">
+        <value>Enviado</value>
+    </data>
+
+    <data name="siteBotaoAprovar" xml:space="preserve">
+        <value>Aprovar</value>
+    </data>
+    <data name="siteBotaoAprovado" xml:space="preserve">
+        <value>Aprovado</value>
+    </data>
+	
+    <data name="siteBotaoDesaprovar" xml:space="preserve">
+        <value>Desaprovar</value>
+    </data>
+    <data name="siteBotaoDesaprovado" xml:space="preserve">
+        <value>Desaprovado</value>
+    </data>
+	
+    <data name="siteBotaoCompartilhar" xml:space="preserve">
+        <value>Compartilhar</value>
+    </data>
+    <data name="siteBotaoCompartilhado" xml:space="preserve">
+        <value>Compartilhado</value>
+    </data>
+
+    <data name="siteBotaoIncluido" xml:space="preserve">
+        <value>Incluíu</value>
+    </data>
+
+    <data name="siteBotaoExpandir" xml:space="preserve">
+        <value>Expandir</value>
+    </data>
+    <data name="siteBotaoMinimizar" xml:space="preserve">
+        <value>Minimizar</value>
+    </data>
+
+    <!--Textos alternativos imagens.-->
+    <data name="siteImagemProgressBarra" xml:space="preserve">
+        <value>Processando...</value>
+    </data>
+
+    <!--Paginação.-->
+    <data name="sitePaginacaoPaginaContador01" xml:space="preserve">
+        <value>Página</value>
+    </data>
+
+    <data name="sitePaginacaoScrollUp" xml:space="preserve">
+        <value>&lt;</value>
+    </data>
+    <data name="sitePaginacaoScrollDown" xml:space="preserve">
+        <value>&gt;</value>
+    </data>
+	
+    <!--CEP.-->
+    <data name="siteCEPNaoEncontrado" xml:space="preserve">
+        <value>CEP não encontrado em nossa base de dados. Verifique se as informações estão corretas.</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Categorias.-->
+    <!--**************************************************************************************-->
+    <data name="siteCategoriasTitulo" xml:space="preserve">
+        <value>Categorias</value>
+    </data>
+    <data name="siteCategoriasTituloEditar" xml:space="preserve">
+        <value>Editar Categorias</value>
+    </data>
+    <data name="siteCategoriasTbCategorias" xml:space="preserve">
+        <value>Incluir Categorias</value>
+    </data>
+    <data name="siteCategoriasTbCategoriasEditar" xml:space="preserve">
+        <value>Editar Categoria</value>
+    </data>
+    <data name="siteCategoriasCategoria" xml:space="preserve">
+        <value>Categoria</value>
+    </data>
+    <data name="siteCategoriasDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="siteCategoriasTipo" xml:space="preserve">
+        <value>Tipo</value>
+    </data>
+	
+    <data name="siteCategoriasCategorias" xml:space="preserve">
+        <value>Categoria(s)</value>
+    </data>
+	
+    <!--Categorias múltiplas.-->
+    <data name="siteCategoriasMultiplasTitulo" xml:space="preserve">
+        <value>Seleção de Categorias</value>
+    </data>
+
+    <data name="siteCadastroMultiplasTitulo" xml:space="preserve">
+        <value>Seleção de Cadastros</value>
+    </data>
+	
+    <!--ADM.-->
+    <data name="siteCategoriasGerenciarItens" xml:space="preserve">
+        <value>Gerenciar</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Produtos.-->
+    <!--**************************************************************************************-->
+    <data name="siteProdutosValor0" xml:space="preserve">
+        <value>Consulte-nos.</value>
+    </data>
+    <data name="siteProdutosQuantidade" xml:space="preserve">
+        <value>Qtd.</value>
+    </data>
+    <data name="siteProdutosNVisivas" xml:space="preserve">
+        <value>Nº de Visitas</value>
+    </data>
+
+    <data name="siteProdutosTitulo" xml:space="preserve">
+        <value>Inserir Obras</value>
+    </data>
+    <data name="siteProdutosTituloEditar" xml:space="preserve">
+        <value>Editar Obras</value>
+    </data>
+    <data name="siteProdutosTbProdutos" xml:space="preserve">
+        <value>Inserir Obra</value>
+    </data>
+    <data name="siteProdutosTbProdutosEditar" xml:space="preserve">
+        <value>Editar Obra</value>
+    </data>
+	
+    <data name="siteProdutosID" xml:space="preserve">
+        <value>ID</value>
+    </data>
+    <data name="siteProduto" xml:space="preserve">
+        <value>Título</value>
+    </data>
+    <data name="siteProdutosCodigo" xml:space="preserve">
+        <value>N. Ref.</value>
+    </data>
+    <data name="siteProdutosCadastroUsuario" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+    <data name="siteProdutosCadastroUsuarioSelecao" xml:space="preserve">
+        <value>Nenhum</value>
+    </data>
+    <data name="siteProdutosData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="siteProdutosTipo" xml:space="preserve">
+        <value>Tipo de Obra</value>
+    </data>
+    <data name="siteProdutosValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="siteProdutosPeso" xml:space="preserve">
+        <value>Peso</value>
+    </data>
+    <data name="siteProdutosStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="siteProdutosAtivacaoPromocoes" xml:space="preserve">
+        <value>Ativ. Prom.</value>
+    </data>
+    <data name="siteProdutosAtivacaoHome" xml:space="preserve">
+        <value>Ativ. Home</value>
+    </data>
+    <data name="siteProdutosAtivacaoHomeCategoria" xml:space="preserve">
+        <value>Ativ. Cat.</value>
+    </data>
+	
+    <data name="siteProdutosVinculados" xml:space="preserve">
+        <value>Obras Vinculados</value>
+    </data>
+    
+    <data name="siteProdutosCategoriaEscolha" xml:space="preserve">
+        <value>Categoria</value>
+    </data>
+        <data name="siteProdutosCategoriaSelecaoEscohaNivel1" xml:space="preserve">
+            <value>Selecione Uma Categoria</value>
+        </data>
+        <data name="siteProdutosCategoriaSelecaoEscohaNivel2" xml:space="preserve">
+            <value>Selecione Uma Sub-categoria</value>
+        </data>
+        <data name="siteProdutosCategoriaSelecaoEscohaNivel3" xml:space="preserve">
+            <value>Selecione Uma Sub-categoria</value>
+        </data>
+        <data name="siteProdutosCategoriaSelecaoEscohaNivel4" xml:space="preserve">
+            <value>Selecione Uma Sub-categoria</value>
+        </data>
+
+    <!--Paginação.-->
+    <data name="siteProdutosPaginacaoPaginaContador01" xml:space="preserve">
+        <value>Página</value>
+    </data>
+
+    <!--ADM - Instruções.-->
+    <data name="siteProdutosInstrucoes01" xml:space="preserve">
+        <value>
+            Preencha os campos abaixo para inclusão de produto.&lt;br&gt;
+            Observação: Os campos que não forem preenchidos, não aparecerão para o visitante do site, nos detalhes do seu produto.
+        </value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Carrinho.-->
+    <!--**************************************************************************************-->
+    <data name="siteCarrinho" xml:space="preserve">
+        <value>Finalizar</value>
+    </data>
+    <data name="siteCarrinhoItemNome" xml:space="preserve">
+        <value>Produtos</value>
+    </data>
+    <data name="siteCarrinhoItemQuantidade" xml:space="preserve">
+        <value>Qtd.</value>
+    </data>
+    <data name="siteCarrinhoItemValorUnitario" xml:space="preserve">
+        <value>Valor Unit.</value>
+    </data>
+    <data name="siteCarrinhoItemValorTotal" xml:space="preserve">
+        <value>Valor Total</value>
+    </data>
+
+    <data name="siteCarrinhoItensSubtotal" xml:space="preserve">
+        <value>Subtotal</value>
+    </data>
+    <data name="siteCarrinhoItensPeso" xml:space="preserve">
+        <value>Peso Total</value>
+    </data>
+    <data name="siteCarrinhoPedidoTotal" xml:space="preserve">
+        <value>Total</value>
+    </data>
+
+    <data name="siteCarrinhoItemExcluir" xml:space="preserve">
+        <value>Remover</value>
+    </data>
+    
+    <!--Frete.-->
+    <data name="siteCarrinhoFreteCalculo" xml:space="preserve">
+        <value>Cálculo de Frete</value>
+    </data>
+    <data name="siteCarrinhoFreteValor" xml:space="preserve">
+        <value>Valor do Frete</value>
+    </data>
+    <data name="siteCarrinhoFreteTotal" xml:space="preserve">
+        <value>Total</value>
+    </data>
+    <data name="siteCarrinhoFreteSelecao" xml:space="preserve">
+        <value>Seleção</value>
+    </data>
+
+    <data name="siteCarrinhoFrete" xml:space="preserve">
+        <value>Frete</value>
+    </data>
+    <data name="siteCarrinhoFretePAC" xml:space="preserve">
+        <value>Frete (PAC)</value>
+    </data>
+    <data name="siteCarrinhoFreteSEDEX" xml:space="preserve">
+        <value>Frete (SEDEX)</value>
+    </data>
+    <data name="siteCarrinhoFreteSEDEX10" xml:space="preserve">
+        <value>Frete (SEDEX 10)</value>
+    </data>
+    <data name="siteCarrinhoFreteSEDEXHoje" xml:space="preserve">
+        <value>Frete (SEDEX Hoje)</value>
+    </data>
+    <data name="siteCarrinhoFreteSEDEXACobrar" xml:space="preserve">
+        <value>Frete (SEDEX a Cobrar)</value>
+    </data>
+    <data name="siteCarrinhoFreteESEDEX" xml:space="preserve">
+        <value>Frete (e-SEDEX)</value>
+    </data>
+    
+        <data name="siteCarrinhoFreteOpcao0" xml:space="preserve">
+            <value>Selecione Uma Modalidade</value>
+        </data>
+        <data name="siteCarrinhoFreteOpcaoPAC" xml:space="preserve">
+            <value>PAC</value>
+        </data>
+        <data name="siteCarrinhoFreteOpcaoSEDEX" xml:space="preserve">
+            <value>SEDEX</value>
+        </data>
+        <data name="siteCarrinhoFreteOpcaoSEDEX10" xml:space="preserve">
+            <value>SEDEX 10</value>
+        </data>
+        <data name="siteCarrinhoFreteOpcaoSEDEXHoje" xml:space="preserve">
+            <value>SEDEX Hoje</value>
+        </data>
+        <data name="siteCarrinhoFreteOpcaoSEDEXACobrar" xml:space="preserve">
+            <value>SEDEX a Cobrar</value>
+        </data>
+        <data name="siteCarrinhoFreteOpcaoESEDEX" xml:space="preserve">
+            <value>e-SEDEX</value>
+        </data>
+        <data name="siteCarrinhoFreteOpcaoRetirar" xml:space="preserve">
+            <value>Retirar no Local</value>
+        </data>
+        <data name="siteCarrinhoFreteOpcaoTransportadora" xml:space="preserve">
+            <value>Transportadora</value>
+        </data>
+        <data name="siteCarrinhoFreteOpcaoInternacional" xml:space="preserve">
+            <value>Internacional</value>
+        </data>
+
+
+    <!--Instruções.-->
+    <data name="siteCarrinhoLoginInstrucao01" xml:space="preserve">
+        <value>Já é cadastrado? Faça seu log in por aqui:</value>
+    </data>
+    <data name="siteCarrinhoLoginInstrucao02" xml:space="preserve">
+        <value>Você está logado como:</value>
+    </data>
+    <data name="siteCarrinhoLoginInstrucao03" xml:space="preserve">
+        <value>
+            Caso as informações acima não sejam parte do seu cadastro, efetue o log off utilizando o link indicado para cancelar esta autenticação.&lt;br&gt;
+            Após o log off, efetue um novo login com suas informações corretas ou continue o processo para criar um novo cadastro.
+        </value>
+    </data>
+    <data name="siteCarrinhoLoginInstrucao04" xml:space="preserve">
+        <value>Deseja enviar para este endereço? Prossiga por aqui.</value>
+    </data>
+    <data name="siteCarrinhoLogoff" xml:space="preserve">
+        <value>Efetuar log off para cancelar a autenticação deste usuário.</value>
+    </data>
+    <data name="siteCarrinhoLoginAtencao" xml:space="preserve">
+        <value>Atenção</value>
+    </data>
+    <data name="siteCarrinhoLoginEnderecoCadastro" xml:space="preserve">
+        <value>Endereço de Cadastro</value>
+    </data>
+
+
+    <data name="siteCarrinhoFreteInstrucao01" xml:space="preserve">
+        <value>Não é cadastrado? Prossiga por aqui.</value>
+    </data>
+    <data name="siteCarrinhoFreteInstrucao02" xml:space="preserve">
+        <value>Para finalizar seu pedido, informe seu CEP no lugar indicado e clique no botão correspondente. Caso não saiba seu cep, deixe o campo "CEP" em branco e o valor da entrega será cobrado à parte.</value>
+    </data>
+    <data name="siteCarrinhoFreteInstrucao03" xml:space="preserve">
+        <value>Digite seu CEP de Entrega</value>
+    </data>
+    <data name="siteCarrinhoFreteInstrucao04" xml:space="preserve">
+        <value>Caso queira procurar algum CEP do Brasil, acesse o</value>
+    </data>
+    <data name="siteCarrinhoFreteInstrucao04Link" xml:space="preserve">
+        <value>link dos correios.</value>
+    </data>
+    <data name="siteCarrinhoFreteInstrucao05" xml:space="preserve">
+        <value>Selecione uma modalidade de envio antes de prosseguir</value>
+    </data>
+    <data name="siteCarrinhoFreteInstrucao06" xml:space="preserve">
+        <value>Atenção para CEP fora do Brasil:</value>
+    </data>
+    <data name="siteCarrinhoFreteInstrucao07" xml:space="preserve">
+        <value>
+            Selecione a opção "Internacional" no menu e o valor do frete será cobrado à parte, posteriormente.&lt;br&gt;
+            Caso queira fazer uma simulação do frete para localidades internacionais, acesse este link dos Correios abaixo, informe o peso e demais informações sobre o pedido.&lt;br&gt; 
+            Após a finalização da sua compra, enviaremos o valor do frete para confirmação e, só assim, a compra será liberada para entrega.&lt;br&gt; 
+        </value>
+    </data>
+        <data name="siteCarrinhoFreteInstrucao07Link" xml:space="preserve">
+            <value>Site dos Correios - Cálculo de Frete Internacional</value>
+        </data>
+    <data name="siteCarrinhoFreteInstrucao08" xml:space="preserve">
+        <value>Prazo de entrega:</value>
+    </data>
+
+    <!--Carrinho (direto para cadastro) - Mensagens.-->
+    <data name="siteCarrinhoCadastroInstrucao02" xml:space="preserve">
+        <value>
+        Acione o botão abaixo e será direcionado para realizar um novo cadastro.&lt;br&gt;
+        Após preencher as informações necessárias, será encaminhado para a finalização do seu processo.&lt;br&gt;
+        Qualquer dúvida, entre em contato conosco.
+        </value>
+    </data>
+
+
+    <!--Frete - Mensagens.-->
+    <data name="siteCarrinhoFreteMensagemErro01" xml:space="preserve">
+        <value>Falha na conexão com o WebService dos Correios. Tente novamente em alguns instantes. Caso o erro persista, entre em contato com a administração do site.</value>
+    </data>
+    <data name="siteCarrinhoFreteMensagemErro02" xml:space="preserve">
+        <value>CEP não informado ou não encontrado em nosso banco de dados. Verifique a informação preenchida e tente novamente. Valor do frete sujeito a alteração de acordo com a localidade. </value>
+    </data>
+	<!--Estoque - Mensagens.-->
+    <data name="siteCarrinhoEstoqueMensagemAlerta01" xml:space="preserve">
+        <value>
+        Saldo de estoque insuficiente.&lt;br&gt;
+        Algum outro cliente confirmou seleção de itens neste intervalo de tempo.&lt;br&gt;
+        Por favor, tente prosseguir com as quantidades disponíveis.
+        </value>
+    </data>
+	
+    
+    <!--Cálculo de Frete.-->
+    <data name="siteCarrinhoCalculoFrete" xml:space="preserve">
+        <value>Cálculo Frete</value>
+    </data>
+    <data name="siteCarrinhoCalculoFreteTotalPedido" xml:space="preserve">
+        <value>Valor do Pedido</value>
+    </data>
+    <data name="siteCarrinhoCalculoFreteTotal" xml:space="preserve">
+        <value>Valor Total</value>
+    </data>
+    <data name="siteCarrinhoCalculoFreteEndereco" xml:space="preserve">
+        <value>Endereço de Entrega</value>
+    </data>
+    <data name="siteCarrinhoCalculoFreteEnderecoCobrancaCheckBox" xml:space="preserve">
+        <value>Use este endereço de entrega também para o endereço de cobrança/cadastro. </value>
+    </data>
+    <!--**************************************************************************************-->
+   
+    
+    <!--Login.-->
+    <!--**************************************************************************************-->
+    <data name="siteLoginTitulo" xml:space="preserve">
+        <value>Login</value>
+    </data>
+    <data name="siteLogoffTitulo" xml:space="preserve">
+        <value>Logoff</value>
+    </data>
+        <data name="siteLogoffMensagem01" xml:space="preserve">
+            <value>
+                Logoff concluído com sucesso.&lt;br&gt;&lt;br&gt;
+                Retorne em breve. Obrigado.
+            </value>
+        </data>
+        <data name="siteLogoffMensagem02" xml:space="preserve">
+            <value>
+                Caso tenha interesse em fazer um novo login, acesse o endereço abaixo:
+            </value>
+        </data>
+    <data name="siteLogoffSair" xml:space="preserve">
+        <value>Sair</value>
+    </data>
+    <data name="siteLoginEmail" xml:space="preserve">
+        <value>e-mail</value>
+    </data>
+    <data name="siteLoginUsuario" xml:space="preserve">
+        <value>Usuário</value>
+    </data>
+    <data name="siteLoginSenha" xml:space="preserve">
+        <value>Senha</value>
+    </data>
+    <data name="siteLoginLembrar" xml:space="preserve">
+        <value>Lembrar Senha</value>
+    </data>
+    <data name="siteLoginCadastro" xml:space="preserve">
+        <value>Cadastre-se</value>
+    </data>
+    <data name="siteLoginConexao01" xml:space="preserve">
+        <value>Ficar Conectado</value>
+    </data>
+    <!--Mensagens.-->
+    <data name="siteLoginMensagemSucesso01" xml:space="preserve">
+        <value>Autenticação de informações efetuadas com sucesso. A partir deste momento, você está com o acesso liberado.</value>
+    </data>
+    <data name="siteLoginMensagemErro01" xml:space="preserve">
+        <value>Erro na autenticação de login. Verifique se suas informações estão corretas e tente novamente. Caso o erro continue, entre em contato com a administração do site.</value>
+    </data>
+    <data name="siteLoginMensagemErro02" xml:space="preserve">
+        <value>Erro na autenticação de login. Seu acesso ainda não está liberado para este item. Verifique possíveis falhas com sua liberação e tente novamente. Caso o erro persista, entre em contato com a administração do site.</value>
+    </data>
+    <data name="siteLoginMensagemErro03" xml:space="preserve">
+        <value>Autenticação inválida. O conteúdo desejado necessita de autenticação.</value>
+    </data>
+    <data name="siteLoginMensagemErro04" xml:space="preserve">
+        <value>Erro na autenticação de login. Aparentemente algum campo deixou de ser preenchido. Verifique suas informações e preencha novamente.</value>
+    </data>
+
+    <!--Lembrar senha.-->
+    <data name="siteLoginLembrarTitulo" xml:space="preserve">
+        <value>Lembrar Senha</value>
+    </data>
+    <data name="siteLoginLembrarInstrucao01" xml:space="preserve">
+        <value>Informe seu e-mail no campo abaixo:</value>
+    </data>
+    <data name="siteLoginLembrarEvioAssunto" xml:space="preserve">
+        <value> - Reenvio de Senha</value>
+    </data>
+    <data name="siteLoginLembrarMensagemSucesso01" xml:space="preserve">
+        <value>
+            Mensagem enviada com sucesso.&lt;br&gt;
+            Enviamos um e-mail com as informações de acesso para o seguinte endereço eletrônico:  
+        </value>
+    </data>
+    <data name="siteLoginLembrarMensagemErro01" xml:space="preserve">
+        <value>
+        Endereço de e-mail não encontrado em nosso banco de dados.&lt;br&gt; 
+        Verifique as informações digitadas e tente novamente.
+        </value>
+    </data>
+
+    <!--Autenticação - verificação.-->
+    <data name="siteLoginInstrucao01" xml:space="preserve">
+        <value>Para acessar todos os recursos disponíveis desta área, é necessário efetuar o log in.</value>
+    </data>
+    <data name="siteLoginInstrucao03" xml:space="preserve">
+        <value>
+            Caso as informações acima não sejam parte do seu cadastro, efetue o logoff utilizando o link indicado para cancelar esta autenticação.&lt;br&gt;
+            Após o logoff efetue um novo login com suas informações corretas ou crie um novo cadastro.
+        </value>
+    </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Cadastro.-->
+    <!--**************************************************************************************-->
+    <data name="siteCadastro" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+    <data name="siteCadastroConcluido" xml:space="preserve">
+        <value>Cadastro Concluído</value>
+    </data>
+        <data name="siteCadastroConcluidoMensagemSucesso1" xml:space="preserve">
+            <value>
+                Cadastro realizado com sucesso. &lt;br&gt;&lt;br&gt;
+                A partir deste momento, você terá acesso ao nosso conteúdo integralmente. &lt;br&gt;&lt;br&gt;
+                Obrigado e bons negócios.
+            </value>
+        </data>
+        <data name="siteCadastroConcluidoMensagemSucesso2" xml:space="preserve">
+            <value>
+                Cadastro realizado com sucesso. &lt;br&gt;&lt;br&gt;
+                Enviamos um e-mail para seu endereço informado no cadastro para confirmação. &lt;br&gt;&lt;br&gt;
+                Verifique sua caixa postal eletrônica e siga as instruções para ativação de sua conta. &lt;br&gt;&lt;br&gt;
+                Obrigado.
+            </value>
+        </data>
+    
+    <data name="siteCadastroConfirmacaoEmailEndereco" xml:space="preserve">
+        <value>Para confirmação do seu endereço de e-mail, acesse o link abaixo:</value>
+    </data>
+    <data name="siteCadastroConfirmacaoAtivacao" xml:space="preserve">
+        <value>Confirmação de e-mail e Ativacao de Cadastro</value>
+    </data>
+        <data name="siteCadastroConfirmacaoAtivacaoSucesso1" xml:space="preserve">
+            <value>
+                Confirmação de e-mail realizado com sucesso. &lt;br&gt;&lt;br&gt;
+                A partir deste momento, você terá acesso ao nosso conteúdo integralmente e painel de controle com área restrita. &lt;br&gt;&lt;br&gt;
+                Obrigado.
+            </value>
+        </data>
+        <data name="siteCadastroConfirmacaoAtivacaoErro1" xml:space="preserve">
+            <value>
+                Erro ao tentar ativar seu cadastro. &lt;br&gt;&lt;br&gt;
+                Aparentemente, seu registro não foi encontrado em nosso sistema e banco de dados. &lt;br&gt;&lt;br&gt;
+                Certifique-se de que acionou o endereço eletrônico de confirmação correto, enviado no seu e-mail. &lt;br&gt;&lt;br&gt;
+                Ou faça uma nova tentativa copiando e colando o endereço em seu navegador. &lt;br&gt;&lt;br&gt;
+                Caso o erro continue, entre em contato. Obrigado. &lt;br&gt;&lt;br&gt;
+            </value>
+        </data>
+
+    <data name="siteCadastroTermosCompromissoLink" xml:space="preserve">
+        <value>Termos de Compromisso</value>
+    </data>
+    <data name="siteCadastroTermosCompromissoTexto" xml:space="preserve">
+        <value>Eu lí e aceito os termos de compromisso e condições de contrato.</value>
+    </data>
+
+    <data name="siteCadastroTitulo" xml:space="preserve">
+        <value>Inserir Cadastros</value>
+    </data>
+    <data name="siteCadastroTituloEditar" xml:space="preserve">
+        <value>Editar Cadastros</value>
+    </data>
+    <data name="siteCadastroTituloArquivosComplementares" xml:space="preserve">
+        <value>Cadastro - Arquivos Complementares</value>
+    </data>
+
+    <data name="siteCadastroTbCadastro" xml:space="preserve">
+        <value>Inserir Novo Cadastro</value>
+    </data>
+    <data name="siteCadastroTbCadastroEditar" xml:space="preserve">
+        <value>Editar Cadastro</value>
+    </data>
+	
+    <data name="siteCadastroID" xml:space="preserve">
+        <value>ID</value>
+    </data>
+    <data name="siteCadastroData" xml:space="preserve">
+        <value>Data de Cadastro</value>
+    </data>
+    <data name="siteCadastroTipoCadastro" xml:space="preserve">
+        <value>Tipo de Cadastro</value>
+    </data>
+    <data name="siteCadastroAtividades" xml:space="preserve">
+        <value>Atividades</value>
+    </data>
+    <data name="siteCadastro" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+    <data name="siteCadastroTipo" xml:space="preserve">
+        <value>Tipo de Cadastro</value>
+    </data>
+    <data name="siteCadastroNome" xml:space="preserve">
+        <value>Nome</value>
+    </data>
+    <data name="siteCadastroSexo" xml:space="preserve">
+        <value>Sexo</value>
+    </data>
+        <data name="siteCadastroSexo0" xml:space="preserve">
+            <value>Indiferente</value>
+        </data>
+        <data name="siteCadastroSexo1" xml:space="preserve">
+            <value>Masculino</value>
+        </data>
+        <data name="siteCadastroSexo2" xml:space="preserve">
+            <value>Feminino</value>
+        </data>
+    <data name="siteCadastroPfPj" xml:space="preserve">
+        <value>PF ou PJ</value>
+    </data>
+        <data name="siteCadastroPfPj1" xml:space="preserve">
+            <value>Pessoa Física</value>
+        </data>
+        <data name="siteCadastroPfPj2" xml:space="preserve">
+            <value>Pessoa Jurídica</value>
+        </data>
+    <data name="siteCadastroAltura" xml:space="preserve">
+        <value>Altura</value>
+    </data>
+        <data name="siteCadastroAlturaMedida" xml:space="preserve">
+            <value>m</value>
+        </data>
+    <data name="siteCadastroPeso" xml:space="preserve">
+        <value>Peso</value>
+    </data>
+        <data name="siteCadastroPesoMedida" xml:space="preserve">
+            <value>kg</value>
+        </data>
+    <data name="siteCadastroRazaoSocial" xml:space="preserve">
+        <value>Razão Social</value>
+    </data>
+    <data name="siteCadastroNomeFantasia" xml:space="preserve">
+        <value>Nome Fantasia</value>
+    </data>
+    <data name="siteCadastroDataNascimento" xml:space="preserve">
+        <value>Data de Nascimento</value>
+    </data>
+        <data name="siteCadastroIdade" xml:space="preserve">
+            <value>Idade</value>
+        </data>
+        <data name="siteCadastroIdadeA" xml:space="preserve">
+            <value>a</value>
+        </data>
+        <data name="siteCadastroIdadeAnos" xml:space="preserve">
+            <value>Anos</value>
+        </data>
+    <data name="siteCadastroDataCadastro" xml:space="preserve">
+        <value>Data de Cadastro</value>
+    </data>
+    <data name="siteCadastroCPF" xml:space="preserve">
+        <value>CPF</value>
+    </data>
+        <data name="siteCadastroCPFExistente" xml:space="preserve">
+            <value>CPF já existente em nosso banco de dados.</value>
+        </data>
+        <data name="siteCadastroCPFInvalido" xml:space="preserve">
+            <value>CPF inválido.</value>
+        </data>
+    <data name="siteCadastroRG" xml:space="preserve">
+        <value>RG</value>
+    </data>
+    <data name="siteCadastroCNPJ" xml:space="preserve">
+        <value>CNPJ</value>
+    </data>
+        <data name="siteCadastroCNPJExistente" xml:space="preserve">
+            <value>CNPJ já existente em nosso banco de dados.</value>
+        </data>
+        <data name="siteCadastroCNPJInvalido" xml:space="preserve">
+            <value>CNPJ inválido.</value>
+        </data>
+    <data name="siteCadastroDocumento" xml:space="preserve">
+        <value>Documento</value>
+    </data>
+    <data name="siteCadastroInscricaoMunicipal" xml:space="preserve">
+        <value>Inscr. Municipal</value>
+    </data>
+    <data name="siteCadastroInscricaoEstadual" xml:space="preserve">
+        <value>Inscr. Estadual</value>
+    </data>
+
+    <data name="siteCadastroEnderecoPrincipal" xml:space="preserve">
+        <value>Endereço</value>
+    </data>
+    <data name="siteCadastroEnderecoNumeroPrincipal" xml:space="preserve">
+        <value>Número</value>
+    </data>
+    <data name="siteCadastroEnderecoComplementoPrincipal" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteCadastroBairroPrincipal" xml:space="preserve">
+        <value>Bairro</value>
+    </data>
+    <data name="siteCadastroCidadePrincipal" xml:space="preserve">
+        <value>Cidade</value>
+    </data>
+    <data name="siteCadastroEstadoPrincipal" xml:space="preserve">
+        <value>Estado</value>
+    </data>
+    <data name="siteCadastroPaisPrincipal" xml:space="preserve">
+        <value>País</value>
+    </data>
+    <data name="siteCadastroCEPPrincipal" xml:space="preserve">
+        <value>CEP</value>
+    </data>
+
+    <data name="siteCadastroEndereco" xml:space="preserve">
+        <value>Endereço</value>
+    </data>
+    <data name="siteCadastroEnderecoNumero" xml:space="preserve">
+        <value>Número</value>
+    </data>
+    <data name="siteCadastroEnderecoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteCadastroBairro" xml:space="preserve">
+        <value>Bairro</value>
+    </data>
+    <data name="siteCadastroCidade" xml:space="preserve">
+        <value>Cidade</value>
+    </data>
+    <data name="siteCadastroEstado" xml:space="preserve">
+        <value>Estado</value>
+    </data>
+    <data name="siteCadastroPais" xml:space="preserve">
+        <value>País</value>
+    </data>
+    <data name="siteCadastroCEP" xml:space="preserve">
+        <value>CEP</value>
+    </data>
+
+    <data name="siteCadastroPontoReferencia" xml:space="preserve">
+        <value>Ponto de Referência</value>
+    </data>
+    <data name="siteCadastroEmailPrincipal" xml:space="preserve">
+        <value>e-mail</value>
+    </data>
+		<data name="siteCadastroEmailPrincipalVerificacaoDuplicadoAlerta1" xml:space="preserve">
+			<value>
+				Alerta para e-mail duplicado. O e-mail informado já existe em nosso banco de dados.
+			</value>
+		</data>
+    <data name="siteCadastroTel" xml:space="preserve">
+        <value>Tel</value>
+    </data>
+    <data name="siteCadastroCel" xml:space="preserve">
+        <value>Cel</value>
+    </data>
+    <data name="siteCadastroFax" xml:space="preserve">
+        <value>Fax</value>
+    </data>
+    <data name="siteCadastroSitePrincipal" xml:space="preserve">
+        <value>Site</value>
+    </data>
+    <data name="siteCadastroNFuncionarios" xml:space="preserve">
+        <value>Nº de Funcionários</value>
+    </data>
+    <data name="siteCadastroObs" xml:space="preserve">
+        <value>OBS</value>
+    </data>
+    <data name="siteCadastroAtivacaoMalaDireta" xml:space="preserve">
+        <value>Ativação Mala Direta</value>
+    </data>
+        <data name="siteCadastroAtivacaoMalaDiretaTexto" xml:space="preserve">
+            <value>Deseja receber nossa mala direta?</value>
+        </data>
+    <data name="siteCadastroUsuario" xml:space="preserve">
+        <value>Usuário</value>
+    </data>
+    <data name="siteCadastroSenha" xml:space="preserve">
+        <value>Senha</value>
+    </data>
+    <data name="siteCadastroStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+	
+    <data name="siteCadastroLogo" xml:space="preserve">
+        <value>Logo</value>
+    </data>
+    <data name="siteCadastroBanner" xml:space="preserve">
+        <value>Banner</value>
+    </data>
+    <data name="siteCadastroMapaImagem" xml:space="preserve">
+        <value>Mapa (Imagem)</value>
+    </data>
+
+    <data name="siteCadastroMapaOnline" xml:space="preserve">
+        <value>Mapa On-line</value>
+    </data>
+    <data name="siteCadastroApresentacao" xml:space="preserve">
+        <value>Apresentação</value>
+    </data>
+    <data name="siteCadastroServicos" xml:space="preserve">
+        <value>Serviços</value>
+    </data>
+    <data name="siteCadastroPromocoes" xml:space="preserve">
+        <value>Promoções</value>
+    </data>
+    <data name="siteCadastroCondicoesComerciais" xml:space="preserve">
+        <value>Condições Comerciais</value>
+    </data>
+    <data name="siteCadastroFormasPagamento" xml:space="preserve">
+        <value>Formas de Pagamento</value>
+    </data>
+    <data name="siteCadastroHorarioAtendimento" xml:space="preserve">
+        <value>Horário de Atendimento</value>
+    </data>
+    <data name="siteCadastroSituacaoAtual" xml:space="preserve">
+        <value>Situação Atual</value>
+    </data>
+
+    <data name="siteCadastroAdministrar" xml:space="preserve">
+        <value>Administrar</value>
+    </data>
+        <data name="siteCadastroAdministrarTitulo" xml:space="preserve">
+            <value>Administração de Cadastro</value>
+        </data>
+        <data name="siteCadastroAdministrarTbDetalhes" xml:space="preserve">
+            <value>Informações Principais</value>
+        </data>
+        <data name="siteCadastroAdministrarFuncoes" xml:space="preserve">
+            <value>Funções</value>
+        </data>
+        <data name="siteCadastroAdministrarPedidosRealizados" xml:space="preserve">
+            <value>Pedidos Realizados</value>
+        </data>
+        <data name="siteCadastroAdministrarPedidosNovoPedido" xml:space="preserve">
+            <value>Novo Pedido</value>
+        </data>
+        <data name="siteCadastroAdministrarOrcamentosNovoOrcamento" xml:space="preserve">
+            <value>Novo Orçamento</value>
+        </data>
+    <data name="siteCadastroLogoInserir" xml:space="preserve">
+        <value>Inserir Logo</value>
+    </data>
+    <data name="siteCadastroMapaInserir" xml:space="preserve">
+        <value>Inserir Mapa (Imagem)</value>
+    </data>
+    <data name="siteCadastroBannerInserir" xml:space="preserve">
+        <value>Inserir Banner</value>
+    </data>
+    <data name="siteCadastroAtivacaoDestaque" xml:space="preserve">
+        <value>Dest.</value>
+    </data>
+    <data name="siteCadastroAtivacaoMalaDireta" xml:space="preserve">
+        <value>Mala Direta</value>
+    </data>
+	
+    <data name="siteCadastroConteudoModelos" xml:space="preserve">
+        <value>Modelos de Conteúdo</value>
+    </data>
+    <data name="siteCadastroConteudoModelosInstrucoes" xml:space="preserve">
+        <value>Instruções Campos Banco de Dados</value>
+    </data>
+	
+    <data name="siteCadastroNVisivas" xml:space="preserve">
+        <value>Nº de Visitas</value>
+    </data>
+    
+    <!--Cadastro - Endereços.-->
+    <data name="siteCadastroEnderecoEntregaPadrao" xml:space="preserve">
+        <value>Endereço de Entrega Padrão</value>
+    </data>
+
+    <!--Cadastro - Recursos Especiais.-->
+    <data name="CadastroIndiceAlfabeticoTitulo" xml:space="preserve">
+        <value>Companhias de A-Z</value>
+    </data>
+    <data name="CadastroIndiceAlfabeticoDescricao01" xml:space="preserve">
+        <value>Navegue por companhias em ordem alfabética.</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Cadastro.-->
+    <!--**************************************************************************************-->
+    <data name="siteCadastroManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Cadastro</value>
+    </data>
+    <data name="siteCadastroManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Cadastro - Editar</value>
+    </data>
+    <data name="siteCadastroManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="siteCadastroManutencaoTbAtividades" xml:space="preserve">
+        <value>Inserir Atividades</value>
+    </data>
+    <data name="siteCadastroManutencaoTbTipo" xml:space="preserve">
+        <value>Inserir Tipo de Cadastro</value>
+    </data>
+    <data name="siteCadastroManutencaoTbAtividade" xml:space="preserve">
+        <value>Inserir Atividade</value>
+    </data>
+    <data name="siteCadastroManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="siteCadastroManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteCadastroManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Imóveis.-->
+    <!--**************************************************************************************-->
+    <data name="siteImoveisEditar" xml:space="preserve">
+        <value>Editar Imóveis</value>
+    </data>
+    <data name="siteImoveisTbImoveis" xml:space="preserve">
+        <value>Inserir Imóveis</value>
+    </data>
+    <data name="siteImoveisTbImoveisEditar" xml:space="preserve">
+        <value>Editar Imóvel</value>
+    </data>
+
+    <data name="siteImoveisTipo" xml:space="preserve">
+        <value>Tipo</value>
+    </data>
+    <data name="siteImoveisFinalidade" xml:space="preserve">
+        <value>Finalidade</value>
+    </data>
+    <data name="siteImoveisFinalidadeVenda" xml:space="preserve">
+            <value>Venda</value>
+        </data>
+    <data name="siteImoveisFinalidadeAluguel" xml:space="preserve">
+            <value>Aluguel</value>
+        </data>
+    <data name="siteImoveisFinalidadeSim" xml:space="preserve">
+            <value>Sim</value>
+        </data>
+    <data name="siteImoveisFinalidadeNao" xml:space="preserve">
+            <value>Não</value>
+        </data>
+    <data name="siteImoveisTitulo" xml:space="preserve">
+        <value>Título</value>
+    </data>
+    <data name="siteImoveisID" xml:space="preserve">
+        <value>Nº de Identificação</value>
+    </data>
+    <data name="siteImoveisCodigo" xml:space="preserve">
+        <value>Código</value>
+    </data>
+    <data name="siteImoveisEndereco" xml:space="preserve">
+        <value>Endereço</value>
+    </data>
+    <data name="siteImoveisEnderecoNumero" xml:space="preserve">
+        <value>Número</value>
+    </data>
+    <data name="siteImoveisEnderecoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteImoveisBairro" xml:space="preserve">
+        <value>Bairro</value>
+    </data>
+    <data name="siteImoveisCidade" xml:space="preserve">
+        <value>Cidade</value>
+    </data>
+    <data name="siteImoveisEstado" xml:space="preserve">
+        <value>Estado</value>
+    </data>
+    <data name="siteImoveisPais" xml:space="preserve">
+        <value>País</value>
+    </data>
+    <data name="siteImoveisCEP" xml:space="preserve">
+        <value>CEP</value>
+    </data>
+    <data name="siteImoveisDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="siteImoveisDetalhes" xml:space="preserve">
+        <value>Detalhes</value>
+    </data>
+    <data name="siteImoveisAnoConstrucao" xml:space="preserve">
+        <value>Ano de Construção</value>
+    </data>
+    <data name="siteImoveisLocalizacao" xml:space="preserve">
+        <value>Localização</value>
+    </data>
+    <data name="siteImoveisNQuartos" xml:space="preserve">
+        <value>Nº de Quartos</value>
+    </data>
+        <data name="sistemaImoveisQuartos-1" xml:space="preserve">
+            <value>Não Informado</value>
+        </data>
+        <data name="siteImoveisQuartosStudio" xml:space="preserve">
+            <value>Studio</value>
+        </data>
+    <data name="siteImoveisNSuites" xml:space="preserve">
+        <value>Nº de Suites</value>
+    </data>
+    <data name="siteImoveisVaranda" xml:space="preserve">
+        <value>Varanda</value>
+    </data>
+    <data name="siteImoveisLavabo" xml:space="preserve">
+        <value>Lavabo</value>
+    </data>
+    <data name="siteImoveisDEmpregada" xml:space="preserve">
+        <value>Dependência de Empregada</value>
+    </data>
+    <data name="siteImoveisVagas" xml:space="preserve">
+        <value>Vagas de Garagem</value>
+    </data>
+    <data name="siteImoveisPiscina" xml:space="preserve">
+        <value>Piscina</value>
+    </data>
+    <data name="siteImoveisSalaoJogos" xml:space="preserve">
+        <value>Salão de Jogos</value>
+    </data>
+    <data name="siteImoveisSauna" xml:space="preserve">
+        <value>Sauna</value>
+    </data>
+    <data name="siteImoveisAreaConstruida" xml:space="preserve">
+        <value>Área Construída</value>
+    </data>
+    <data name="siteImoveisAreaTotal" xml:space="preserve">
+        <value>Área Total</value>
+    </data>
+    <data name="siteImoveisAptAndar" xml:space="preserve">
+        <value>Apartamentos Por Andar</value>
+    </data>
+    <data name="siteImoveisNAndar" xml:space="preserve">
+        <value>Nº de Andares</value>
+    </data>
+    <data name="siteImoveisNPavimento" xml:space="preserve">
+        <value>Nº do Pavimento</value>
+    </data>
+    <data name="siteImoveisVista" xml:space="preserve">
+        <value>Vista</value>
+    </data>
+    <data name="siteImoveisEstadoImovel" xml:space="preserve">
+        <value>Estado do Imóvel</value>
+    </data>
+
+    <data name="siteImoveisValorVenda" xml:space="preserve">
+        <value>Valor Venda</value>
+    </data>
+    <data name="siteImoveisValorAluguel" xml:space="preserve">
+        <value>Valor Aluguel</value>
+    </data>
+    <data name="siteImoveisValorCondominio" xml:space="preserve">
+        <value>Valor Condomínio</value>
+    </data>
+    <data name="siteImoveisValorIPTU" xml:space="preserve">
+        <value>Valor IPTU</value>
+    </data>
+		<data name="siteImoveisValor0" xml:space="preserve">
+            <value>Sob Consulta</value>
+        </data>
+
+    <data name="siteImoveisCondicoesComerciais" xml:space="preserve">
+        <value>Condições Comerciais</value>
+    </data>
+    <data name="siteImoveisProprietario" xml:space="preserve">
+        <value>Proprietário</value>
+    </data>
+    <data name="siteImoveisMapaOnline" xml:space="preserve">
+        <value>Mapa On-line</value>
+    </data>
+
+    <data name="siteImoveisAtivacaoHome" xml:space="preserve">
+        <value>Ativ. Home</value>
+    </data>
+    <data name="siteImoveisAtivacaoHomeCategoria" xml:space="preserve">
+        <value>Ativ. Categoria</value>
+    </data>
+
+    <data name="siteImoveisInformacoesContato" xml:space="preserve">
+        <value>Informações Sobre o Contato</value>
+    </data>
+    <data name="siteImoveisInformacoesContatoNome" xml:space="preserve">
+        <value>Nome</value>
+    </data>
+    <!-- ainda não está em funcionamento - pensar se vai ser necessário -->
+    <data name="siteImoveisCategoriaEscolha" xml:space="preserve">
+        <value>Categoria</value>
+    </data>
+        <data name="siteImoveisCategoriaSelecaoEscohaNivel1" xml:space="preserve">
+            <value>Selecione Uma Categoria</value>
+        </data>
+        <data name="siteImoveisCategoriaSelecaoEscohaNivel2" xml:space="preserve">
+            <value>Selecione Uma Sub-categoria</value>
+        </data>
+        <data name="siteImoveisCategoriaSelecaoEscohaNivel3" xml:space="preserve">
+            <value>Selecione Uma Sub-categoria</value>
+        </data>
+        <data name="siteImoveisCategoriaSelecaoEscohaNivel4" xml:space="preserve">
+            <value>Selecione Uma Sub-categoria</value>
+        </data>
+    
+    <data name="siteImoveisIncludeTitulo" xml:space="preserve">
+        <value>Imóveis</value>
+    </data>
+	
+    <!--ADM - Instruções.-->
+    <data name="siteImoveisInstrucoes01" xml:space="preserve">
+        <value>
+            Preencha os campos abaixo para inclusão de imóvel.&lt;br&gt;
+            Observação: Os campos que não forem preenchidos, não aparecerão para o visitante do site, nos detalhes do seu imóvel.
+        </value>
+    </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Animais.-->
+    <!--**************************************************************************************-->
+    <data name="siteAnimaisTitulo" xml:space="preserve">
+        <value>Inserir Animais</value>
+    </data>
+    <data name="siteAnimaisTituloEditar" xml:space="preserve">
+        <value>Editar Animais</value>
+    </data>
+    <data name="siteAnimaisTbAnimais" xml:space="preserve">
+        <value>Inserir Animal</value>
+    </data>
+    <data name="siteAnimaisTbProdutosEditar" xml:space="preserve">
+        <value>Editar Animal</value>
+    </data>
+    <data name="siteAnimais" xml:space="preserve">
+        <value>Animais</value>
+    </data>
+    <data name="siteAnimaisNome" xml:space="preserve">
+        <value>Nome</value>
+    </data>
+    <data name="siteAnimaisApelido" xml:space="preserve">
+        <value>Apelido</value>
+    </data>
+    <data name="siteAnimaisDocumento" xml:space="preserve">
+        <value>Documento</value>
+    </data>
+    <data name="siteAnimaisCadastroUsuario" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+        <data name="siteAnimaisCadastroUsuarioSelecao" xml:space="preserve">
+            <value>Nenhum</value>
+        </data>
+    <data name="siteAnimaisData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="siteAnimaisDataNascimento" xml:space="preserve">
+        <value>Data de Nasc.</value>
+    </data>
+    <data name="siteAnimaisTipo" xml:space="preserve">
+        <value>Tipo de Animal</value>
+    </data>
+    <data name="siteAnimaisValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="siteAnimaisPeso" xml:space="preserve">
+        <value>Peso</value>
+    </data>
+    <data name="siteAnimaisStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Orçamentos.-->
+    <!--**************************************************************************************-->
+    <data name="siteOrcamentosTitulo" xml:space="preserve">
+        <value>Orçamentos</value>
+    </data>
+    <data name="siteOrcamentosTituloEditar" xml:space="preserve">
+        <value>Editar Orçamentos</value>
+    </data>
+    <data name="siteOrcamentosTbOrcamentosEditar" xml:space="preserve">
+        <value>Editar Orçamento</value>
+    </data>
+    <data name="siteOrcamentosTituloDetalhes" xml:space="preserve">
+        <value>Orçamentos - Detalhes</value>
+    </data>
+
+    <data name="siteOrcamentosCadastroCliente" xml:space="preserve">
+        <value>Cliente</value>
+    </data>
+    <data name="siteOrcamentosNumero" xml:space="preserve">
+        <value>Nº do Orçamento</value>
+    </data>
+    <data name="siteOrcamentosItensQuantidade" xml:space="preserve">
+        <value>Quantidade</value>
+    </data>
+		<data name="siteOrcamentosItensQuantidadeA" xml:space="preserve">
+			<value>Qtd.</value>
+		</data>
+    <data name="siteOrcamentosItensValorSubtotal" xml:space="preserve">
+        <value>Subtotal</value>
+    </data>
+
+    <data name="siteOrcamentosData" xml:space="preserve">
+        <value>Data do Orçamento</value>
+    </data>
+		<data name="siteOrcamentosDataClassificacaoDesc" xml:space="preserve">
+			<value>Data Orçamento Descendente</value>
+		</data>
+		<data name="siteOrcamentosDataClassificacaoAsc" xml:space="preserve">
+			<value>Data Orçamento Ascendente</value>
+		</data>
+    <data name="siteOrcamentosDataEntrega" xml:space="preserve">
+        <value>Data da Entrega</value>
+    </data>
+    <data name="siteOrcamentosTipoEntrega" xml:space="preserve">
+        <value>Tipo de Entrega</value>
+    </data>
+	
+    <data name="siteOrcamentosValorOrcamento" xml:space="preserve">
+        <value>Valor do Orçamento</value>
+    </data>
+    <data name="siteOrcamentosValorFrete" xml:space="preserve">
+        <value>Valor do Frete</value>
+    </data>
+    <data name="siteOrcamentosValorTotal" xml:space="preserve">
+        <value>Valor Total</value>
+    </data>
+    <data name="siteOrcamentosPesoTotal" xml:space="preserve">
+        <value>Peso Total</value>
+    </data>
+    <data name="siteOrcamentosObs" xml:space="preserve">
+        <value>Obs</value>
+    </data>
+    <data name="siteOrcamentosStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="siteOrcamentosManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+
+    <data name="siteOrcamentosEnviar" xml:space="preserve">
+        <value>Enviar Orçamento</value>
+    </data>
+
+    <data name="siteOrcamentosInformacoes" xml:space="preserve">
+        <value>Informações Sobre o Orçamento</value>
+    </data>
+    <data name="siteOrcamentosInformacoesCliente" xml:space="preserve">
+        <value>Informações Sobre o Cliente</value>
+    </data>
+    <data name="siteOrcamentosInformacoesClienteEndereco" xml:space="preserve">
+        <value>Endereço de Cadastro</value>
+    </data>
+
+    <data name="siteOrcamentosListagemItens" xml:space="preserve">
+        <value>Listagem de Itens</value>
+    </data>
+	
+
+    <!--Orçamento Itens.-->
+    <data name="siteOrcamentosItensTitulo" xml:space="preserve">
+        <value>Itens do Orçamento</value>
+    </data>
+    <data name="siteOrcamentosItensTituloEditar" xml:space="preserve">
+        <value>Editar Itens</value>
+    </data>
+    <data name="siteOrcamentosItensTbOrcamentoItens" xml:space="preserve">
+        <value>Inserir Itens</value>
+    </data>
+    <data name="siteOrcamentosItensTbOrcamentosItensEditar" xml:space="preserve">
+        <value>Editar Item</value>
+    </data>
+	
+    <data name="siteOrcamentosItensTitulo" xml:space="preserve">
+        <value>Título</value>
+    </data>
+    <data name="siteOrcamentosItensDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+	
+    <data name="siteOrcamentosItensVoltar" xml:space="preserve">
+        <value>Voltar Para Edição do Orçamento</value>
+    </data>
+	
+	
+    <!--Orçamento Fichas.-->
+    <data name="siteOrcamentosFichasTitulo" xml:space="preserve">
+        <value>Fichas</value>
+    </data>
+    <data name="siteOrcamentosFichasTituloEditar" xml:space="preserve">
+        <value>Editar Fichas</value>
+    </data>
+    <data name="siteOrcamentosFichasTbOrcamentoFichas" xml:space="preserve">
+        <value>Inserir Ficha</value>
+    </data>
+    <data name="siteOrcamentosFichasTbOrcamentosFichasEditar" xml:space="preserve">
+        <value>Editar Ficha</value>
+    </data>
+	
+    <data name="siteOrcamentosFichasData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="siteOrcamentosFichas" xml:space="preserve">
+        <value>Título</value>
+    </data>
+    <data name="siteOrcamentosFichasOBS" xml:space="preserve">
+        <value>OBS</value>
+    </data>
+	
+    <data name="siteOrcamentosFichasImportar" xml:space="preserve">
+        <value>Importar Fichas</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Veículos.-->
+    <!--**************************************************************************************-->
+    <data name="siteVeiculosTitulo" xml:space="preserve">
+        <value>Inserir Veículos</value>
+    </data>
+    <data name="siteVeiculosTituloEditar" xml:space="preserve">
+        <value>Editar Veículos</value>
+    </data>
+    <data name="siteVeiculosTbVeiculos" xml:space="preserve">
+        <value>Inserir Veículo</value>
+    </data>
+    <data name="siteVeiculosTbVeiculosEditar" xml:space="preserve">
+        <value>Editar Veículo</value>
+    </data>
+	
+    <data name="siteVeiculosCadastroUsuario" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+		<!--data name="siteVeiculosCadastroUsuarioSelecao" xml:space="preserve">
+			<value>Nenhum</value>
+		</data-->
+    <data name="siteVeiculosModalidade" xml:space="preserve">
+        <value>Modalidade</value>
+    </data>
+		<data name="siteVeiculosModalidade0" xml:space="preserve">
+			<value>Indefinido</value>
+		</data>
+		<data name="siteVeiculosModalidade1" xml:space="preserve">
+			<value>Novo</value>
+		</data>
+		<data name="siteVeiculosModalidade2" xml:space="preserve">
+			<value>Semi-novo</value>
+		</data>
+    <data name="siteVeiculosDataPublicacao" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="siteVeiculosCodigo" xml:space="preserve">
+        <value>Cod.</value>
+    </data>
+    <data name="siteVeiculo" xml:space="preserve">
+        <value>Veículo</value>
+    </data>
+    <data name="siteVeiculosDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+	
+    <data name="siteVeiculosPortas" xml:space="preserve">
+        <value>Portas</value>
+    </data>
+		<data name="siteVeiculosPortas0" xml:space="preserve">
+			<value>Não Aplicável</value>
+		</data>
+    <data name="siteVeiculosQuilometragem" xml:space="preserve">
+        <value>Quilometragem</value>
+    </data>
+		<data name="siteVeiculosQuilometragemDescricao01" xml:space="preserve">
+			<value>Formato 1000 (0 - Não Informado)</value>
+		</data>
+    <data name="siteVeiculosPlaca" xml:space="preserve">
+        <value>Placa</value>
+    </data>
+        <data name="siteVeiculosPlacaExistente" xml:space="preserve">
+            <value>Placa já existente em nosso banco de dados.</value>
+        </data>
+    <data name="siteVeiculosAnoFabricacao" xml:space="preserve">
+        <value>Ano Fabricação</value>
+    </data>
+    <data name="siteVeiculosAnoModelo" xml:space="preserve">
+        <value>Ano Modelo</value>
+    </data>
+	
+    <data name="siteVeiculosVeiculoEndereco" xml:space="preserve">
+        <value>Endereço</value>
+    </data>
+    <data name="siteVeiculosVeiculoEnderecoNumero" xml:space="preserve">
+        <value>Número</value>
+    </data>
+    <data name="siteVeiculosVeiculoEnderecoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteVeiculosVeiculoBairro" xml:space="preserve">
+        <value>Bairro</value>
+    </data>
+    <data name="siteVeiculosVeiculoCidade" xml:space="preserve">
+        <value>Cidade</value>
+    </data>
+    <data name="siteVeiculosVeiculoEstado" xml:space="preserve">
+        <value>Estado</value>
+    </data>
+    <data name="siteVeiculosVeiculoPais" xml:space="preserve">
+        <value>País</value>
+    </data>
+    <data name="siteVeiculosVeiculoCEP" xml:space="preserve">
+        <value>CEP</value>
+    </data>
+	
+    <data name="siteVeiculosContato" xml:space="preserve">
+        <value>Contato</value>
+    </data>
+    <data name="siteVeiculosEMail" xml:space="preserve">
+        <value>e-mail</value>
+    </data>
+    <data name="siteVeiculosLinkExterno" xml:space="preserve">
+        <value>Link Externo</value>
+    </data>
+    <data name="siteVeiculosValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+		<data name="siteVeiculosValor0" xml:space="preserve">
+			<value>Consulte-nos.</value>
+		</data>
+
+    <data name="siteVeiculosAtivacaoPromocoes" xml:space="preserve">
+        <value>Ativ. Prom.</value>
+    </data>
+    <data name="siteVeiculosAtivacaoHome" xml:space="preserve">
+        <value>Ativ. Home</value>
+    </data>
+    <data name="siteVeiculosAtivacaoHomeCategoria" xml:space="preserve">
+        <value>Ativ. Cat.</value>
+    </data>
+    <data name="siteVeiculosAtivacaoInfoCadastro" xml:space="preserve">
+        <value>Ativação Informações Cadastrais</value>
+    </data>
+		<data name="siteVeiculosAtivacaoInfoCadastroA" xml:space="preserve">
+			<value>Ativ. Info. Cad.</value>
+		</data>
+    <data name="siteVeiculosTipo" xml:space="preserve">
+        <value>Tipo de Veículo</value>
+    </data>
+    <data name="siteVeiculosStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Afiliações.-->
+    <!--**************************************************************************************-->
+    <data name="siteAfiliacoesAfiliacao" xml:space="preserve">
+        <value>Afiliação</value>
+    </data>
+    <data name="siteAfiliacoesDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="siteAfiliacoesValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="siteAfiliacoesTipoCobranca" xml:space="preserve">
+        <value>Tipo de Cobrança</value>
+    </data>
+        <data name="siteAfiliacoesTipoCobranca0" xml:space="preserve">
+            <value>Recorrente</value>
+        </data>
+        <data name="siteAfiliacoesTipoCobranca1" xml:space="preserve">
+            <value>Taxa Única</value>
+        </data>
+	
+    <data name="siteAfiliacoesPeriodoContratacao" xml:space="preserve">
+        <value>Período Contratação</value>
+    </data>
+        <data name="siteAfiliacoesPeriodoContratacaoYYYY" xml:space="preserve">
+            <value>Anos</value>
+        </data>
+        <data name="siteAfiliacoesPeriodoContratacaoM" xml:space="preserve">
+            <value>Meses</value>
+        </data>
+        <data name="siteAfiliacoesPeriodoContratacaoD" xml:space="preserve">
+            <value>Dias</value>
+        </data>
+    <data name="siteAfiliacoesValor0" xml:space="preserve">
+        <value>Gratuito</value>
+    </data>
+	
+    <data name="siteAfiliacoesInformacoes01" xml:space="preserve">
+        <value>Informações sobre sua assinatura</value>
+    </data>
+    <data name="siteAfiliacoesAssinatura" xml:space="preserve">
+        <value>Assinatura</value>
+    </data>
+    <data name="siteAfiliacoesValor" xml:space="preserve">
+        <value>Valor da Assinatura</value>
+    </data>
+    <data name="siteAfiliacoesValidade" xml:space="preserve">
+        <value>Validade da Assinatura</value>
+    </data>
+    <data name="siteAfiliacoesQtdDiasRenovacao" xml:space="preserve">
+        <value>Qtd. de dias para renovação</value>
+    </data>
+    <data name="siteAfiliacoesVencida" xml:space="preserve">
+        <value>Vencido</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Contatos.-->
+    <!--**************************************************************************************-->
+    <data name="siteContatosTitulo" xml:space="preserve">
+        <value>Contatos</value>
+    </data>
+    <data name="siteContatosEditarTitulo" xml:space="preserve">
+        <value>Editar Contatos</value>
+    </data>
+
+    <data name="siteContatosTbContato" xml:space="preserve">
+        <value>Inserir Contato</value>
+    </data>
+    <data name="siteContatosTbContatoEditar" xml:space="preserve">
+        <value>Editar Contatos</value>
+    </data>
+	
+    <data name="siteContatosFilial" xml:space="preserve">
+        <value>Filial</value>
+    </data>
+    <data name="siteContatosNome" xml:space="preserve">
+        <value>Nome</value>
+    </data>
+    <data name="siteContatosDepartamento" xml:space="preserve">
+        <value>Departamento</value>
+    </data>
+    <data name="siteContatosTelDDD" xml:space="preserve">
+        <value>DDD Tel.</value>
+    </data>
+    <data name="siteContatosTel" xml:space="preserve">
+        <value>Tel.</value>
+    </data>
+    <data name="siteContatosCelDDD" xml:space="preserve">
+        <value>DDD Cel.</value>
+    </data>
+    <data name="siteContatosCel" xml:space="preserve">
+        <value>Cel.</value>
+    </data>
+    <data name="siteContatosEMail" xml:space="preserve">
+        <value>e-mail</value>
+    </data>
+    <data name="siteContatosSenha" xml:space="preserve">
+        <value>Senha</value>
+    </data>
+    <data name="siteContatosOBS" xml:space="preserve">
+        <value>Obs</value>
+    </data>
+    <data name="siteContatosEndereco" xml:space="preserve">
+        <value>Endereço</value>
+    </data>
+    <data name="siteContatosEnderecoNumero" xml:space="preserve">
+        <value>Número</value>
+    </data>
+    <data name="siteContatosEnderecoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteContatosBairro" xml:space="preserve">
+        <value>Bairro</value>
+    </data>
+    <data name="siteContatosCidade" xml:space="preserve">
+        <value>Cidade</value>
+    </data>
+    <data name="siteContatosEstado" xml:space="preserve">
+        <value>Estado</value>
+    </data>
+    <data name="siteContatosPais" xml:space="preserve">
+        <value>País</value>
+    </data>
+    <data name="siteContatosPontoReferencia" xml:space="preserve">
+        <value>Ponto de Referência</value>
+    </data>
+	
+    <data name="siteContatosLinkVoltarCadastro" xml:space="preserve">
+        <value>Voltar Para Cadastro Principal</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Histórico.-->
+    <!--**************************************************************************************-->
+    <data name="siteHistoricoInformacoesPrincipais" xml:space="preserve">
+        <value>Informações Principais</value>
+    </data>
+    <data name="siteHistoricoTratamentoDescicao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="siteHistoricoEstadoConservacao" xml:space="preserve">
+        <value>Estado de Conservação</value>
+    </data>
+    <data name="siteHistoricoTratamento" xml:space="preserve">
+        <value>Tratamento</value>
+    </data>
+    <data name="siteHistoricoTratamentoTeste" xml:space="preserve">
+        <value>Teste de Solubilidade</value>
+    </data>
+    <data name="siteHistoricoAcondicionamento" xml:space="preserve">
+        <value>Acondicionamento</value>
+    </data>
+    <data name="siteHistoricoInformacoesComplemetares" xml:space="preserve">
+        <value>Informações Complementares</value>
+    </data>
+    <data name="siteHistoricoFotos" xml:space="preserve">
+        <value>Fotos</value>
+    </data>
+	
+    <data name="siteHistoricoTitulo" xml:space="preserve">
+        <value>Ficha Técnica de Tratamento</value>
+    </data>
+    <data name="siteHistoricoEditarTitulo" xml:space="preserve">
+        <value>Ficha Técnica de Tratamento</value>
+    </data>
+
+    <data name="siteHistoricoTbHistorico" xml:space="preserve">
+        <value>Inserir Ficha Técnica de Tratamento</value>
+    </data>
+    <data name="siteHistoricoTbHistoricoEditar" xml:space="preserve">
+        <value>Editar Ficha Técnica de Tratamento</value>
+    </data>
+	
+    <data name="siteHistoricoAssunto" xml:space="preserve">
+        <value>Tratamento</value>
+    </data>
+    <data name="siteHistorico" xml:space="preserve">
+        <value>Palavras-chave</value>
+    </data>
+    <data name="siteHistoricoData" xml:space="preserve">
+        <value>Entrada</value>
+    </data>
+	
+    <data name="siteHistoricoCadastroVinculado" xml:space="preserve">
+        <value>Cadastro Principal</value>
+    </data>
+    <data name="siteHistoricoCadastroUsuario" xml:space="preserve">
+        <value>Usuário</value>
+    </data>
+    <data name="siteHistoricoCadastroUsuarioSelecao" xml:space="preserve">
+        <value>Nenhum</value>
+    </data>
+
+    <data name="siteHistoricoStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="siteHistoricoManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+	
+    <data name="siteHistoricoProtocolo" xml:space="preserve">
+        <value>Protocolo</value>
+    </data>
+    <data name="siteHistoricoInteracao" xml:space="preserve">
+        <value>Interação</value>
+    </data>
+		<data name="siteHistoricoInteracaoTitulo" xml:space="preserve">
+			<value>Interações</value>
+		</data>
+		<data name="siteHistoricoInteracaoEditarTitulo" xml:space="preserve">
+			<value>Editar Interações</value>
+		</data>
+	
+		<data name="siteHistoricoInteracaoTbHistoricoInteracao" xml:space="preserve">
+			<value>Inserir Interação</value>
+		</data>
+		<data name="siteHistoricoInteracaoTbHistoricoInteracaoEditar" xml:space="preserve">
+			<value>Editar Interação</value>
+		</data>
+
+		<data name="siteHistoricoInteracaoAssunto" xml:space="preserve">
+			<value>Assunto</value>
+		</data>
+		<data name="siteHistoricoInteracaoInteracao" xml:space="preserve">
+			<value>Interação</value>
+		</data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Histórico.-->
+    <!--**************************************************************************************-->
+    <data name="siteHistoricoManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Ficha Técnica de Tratamento</value>
+    </data>
+    <data name="siteHistoricoManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Ficha Técnica de Tratamento - Editar</value>
+    </data>
+    <data name="siteHistoricoManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="siteHistoricoManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="siteHistoricoManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteHistoricoManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+ 
+    <!--Tarefas.-->
+    <!--**************************************************************************************-->
+    <data name="siteTarefasTitulo" xml:space="preserve">
+        <value>Tarefas</value>
+    </data>
+    <data name="siteTarefasEditarTitulo" xml:space="preserve">
+        <value>Editar Tarefas</value>
+    </data>
+
+    <data name="siteTarefasTbTarefas" xml:space="preserve">
+        <value>Inserir Tarefa</value>
+    </data>
+    <data name="siteTarefasTbTarefasEditar" xml:space="preserve">
+        <value>Editar Tarefa</value>
+    </data>
+    <data name="siteTarefasTbTarefasDetalhes" xml:space="preserve">
+        <value>Detalhes da Tarefa</value>
+    </data>
+
+    <data name="siteTarefasData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="siteTarefasDataHorario" xml:space="preserve">
+        <value>Horário</value>
+    </data>
+    <data name="siteTarefasDataFinal" xml:space="preserve">
+        <value>Data Final</value>
+    </data>
+    <data name="siteTarefas" xml:space="preserve">
+        <value>Tarefa</value>
+    </data>
+    <data name="siteTarefasDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+	
+    <data name="siteTarefasCadastroVinculado" xml:space="preserve">
+        <value>Cadastro Principal</value>
+    </data>
+    <data name="siteTarefasCadastroUsuario" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+    <data name="siteTarefasCadastroUsuarioSelecao" xml:space="preserve">
+        <value>Nenhum</value>
+    </data>
+
+    <data name="siteTarefasStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="siteTarefasManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+
+    <data name="siteTarefasLembreteEnvio" xml:space="preserve">
+        <value>Enviar Lembrete</value>
+    </data>
+
+    <!--ADM - Instruções.-->
+    <data name="siteTarefasInstrucoes01" xml:space="preserve">
+        <value>
+            Para incluir uma nova tarefa, utilize o formulário abaixo.
+        </value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Contas bancárias.-->
+    <!--**************************************************************************************-->
+    <data name="siteCadastroContasBancariasTitulo" xml:space="preserve">
+        <value>Contas Bancárias</value>
+    </data>
+    <data name="siteCadastroContasBancariasEditarTitulo" xml:space="preserve">
+        <value>Editar Contas Bancárias</value>
+    </data>
+
+    <data name="siteCadastroContasBancariasTbContasBancarias" xml:space="preserve">
+        <value>Inserir Conta Bancária</value>
+    </data>
+    <data name="siteCadastroContasBancariasTbContasBancariasEditar" xml:space="preserve">
+        <value>Editar Conta Bancária</value>
+    </data>
+	
+	
+    <data name="siteCadastroContasBancariasTituloConta" xml:space="preserve">
+        <value>Título da Conta</value>
+    </data>
+    <data name="siteCadastroContasBancariasNomeTitular" xml:space="preserve">
+        <value>Nome do Titular</value>
+    </data>
+    <data name="siteCadastroContasBancariasCpfCnpj" xml:space="preserve">
+        <value>CPF/CNPJ</value>
+    </data>
+    <data name="siteCadastroContasBancariasNBanco" xml:space="preserve">
+        <value>Nº do Banco</value>
+    </data>
+		<data name="siteCadastroContasBancariasNBancoInstrucao01" xml:space="preserve">
+			<value>0 - Não informado.</value>
+		</data>
+    <data name="siteCadastroContasBancariasNAgencia" xml:space="preserve">
+        <value>Nº da Agência</value>
+    </data>
+    <data name="siteCadastroContasBancariasDigitoAgencia" xml:space="preserve">
+        <value>Dígito da Agência</value>
+    </data>
+    <data name="siteCadastroContasBancariasNConta" xml:space="preserve">
+        <value>Nº da Conta</value>
+    </data>
+    <data name="siteCadastroContasBancariasDigitoConta" xml:space="preserve">
+        <value>Dígito da Conta</value>
+    </data>
+    <data name="siteCadastroContasBancariasTipoConta" xml:space="preserve">
+        <value>Tipo de Conta</value>
+    </data>
+		<data name="siteCadastroContasBancariasTipoConta1" xml:space="preserve">
+			<value>Conta Corrente</value>
+		</data>
+		<data name="siteCadastroContasBancariasTipoConta2" xml:space="preserve">
+			<value>Conta Poupança</value>
+		</data>
+    <data name="siteCadastroContasBancariasOBS" xml:space="preserve">
+        <value>OBS.</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Manutenção - Produtos.-->
+    <!--**************************************************************************************-->
+    <data name="siteProdutosManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Obras</value>
+    </data>
+    <data name="siteProdutosManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Obras - Editar</value>
+    </data>
+    <data name="siteProdutosManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="siteProdutosManutencaoTbTipo" xml:space="preserve">
+        <value>Inserir Tipo de Produto</value>
+    </data>
+    <data name="siteProdutosManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="siteProdutosManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteProdutosManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Pedidos.-->
+    <!--**************************************************************************************-->
+    <data name="sitePedidosTitulo" xml:space="preserve">
+        <value>Pedidos</value>
+    </data>
+    <data name="sitePedidosTituloEditar" xml:space="preserve">
+        <value>Editar Pedidos</value>
+    </data>
+    <data name="sitePedidosCadastroCliente" xml:space="preserve">
+        <value>Cliente</value>
+    </data>
+    <data name="sitePedidosTbPedidosEditar" xml:space="preserve">
+        <value>Editar Pedido</value>
+    </data>
+    <data name="sitePedidosTituloDetalhes" xml:space="preserve">
+        <value>Pedidos - Detalhes</value>
+    </data>
+	
+    <data name="sitePedidosInformacoes" xml:space="preserve">
+        <value>Informações do Pedido</value>
+    </data>
+    <data name="sitePedidosCadastroCliente" xml:space="preserve">
+        <value>Cliente</value>
+    </data>
+    <data name="sitePedidosData" xml:space="preserve">
+        <value>Data do Pedido</value>
+    </data>
+    <data name="sitePedidosDataPagamento" xml:space="preserve">
+        <value>Data do Pagamento</value>
+    </data>
+    <data name="sitePedidosDataEntrega" xml:space="preserve">
+        <value>Data da Entrega</value>
+    </data>
+    <data name="sitePedidosNumero" xml:space="preserve">
+        <value>Nº do Pedido</value>
+    </data>
+    <data name="sitePedidosTipoPagamento" xml:space="preserve">
+        <value>Tipo de Pagamento</value>
+    </data>
+    <data name="sitePedidosTipoEntrega" xml:space="preserve">
+        <value>Tipo de Entrega</value>
+    </data>
+    <data name="sitePedidosDataValidade" xml:space="preserve">
+        <value>Data de Validade</value>
+    </data>
+
+    <data name="sitePedidosValorPedido" xml:space="preserve">
+        <value>Valor do Pedido</value>
+    </data>
+    <data name="sitePedidosValorFrete" xml:space="preserve">
+        <value>Valor do Frete</value>
+    </data>
+    <data name="sitePedidosValorDesconto" xml:space="preserve">
+        <value>Valor Desconto</value>
+    </data>
+    <data name="sitePedidosValorAcrescimo" xml:space="preserve">
+        <value>Valor Acréscimo</value>
+    </data>
+    <data name="sitePedidosValorTotal" xml:space="preserve">
+        <value>Valor Total</value>
+    </data>
+    <data name="sitePedidosPesoTotal" xml:space="preserve">
+        <value>Peso Total</value>
+    </data>
+    <data name="sitePedidosObs" xml:space="preserve">
+        <value>Obs</value>
+    </data>
+    <data name="sitePedidosStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+
+    <!--Itens.-->
+    <data name="sitePedidosListagemItens" xml:space="preserve">
+        <value>Relação de Itens</value>
+    </data>
+    <data name="sitePedidosItensCodigo" xml:space="preserve">
+        <value>Cód.</value>
+    </data>
+    <data name="sitePedidosItensDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="sitePedidosItensQuantidade" xml:space="preserve">
+        <value>Quantidade</value>
+    </data>
+    <data name="sitePedidosItensValorUnitario" xml:space="preserve">
+        <value>Valor Unit.</value>
+    </data>
+    <data name="sitePedidosItensValorDesconto" xml:space="preserve">
+        <value>Valor Desconto</value>
+    </data>
+    <data name="sitePedidosItensValorAcrescimo" xml:space="preserve">
+        <value>Valor Acréscimo</value>
+    </data>
+    <data name="sitePedidosItensValorTotal" xml:space="preserve">
+        <value>Valor Total</value>
+    </data>
+    <data name="sitePedidosItensValorSubtotal" xml:space="preserve">
+        <value>Subtotal</value>
+    </data>
+    <data name="sitePedidosItensOBS" xml:space="preserve">
+        <value>Obs.</value>
+    </data>
+	
+    <data name="sitePedidosItensAvulso" xml:space="preserve">
+        <value>Avulso</value>
+    </data>
+    <data name="sitePedidosItensAvulsoIncluir" xml:space="preserve">
+        <value>Incluir Itens</value>
+    </data>
+    <data name="sitePedidosItensProdutosIncluir" xml:space="preserve">
+        <value>Incluir Produtos Cadastrados</value>
+    </data>
+    <data name="sitePedidosParcelasIncluir" xml:space="preserve">
+        <value>Inclusão de Parcelas</value>
+    </data>
+
+    <!--ADM.-->
+    <data name="sitePedidosHistorico" xml:space="preserve">
+        <value>Histórico de Pedido</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Manutenção - Pedidos.-->
+    <!--**************************************************************************************-->
+    <data name="sitePedidosManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Pedidos</value>
+    </data>
+    <data name="sitePedidosManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Pedidos - Editar</value>
+    </data>
+    <data name="sitePedidosManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sitePedidosManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sitePedidosManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sitePedidosManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Pedidos - Parcelas.-->
+    <!--**************************************************************************************-->
+    <data name="sitePedidosParcelasTitulo" xml:space="preserve">
+        <value>Pedidos - Parcelas</value>
+    </data>
+    <data name="sitePedidosParcelasTituloEditar" xml:space="preserve">
+        <value>Editar Parcelas</value>
+    </data>
+    <data name="sitePedidosParcelasTbParcelas" xml:space="preserve">
+        <value>Inserir Parcela</value>
+    </data>
+    <data name="sitePedidosParcelasTbParcelasEditar" xml:space="preserve">
+        <value>Editar Parcela</value>
+    </data>
+
+    <data name="sitePedidosParcelasNParcela" xml:space="preserve">
+        <value>Nº da Parcela</value>
+    </data>
+    <data name="sitePedidosParcelasDataVencimento" xml:space="preserve">
+        <value>Data de Vencimento</value>
+    </data>
+    <data name="sitePedidosParcelasDataPagamento" xml:space="preserve">
+        <value>Data do Pagamento</value>
+    </data>
+    <data name="sitePedidosParcelasValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="sitePedidosParcelasValorDesconto" xml:space="preserve">
+        <value>Valor Desconto</value>
+    </data>
+    <data name="sitePedidosParcelasValorAcrescimo" xml:space="preserve">
+        <value>Valor Acréscimo</value>
+    </data>
+    <data name="sitePedidosParcelasValorTotal" xml:space="preserve">
+        <value>Valor Total</value>
+    </data>
+    <data name="sitePedidosParcelasTipo" xml:space="preserve">
+        <value>Tipo de Parcela</value>
+    </data>
+    <data name="sitePedidosParcelasStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Cobrança/Pagamento.-->
+    <!--**************************************************************************************-->
+    <data name="siteCobrancaTitulo" xml:space="preserve">
+        <value>Pagamento</value>
+    </data>
+    <data name="siteCobrancaPedidoTitulo" xml:space="preserve">
+        <value>Pedido</value>
+    </data>
+
+    <data name="siteCobrancaPagSeguroInstrucao01" xml:space="preserve">
+        <value>
+            Para finalizar a compra, acione o botão abaixo e conclua a transação eletronica no PagSeguro.&lt;br&gt;
+            Ao acessar o sistema de pagamento do PagSeguro, suas informações serão protegidas&lt;br&gt;
+            por criptografia e em conexão SSL (secure socket layer) para garantir a segurança.&lt;br&gt;	
+            Após confirmarmos o pagamento, faremos a liberação de sua compra.&lt;br&gt;
+        </value>
+    </data>
+    <data name="siteCobrancaPayPalInstrucao01" xml:space="preserve">
+        <value>
+            Para finalizar a compra, acione o botão abaixo e conclua a transação eletronica no PayPal.&lt;br&gt;
+            Ao acessar o sistema de pagamento do PayPal, suas informações serão protegidas&lt;br&gt;
+            por criptografia e em conexão SSL (secure socket layer) para garantir a segurança.&lt;br&gt;
+            Após confirmarmos o pagamento, faremos a liberação de sua compra.&lt;br&gt;
+        </value>
+    </data>
+    <data name="siteCobrancaCadastroGratuitoInstrucao01" xml:space="preserve">
+        <value>
+            Cadastro realizado com sucesso.&lt;br&gt;
+            Vamos verificar suas informações. Aguarde nossas instruções por e-mail.&lt;br&gt;
+            Após confirmação de suas informações, faremos a liberação do seu cadastro.&lt;br&gt;
+            Obrigado.
+        </value>
+    </data>
+    <data name="siteCobrancaPedidoInstrucao01" xml:space="preserve">
+        <value>
+            Pedido realizado com sucesso.&lt;br&gt;
+            Aguarde nosso contato para mais informações.&lt;br&gt;
+            Obrigado.
+        </value>
+    </data>
+	
+    <data name="siteCobrancaPagamentoConcluidoTitulo" xml:space="preserve">
+        <value>Pagamento Concluído</value>
+    </data>
+	
+    <data name="siteCobrancaPagamentoConcluidoDeposito01" xml:space="preserve">
+        <value>
+			Finalização do processo de seleção de pagamento concluído com sucesso.&lt;br&gt;
+			Assim que realizar o depósito, envie-nos o comprovante por e-mail para que possamos fazer a verificação necessária.&lt;br&gt;
+			Obrigado.
+        </value>
+    </data>
+	
+    <data name="siteCobrancaPagamentoConcluidoBoletoManual01" xml:space="preserve">
+        <value>
+			Finalização do processo de seleção de pagamento concluído com sucesso. &lt;br&gt;
+			Enviaremos o boleto ao seu e-mail cadastrado. Assim que confirmarmos o pagamento do boleto, daremos andamento na sua transação. Em caso de dúvida, entre em contato.&lt;br&gt;
+			Aguarde e Obrigado.&lt;br&gt;
+        </value>
+    </data>
+	
+    <!--Formas de pagamento.-->
+    <data name="siteCobrancaDepositoTitulo" xml:space="preserve">
+        <value>Pagamento Por Depósito ou Transferência Bancária</value>
+    </data>
+    <data name="siteCobrancaBoletoManualTitulo" xml:space="preserve">
+        <value>Pagamento Por Boleto Bancário</value>
+    </data>
+	
+	
+    <!--Retorno de pagamento.-->
+    <data name="siteCobrancaRetorno01" xml:space="preserve">
+        <value>
+			Obrigado por efetuar a compra.&lt;br&gt;
+			Em breve entraremos em contato para informar a situação da sua transação e informações complementares sobre seu pedido.&lt;br&gt;
+			Caso a sua transação eletrônica já tenha sido aprovada, já poderá acessar seu painel de controle pelo login com suas informações enviadas.&lt;br&gt;
+		</value>
+    </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Publicações.-->
+    <!--**************************************************************************************-->
+    <data name="sitePublicacoesCadastroUsuario" xml:space="preserve">
+        <value>Publicado Por</value>
+    </data>
+
+    <data name="sitePublicacoesTitulo" xml:space="preserve">
+        <value>Inserir Publicações</value>
+    </data>
+    <data name="sitePublicacoesTituloEditar" xml:space="preserve">
+        <value>Editar Publicações</value>
+    </data>
+    <data name="sitePublicacoesTbPublicacoes" xml:space="preserve">
+        <value>Inserir Publicação</value>
+    </data>
+    <data name="sitePublicacoesTbPublicacoesEditar" xml:space="preserve">
+        <value>Editar Publicação</value>
+    </data>
+    <data name="sitePublicacoes" xml:space="preserve">
+        <value>Publicação</value>
+    </data>
+
+    <!--Galeria de fotos.-->
+    <data name="sitePublicacoes02Titulo" xml:space="preserve">
+        <value>Inserir Galeria de Imagens</value>
+    </data>
+    <data name="sitePublicacoes02TituloEditar" xml:space="preserve">
+        <value>Editar Galeria de Imagens</value>
+    </data>
+    <data name="sitePublicacoes02TbPublicacoes" xml:space="preserve">
+        <value>Inserir Galeria</value>
+    </data>
+    <data name="sitePublicacoes02TbPublicacoesEditar" xml:space="preserve">
+        <value>Editar Galeria</value>
+    </data>
+    <data name="sitePublicacoes02" xml:space="preserve">
+        <value>Nome do Galeria</value>
+    </data>
+
+    <data name="sitePublicacoesData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="sitePublicacoesDataFinal" xml:space="preserve">
+        <value>Data Final</value>
+    </data>
+    <data name="sitePublicacoesTitulo" xml:space="preserve">
+        <value>Título</value>
+    </data>
+    <data name="sitePublicacoesConteudoSimples" xml:space="preserve">
+        <value>Conteúdo</value>
+    </data>
+    <data name="sitePublicacoesFonte" xml:space="preserve">
+        <value>Fonte</value>
+    </data>
+    <data name="sitePublicacoesFonteLink" xml:space="preserve">
+        <value>Link da Fonte</value>
+    </data>
+    <data name="sitePublicacoesEditoria" xml:space="preserve">
+        <value>Editoria</value>
+    </data>
+    <data name="sitePublicacoesAtivacaoHome" xml:space="preserve">
+        <value>Ativ. Home</value>
+    </data>
+    <data name="sitePublicacoesAtivacaoHomeCategoria" xml:space="preserve">
+        <value>Ativ. Cat.</value>
+    </data>
+	
+    <data name="sitePublicacoesConteudoMais" xml:space="preserve">
+        <value>[Ver +]</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Arquivos.-->
+    <!--**************************************************************************************-->
+    <!--Site.-->
+    <data name="siteArquivosImagensTitulo" xml:space="preserve">
+        <value>Imagens Complementares</value>
+    </data>
+    <data name="siteArquivosVideosTitulo" xml:space="preserve">
+        <value>Vídeos Complementares</value>
+    </data>
+    <data name="siteArquivosArquivosTitulo" xml:space="preserve">
+        <value>Arquivos Complementares</value>
+    </data>
+    <data name="siteArquivosConteudoHTML" xml:space="preserve">
+        <value>Vídeos (YouTube)</value>
+    </data>
+
+    <!--ADM.-->
+    <data name="siteArquivos" xml:space="preserve">
+        <value>Arquivos</value>
+    </data>
+    <data name="siteArquivosTbArquivos" xml:space="preserve">
+        <value>Inserir Arquivos</value>
+    </data>
+    <data name="siteArquivosTbArquivosEditar" xml:space="preserve">
+        <value>Editar Arquivo</value>
+    </data>
+    <data name="siteArquivosEditar" xml:space="preserve">
+        <value>Editar Arquivos</value>
+    </data>
+	
+    <data name="siteArquivos02" xml:space="preserve">
+        <value>Vídeos</value>
+    </data>
+    <data name="siteArquivos03" xml:space="preserve">
+        <value>Arquivos</value>
+    </data>
+    <data name="siteArquivos03TbArquivos" xml:space="preserve">
+        <value>Inserir Arquivo</value>
+    </data>
+    <data name="siteArquivos03Editar" xml:space="preserve">
+        <value>Editar Arquivos</value>
+    </data>
+    <data name="siteArquivos03TbArquivosEditar" xml:space="preserve">
+        <value>Editar Arquivo</value>
+    </data>
+
+    <data name="siteArquivosVisualizacao" xml:space="preserve">
+        <value>Visualização</value>
+    </data>
+    <data name="siteArquivosDuracao" xml:space="preserve">
+        <value>Duração</value>
+    </data>
+    <data name="siteArquivosDimensao" xml:space="preserve">
+        <value>Dimensão</value>
+    </data>
+    <data name="siteArquivosTitulo" xml:space="preserve">
+        <value>Título</value>
+    </data>
+    <data name="siteArquivosLegenda" xml:space="preserve">
+        <value>Título</value>
+    </data>
+    <data name="siteArquivosDescicao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+	
+    <data name="siteArquivosAcoesTitulo" xml:space="preserve">
+        <value>Ações</value>
+    </data>
+    <data name="siteArquivosAcoesIncluir" xml:space="preserve">
+        <value>Incluir</value>
+    </data>
+    <data name="siteArquivosAcoesIncluido" xml:space="preserve">
+        <value>Incluído</value>
+    </data>
+    <data name="siteArquivosAcoesRetirar" xml:space="preserve">
+        <value>Retirar</value>
+    </data>
+    <data name="siteArquivosAcoesBaixar" xml:space="preserve">
+        <value>Baixar</value>
+    </data>
+
+    <!--ADM - Instruções.-->
+    <data name="siteArquivosInstrucoes01" xml:space="preserve">
+        <value>
+            Ao fazer o upload do arquivo, aguarde enquanto o arquivo carregue. Isso pode levar alguns segundos, dependendo da sua conexão e tamanho do arquivo.
+        </value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Vídeos - ADM.-->
+    <!--**************************************************************************************-->
+    <data name="siteVideosAdmInstrucoes01" xml:space="preserve">
+        <value>
+            Utilize o formulário abaixo para incluir vídeos de site externos como: YouTube.&lt;br&gt;
+            Copie e cole o endereço do vídeo ou cole o código de encorporação de vídeo.&lt;br&gt;
+            Caso tenha dúvidas, entre em contato.
+        </value>
+    </data>
+
+    <data name="siteVideosExternos" xml:space="preserve">
+        <value>Vídeos (YouTube)</value>
+    </data>
+
+    <data name="siteVideosAdmInstrucoes02" xml:space="preserve">
+        <value>
+            Ao fazer o upload do arquivo de vídeo, aguarde enquanto o arquivo carregue. Isso pode levar alguns segundos, dependendo da sua conexão e tamanho do arquivo.
+        </value>
+    </data>
+    <data name="siteVideosAdmInstrucoes03" xml:space="preserve">
+        <value>
+            Você pode fazer a inclusão do vídeo de duas formas. Por upload de arquivo do seu computador ou incluir uma URL/Código HTML do vídeo do YouTube. &lt;br&gt;&lt;br&gt;
+            Caso seja por upload de arquivo, utilize o campo chamado "arquivo", selecione seu arquivo do seu computador e clique no botão abaixo.  Ao fazer o upload do arquivo de vídeo, aguarde enquanto o arquivo carregue. Isso pode levar alguns segundos, dependendo da sua conexão e tamanho do arquivo. &lt;br&gt;&lt;br&gt;
+            Caso faça a opção por incluir uma URL/Código HTML, utilize o campo "Código HTML/URL" para colar o código do vídeo e utilize o botão abaixo.
+        </value>
+    </data>
+    <data name="siteVideosAdmInstrucoes04" xml:space="preserve">
+        <value>
+			Copie e cole o código HTML ou o endereço compledo do vídeo do YouTube que deseja incluir.
+        </value>
+    </data>
+    <data name="siteVideosInternos" xml:space="preserve">
+        <value>Vídeos (Arquivos)</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Conteúdo.-->
+    <!--**************************************************************************************-->
+    <data name="siteConteudoTitulo" xml:space="preserve">
+        <value>Inserir Conteúdo</value>
+    </data>
+    <data name="siteConteudoTituloEditar" xml:space="preserve">
+        <value>Editar Conteúdo</value>
+    </data>
+    <data name="siteConteudoTbConteudo" xml:space="preserve">
+        <value>Incluir Conteúdo</value>
+    </data>
+    <data name="siteConteudoTbConteudoEditar" xml:space="preserve">
+        <value>Editar Conteúdo</value>
+    </data>
+    <data name="siteConteudoTbImagem" xml:space="preserve">
+        <value>Incluir Imagem</value>
+    </data>
+    <data name="siteConteudoTbImagemEditar" xml:space="preserve">
+        <value>Editar Imagem</value>
+    </data>
+    <data name="siteConteudoTbArquivos" xml:space="preserve">
+        <value>Incluir Arquivos (PDFs, Word, Power Point, Excel, Zip, Entre Outros)</value>
+    </data>
+    <data name="siteConteudoTbArquivosEditar" xml:space="preserve">
+        <value>Editar Arquivos</value>
+    </data>
+    <data name="siteConteudoFormatacao" xml:space="preserve">
+        <value>Formatação</value>
+    </data>
+        <data name="siteConteudoFormatacao1" xml:space="preserve">
+            <value>Título</value>
+        </data>
+        <data name="siteConteudoFormatacao2" xml:space="preserve">
+            <value>Subtítulo</value>
+        </data>
+        <data name="siteConteudoFormatacao3" xml:space="preserve">
+            <value>Texto Corrido</value>
+        </data>
+        <data name="siteConteudoFormatacao4" xml:space="preserve">
+            <value>Tab/Recuo</value>
+        </data>
+        <data name="siteConteudoFormatacao7" xml:space="preserve">
+            <value>HTML</value>
+        </data>
+    <data name="siteConteudoAlinhamento" xml:space="preserve">
+        <value>Alinhamento do Texto</value>
+    </data>
+        <data name="siteConteudoAlinhamento3" xml:space="preserve">
+            <value>Esquerda</value>
+        </data>
+        <data name="siteConteudoAlinhamento2" xml:space="preserve">
+            <value>Centralizado</value>
+        </data>
+        <data name="siteConteudoAlinhamento1" xml:space="preserve">
+            <value>Direita</value>
+        </data>
+        <data name="siteConteudoAlinhamento4" xml:space="preserve">
+            <value>Justificado</value>
+        </data>
+    <data name="siteConteudoAlinhamentoImagem" xml:space="preserve">
+        <value>Alinhamento da Imagem</value>
+    </data>
+        <data name="siteConteudoAlinhamentoImagem3" xml:space="preserve">
+            <value>Esquerda</value>
+        </data>
+        <data name="siteConteudoAlinhamentoImagem2" xml:space="preserve">
+            <value>Centralizado</value>
+        </data>
+        <data name="siteConteudoAlinhamentoImagem1" xml:space="preserve">
+            <value>Direita</value>
+        </data>
+    <data name="siteConteudoNClassificacao" xml:space="preserve">
+        <value>Nº de Class.</value>
+    </data>
+    <data name="siteConteudoConteudo" xml:space="preserve">
+        <value>Conteúdo</value>
+    </data>
+    <data name="siteConteudoLegenda" xml:space="preserve">
+        <value>Legenda</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Fórum.-->
+    <!--**************************************************************************************-->
+    <data name="siteForumTopicosTituloEditar" xml:space="preserve">
+        <value>Editar Tópicos</value>
+    </data>
+
+    <data name="siteForumTopicosTbTopicos" xml:space="preserve">
+        <value>Enviar Novo Tópico (sujeito a aprovação)</value>
+    </data>
+    <data name="siteForumTopicosTbTopicosEditar" xml:space="preserve">
+        <value>Editar Tópico</value>
+    </data>
+    <data name="siteForumTopicosPostagegensAdministrar" xml:space="preserve">
+        <value>Administrar Teste de Solubilidade</value>
+    </data>
+
+    <data name="siteForumTopico" xml:space="preserve">
+        <value>Tópico</value>
+    </data>
+    <data name="siteForumTopicosAssunto" xml:space="preserve">
+        <value>Assunto</value>
+    </data>
+    <data name="siteForumTopicosCadastroUsuario" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+
+    <data name="siteForumTopicoInformacoes" xml:space="preserve">
+        <value>Informações</value>
+    </data>
+    <data name="siteForumTopicoDataUltimaPostagem" xml:space="preserve">
+        <value>Data da Última Postagem</value>
+    </data>
+    <data name="siteForumTopicoNPostagens" xml:space="preserve">
+        <value>Número de Postagens</value>
+    </data>
+
+    <!--Instruções.-->
+    <data name="siteForumTopicoInstrucoes01Subtitulo" xml:space="preserve">
+        <value>Instruções</value>
+    </data>
+    <data name="siteForumTopicoInstrucoes02Subtitulo" xml:space="preserve">
+        <value>Criação de Novo Tópico</value>
+    </data>
+    <data name="siteForumTopicoInstrucoes02" xml:space="preserve">
+        <value>
+            Preecha os campos abaixo e acione o botão incluir. Após a verificação do conteúdo, seu tópico será incluído em nossa listagem de tópicos.
+        </value>
+    </data>
+    <data name="siteForumTopicoInstrucoes03Subtitulo" xml:space="preserve">
+        <value>Interação com Tópicos Existentes</value>
+    </data>
+    <data name="siteForumTopicoInstrucoes03" xml:space="preserve">
+        <value>
+            Para fazer postagens em tópicos já existentes, basta clicar no link do nome do tópico e você será direcionado às postagens existentes daquele tópico. Para incluir uma nova postagem, preencha o formulário que encontrará nesta nova página.
+        </value>
+    </data>
+    <data name="siteForumTopicoInstrucoes04Duvidas" xml:space="preserve">
+        <value>Qualquer dúvida, entre em contato.</value>
+    </data>
+
+    <!--Postagens.-->
+    <data name="siteForumPostagensTitulo" xml:space="preserve">
+        <value>Inserir Teste de Solubilidade</value>
+    </data>
+    <data name="siteForumPostagensTituloEditar" xml:space="preserve">
+        <value>Editar Teste de Solubilidade</value>
+    </data>
+    <data name="siteForumPostagensTbPostagens" xml:space="preserve">
+        <value>Enviar Teste de Solubilidade</value>
+    </data>
+    <data name="siteForumPostagensTbPostagensEditar" xml:space="preserve">
+        <value>Editar Teste de Solubilidade</value>
+    </data>
+
+    <data name="siteForumPostagem" xml:space="preserve">
+        <value>Resultado</value>
+    </data>
+    <data name="siteForumPostagemNome" xml:space="preserve">
+        <value>Nome</value>
+    </data>
+    <data name="siteForumPostagemEmail" xml:space="preserve">
+        <value>e-mail</value>
+    </data>
+    <data name="siteForumPostagensCadastroUsuario" xml:space="preserve">
+        <value>Usuário</value>
+    </data>
+    <data name="siteForumPostagemData" xml:space="preserve">
+        <value>Data do Teste de Solubilidade</value>
+    </data>
+
+    <!--ADM - Instruções.-->
+    <data name="siteForumTopicosInstrucoes01" xml:space="preserve">
+        <value>
+            Preencha os campos abaixo para inclusão de um novo tópico.
+        </value>
+    </data>
+    <!--**************************************************************************************-->
+    
+    
+    <!--Enquetes/Questões.-->
+    <!--**************************************************************************************-->
+    <data name="siteEnquetes" xml:space="preserve">
+        <value>Inserir Enquetes</value>
+    </data>
+    <data name="siteEnquetesEditar" xml:space="preserve">
+        <value>Editar Enquetes</value>
+    </data>
+    <data name="siteQuestoes" xml:space="preserve">
+        <value>Inserir Questões</value>
+    </data>
+    <data name="siteQuestoesEditar" xml:space="preserve">
+        <value>Editar Questões</value>
+    </data>
+
+    <data name="siteEnquetesTbEnquetes" xml:space="preserve">
+        <value>Inserir Nova Enquete</value>
+    </data>
+    <data name="siteEnquetesTbEnquetesEditar" xml:space="preserve">
+        <value>Editar Enquete</value>
+    </data>
+    <data name="siteQuestoesTbQuestoes" xml:space="preserve">
+        <value>Inserir Nova Questão</value>
+    </data>
+    <data name="siteQuestoesTbQuestoesEditar" xml:space="preserve">
+        <value>Inserir Nova Questão</value>
+    </data>
+
+    <data name="siteEnquetesDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="siteEnquetesTipo" xml:space="preserve">
+        <value>Tipo</value>
+    </data>
+        <data name="siteEnquetesTipo1" xml:space="preserve">
+            <value>Enquete</value>
+        </data>
+            <data name="siteEnquetesTipo1a" xml:space="preserve">
+                <value>E</value>
+            </data>
+        <data name="siteEnquetesTipo2" xml:space="preserve">
+            <value>Múltipla Escolha</value>
+        </data>
+            <data name="siteEnquetesTipo2a" xml:space="preserve">
+                <value>M</value>
+            </data>
+        <data name="siteEnquetesTipo3" xml:space="preserve">
+            <value>Gabarito</value>
+        </data>
+            <data name="siteEnquetesTipo3a" xml:space="preserve">
+                <value>G</value>
+            </data>
+    <data name="siteEnquetesOpcoesGerenciar" xml:space="preserve">
+        <value>Gerenciar Opções</value>
+    </data>
+    <data name="siteEnquetesCadastroVinculado" xml:space="preserve">
+        <value>Publicado por</value>
+    </data>
+        <data name="siteEnquetesCadastroNenhumDropDown" xml:space="preserve">
+            <value>Nenhum</value>
+        </data>
+
+    <!--Opções.-->
+    <data name="siteEnquetesOpcoesTitulo" xml:space="preserve">
+        <value>Inserir Opções</value>
+    </data>
+    <data name="siteEnquetesOpcoesTituloEditar" xml:space="preserve">
+        <value>Editar Opções</value>
+    </data>
+    <data name="siteEnquetesOpcoesTbEnquetes" xml:space="preserve">
+        <value>Inserir Nova Opção</value>
+    </data>
+    <data name="siteEnquetesOpcoesTbEnquetesEditar" xml:space="preserve">
+        <value>Editar Opção</value>
+    </data>
+    <data name="siteEnquetesOpcoes" xml:space="preserve">
+        <value>Opções</value>
+    </data>
+    <data name="siteEnquetesOpcao" xml:space="preserve">
+        <value>Opção</value>
+    </data>
+    <data name="siteEnquetesNVotos" xml:space="preserve">
+        <value>Nº Votos</value>
+    </data>
+    <data name="siteEnquetesResposta" xml:space="preserve">
+        <value>Resposta</value>
+    </data>
+        <data name="siteEnquetesRespostaA" xml:space="preserve">
+            <value>Resp.</value>
+        </data>
+        <data name="siteEnquetesRespostaSim" xml:space="preserve">
+            <value>Sim</value>
+        </data>
+        <data name="siteEnquetesRespostaNao" xml:space="preserve">
+            <value>Não</value>
+        </data>
+		
+    <data name="siteQuestoesRepostaCorreta" xml:space="preserve">
+        <value>Sua resposta está correta.</value>
+    </data>
+    <data name="siteQuestoesRepostaIncorreta" xml:space="preserve">
+        <value>Sua resposta está errada.</value>
+    </data>
+
+    <!--ADM - Instruções.-->
+    <data name="siteEnquetesInstrucoes01" xml:space="preserve">
+        <value>
+            Preencha os campos abaixo para inclusão de uma nova enquete.
+        </value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Formulários.-->
+    <!--**************************************************************************************-->
+    <data name="siteFormulariosTituloPaginaEnvio" xml:space="preserve">
+        <value>Envio de Mensagem</value>
+    </data>
+	
+    <data name="siteFormulariosAvisoCamposObrigatorios" xml:space="preserve">
+        <value>(*) - Campos obrigatórios.</value>
+    </data>
+	
+    <!--e-mails.-->
+    <data name="siteFormulariosEmailsDepartamento" xml:space="preserve">
+        <value>Departamento</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Fluxo de caixa.-->
+    <!--**************************************************************************************-->
+    <data name="siteFluxoTitulo" xml:space="preserve">
+        <value>Inserir Fluxos</value>
+    </data>
+    <data name="siteFluxoTituloEditar" xml:space="preserve">
+        <value>Editar Fluxos</value>
+    </data>
+    <data name="siteFluxoTbFluxo" xml:space="preserve">
+        <value>Inserir Fluxo</value>
+    </data>
+    <data name="siteFluxoTbFluxoEditar" xml:space="preserve">
+        <value>Editar Fluxo</value>
+    </data>
+	
+    <data name="siteFluxoID" xml:space="preserve">
+        <value>ID</value>
+    </data>
+    <data name="siteFluxoDataLancamento" xml:space="preserve">
+        <value>Data Lançamento</value>
+    </data>
+    <data name="siteFluxoDataContabilizacao" xml:space="preserve">
+        <value>Data Contabilização</value>
+    </data>
+    <data name="siteFluxoDebitoCredito" xml:space="preserve">
+        <value>Débito/Crédito</value>
+    </data>
+		<data name="siteFluxoDebitoCreditoA" xml:space="preserve">
+			<value>Déb./Créd.</value>
+		</data>
+		<data name="siteFluxoDebito" xml:space="preserve">
+			<value>Débito</value>
+		</data>
+		<data name="siteFluxoDebitoA" xml:space="preserve">
+			<value>Déb.</value>
+		</data>
+		<data name="siteFluxoCredito" xml:space="preserve">
+			<value>Crédito</value>
+		</data>
+		<data name="siteFluxoCreditoA" xml:space="preserve">
+			<value>Créd.</value>
+		</data>
+    <data name="siteFluxoCadastro" xml:space="preserve">
+        <value>Cadastro Principal</value>
+    </data>
+    <data name="siteFluxoCadastroUsuario" xml:space="preserve">
+        <value>Cadastro Vinculado</value>
+    </data>
+    <data name="siteFluxoLancamento" xml:space="preserve">
+        <value>Lançamento</value>
+    </data>
+
+    <data name="siteFluxoTipo" xml:space="preserve">
+        <value>Tipo</value>
+    </data>
+    <data name="siteFluxoStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+	
+    <data name="siteFluxoValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="siteFluxoNDocumento" xml:space="preserve">
+        <value>Nº do Documento</value>
+    </data>
+    <data name="siteFluxoAutenticacao" xml:space="preserve">
+        <value>Autenticação</value>
+    </data>
+	
+    <data name="siteFluxoOBS" xml:space="preserve">
+        <value>Obs.</value>
+    </data>
+    <data name="siteFluxoAtivacaoContabilizacao" xml:space="preserve">
+        <value>Ativação Contabilização</value>
+    </data>
+		<data name="siteFluxoAtivacaoContabilizacaoA" xml:space="preserve">
+			<value>Ativ. Cont.</value>
+		</data>
+		
+    <data name="siteFluxoValorSaldo" xml:space="preserve">
+        <value>Saldo</value>
+    </data>
+    <data name="siteFluxoValorSaldoTotal" xml:space="preserve">
+        <value>Total</value>
+    </data>
+    <data name="siteFluxoValorSaldoTotalAtivado" xml:space="preserve">
+        <value>Total Ativado</value>
+    </data>
+    <data name="siteFluxoValorSaldoTotalDesativado" xml:space="preserve">
+        <value>Total Não Ativado</value>
+    </data>
+    <data name="siteFluxoValorSaldoTotalAtivadoCantabilizacao" xml:space="preserve">
+        <value>Total Contabilizado</value>
+    </data>
+    <data name="siteFluxoValorSaldoTotalDesativadoCantabilizacao" xml:space="preserve">
+        <value>Total Não Contabilizado</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Fluxo.-->
+    <!--**************************************************************************************-->
+    <data name="siteFluxoManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Fluxo</value>
+    </data>
+    <data name="siteFluxoManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Fluxo - Editar</value>
+    </data>
+    <data name="siteFluxoManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="siteFluxoManutencaoTbTipo" xml:space="preserve">
+        <value>Inserir Tipo de Fluxo</value>
+
+
+    </data>
+    <data name="siteFluxoManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="siteFluxoManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteFluxoManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Busca.-->
+    <!--**************************************************************************************-->
+    <data name="siteBusca" xml:space="preserve">
+        <value>Busca</value>
+    </data>
+    <data name="siteBuscaTitulo" xml:space="preserve">
+        <value>Busca</value>
+    </data>
+    <data name="siteBuscaTbPeriodo" xml:space="preserve">
+        <value>Busca Por Período</value><!--Busca-->
+    </data>
+
+    <data name="siteBuscaResultados" xml:space="preserve">
+        <value>Resultado da Busca</value>
+    </data>
+    <data name="siteBuscaPalavraChave" xml:space="preserve">
+        <value>Palavra Chave</value><!--Busca-->
+    </data>
+
+	<!--Filtros - Seleção.-->
+    <data name="siteBuscaPeriodo" xml:space="preserve">
+        <value>Período</value>
+    </data>
+    <data name="siteBuscaFiltros" xml:space="preserve">
+        <value>Filtros</value>
+    </data>
+    <data name="siteBuscaCriterioClassificacao" xml:space="preserve">
+        <value>Critério de Classificação</value>
+    </data>
+    <data name="siteBuscaData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+		<data name="siteBuscaDataInicial" xml:space="preserve">
+			<value>Data Inicial</value>
+		</data>
+		<data name="siteBuscaDataFinal" xml:space="preserve">
+			<value>Data Final</value>
+		</data>
+	<data name="siteBuscaFiltroSelecaoIndiferente" xml:space="preserve">
+		<value>Indiferente</value>
+	</data>
+	<data name="siteBuscaFiltroSelecaoNenhum" xml:space="preserve">
+		<value>Nenhum</value>
+	</data>
+	
+	<data name="siteBuscaValorMinimo" xml:space="preserve">
+		<value>Valor Mínimo</value>
+	</data>
+	<data name="siteBuscaValorMaximo" xml:space="preserve">
+		<value>Valor Máximo</value>
+	</data>
+    <!--**************************************************************************************-->
+
+
+    <!--Itens - Vínculos.-->
+    <!--**************************************************************************************-->
+    <data name="siteItensVinculoTitulo" xml:space="preserve">
+        <value>Inserir Vínculo</value>
+    </data>
+	
+    <data name="siteItensVinculoTbTitulo" xml:space="preserve">
+        <value>Inserir Novo Vínculo</value>
+    </data>
+    <data name="siteItensVinculoTbTituloEditar" xml:space="preserve">
+        <value>Editar Vínculo</value>
+    </data>
+
+    <data name="siteItensVinculoSelecaoNenhum" xml:space="preserve">
+        <value>Nenhum</value>
+    </data>
+	
+    <data name="siteItensRelacaoRegistroValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Relatórios no sistema.-->
+    <!--**************************************************************************************-->
+    <data name="siteRelatoriosTitulo" xml:space="preserve">
+        <value>Relatórios</value>
+    </data>
+    <data name="siteRelatoriosPeriodo" xml:space="preserve">
+        <value>Período</value>
+    </data>
+	
+    <data name="siteRelatoriosColunas" xml:space="preserve">
+        <value>Colunas</value>
+    </data>
+    <data name="siteRelatoriosCompilacao" xml:space="preserve">
+        <value>Compilação</value>
+    </data>
+    <data name="siteRelatoriosTotal" xml:space="preserve">
+        <value>Total</value>
+    </data>
+
+    <data name="siteRelatoriosQuantidade" xml:space="preserve">
+        <value>Quantidade</value>
+    </data>
+    <data name="siteRelatoriosSaida" xml:space="preserve">
+        <value>Saída</value>
+    </data>
+    <data name="siteRelatoriosEntrada" xml:space="preserve">
+        <value>Entrada</value>
+    </data>
+    <data name="siteRelatoriosPercentual" xml:space="preserve">
+        <value>Percentual</value>
+    </data>
+	
+    <data name="siteRelatoriosValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="siteRelatoriosValorTotal" xml:space="preserve">
+        <value>Valor Total</value>
+    </data>
+    <data name="siteRelatoriosSubtotal" xml:space="preserve">
+        <value>Subtotal</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Páginas.-->
+    <!--**************************************************************************************-->
+    <data name="sitePaginasTitulo" xml:space="preserve">
+        <value>Gerenciamento de Páginas</value>
+    </data>
+    <data name="sitePaginasTituloEditar" xml:space="preserve">
+        <value>Editar Páginas</value>
+    </data>
+    <data name="sitePaginasTbPaginas" xml:space="preserve">
+        <value>Inserir Página</value>
+    </data>
+    <data name="sitePaginasTbPaginasEditar" xml:space="preserve">
+        <value>Editar Página</value>
+    </data>
+    <data name="sitePaginasTbPaginasDetalhes" xml:space="preserve">
+        <value>Detalhes da Página</value>
+    </data>
+
+    <data name="sitePagina" xml:space="preserve">
+        <value>Título da Página</value>
+    </data>
+    <data name="sitePaginaDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+
+    <data name="sitePaginasCadastroAdicionar" xml:space="preserve">
+        <value>Adicionar Pessoas</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Páginas.-->
+    <!--**************************************************************************************-->
+    <data name="sitePaginasManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Páginas</value>
+    </data>
+    <data name="sitePaginasManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Páginas - Editar</value>
+    </data>
+    <data name="sitePaginasManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sitePaginasManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sitePaginasManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sitePaginasManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Processos.-->
+    <!--**************************************************************************************-->
+    <data name="siteProcessosTitulo" xml:space="preserve">
+        <value>Gerenciamento de Processos</value>
+    </data>
+    <data name="siteProcessosTituloEditar" xml:space="preserve">
+        <value>Editar Processos</value>
+    </data>
+    <data name="siteProcessosTbProcessos" xml:space="preserve">
+        <value>Inserir Processo</value>
+    </data>
+    <data name="siteProcessosTbProcessosEditar" xml:space="preserve">
+        <value>Editar Processo</value>
+    </data>
+    <data name="siteProcessosTbProcessosDetalhes" xml:space="preserve">
+        <value>Detalhes do Processo</value>
+    </data>
+	
+    <data name="siteProcessosDatas" xml:space="preserve">
+        <value>Data(s)</value>
+    </data>
+    <data name="siteProcessosDataCriacao" xml:space="preserve">
+        <value>Data de Criação</value>
+    </data>
+    <data name="siteProcessosDataAbertura" xml:space="preserve">
+        <value>Data de Abertura</value>
+    </data>
+    <data name="siteProcessosDataDistribuicao" xml:space="preserve">
+        <value>Data de Distribuição</value>
+    </data>
+    <data name="siteProcessosDataAdmissao" xml:space="preserve">
+        <value>Data de Admissão</value>
+    </data>
+    <data name="siteProcessosDataDemissao" xml:space="preserve">
+        <value>Data de Demissão</value>
+    </data>
+
+    <data name="siteProcesso" xml:space="preserve">
+        <value>Processo</value>
+    </data>
+    <data name="siteProcessosDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="siteProcessosStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="siteProcessosValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Processos.-->
+    <!--**************************************************************************************-->
+    <data name="siteProcessosManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Processos</value>
+    </data>
+    <data name="siteProcessosManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Processos - Editar</value>
+    </data>
+    <data name="siteProcessosManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="siteProcessosManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="siteProcessosManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteProcessosManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Turmas.-->
+    <!--**************************************************************************************-->
+    <data name="siteTurmasTitulo" xml:space="preserve">
+        <value>Gerenciamento de Turmas</value>
+    </data>
+    <data name="siteTurmasTituloEditar" xml:space="preserve">
+        <value>Editar Turmas</value>
+    </data>
+    <data name="siteTurmasTbTurmas" xml:space="preserve">
+        <value>Inserir Turmas</value>
+    </data>
+    <data name="siteTurmasTbTurmasEditar" xml:space="preserve">
+        <value>Editar Turmas</value>
+    </data>
+	
+    <data name="siteTurmasDatas" xml:space="preserve">
+        <value>Data(s)</value>
+    </data>
+    <data name="siteTurmasDataCriacao" xml:space="preserve">
+        <value>Data de Criação</value>
+    </data>
+    <data name="siteTurmasDataInicio" xml:space="preserve">
+        <value>Data Início</value>
+    </data>
+    <data name="siteTurmasDataFinal" xml:space="preserve">
+        <value>Data Final</value>
+    </data>
+
+    <data name="siteTurmasNome" xml:space="preserve">
+        <value>Nome da Turma</value>
+    </data>
+    <data name="siteTurmasCodigo" xml:space="preserve">
+        <value>Código da Turma</value>
+    </data>
+    <data name="siteTurmasDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="siteTurmasStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="siteTurmasValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="siteTurmasAnotacoesInternas" xml:space="preserve">
+        <value>Anotações Internas</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Turmas.-->
+    <!--**************************************************************************************-->
+    <data name="siteTurmasManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Turmas</value>
+    </data>
+    <data name="siteTurmasManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Turmas - Editar</value>
+    </data>
+    <data name="siteTurmasManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="siteTurmasManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="siteTurmasManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteTurmasManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Módulos.-->
+    <!--**************************************************************************************-->
+    <data name="siteModulosTitulo" xml:space="preserve">
+        <value>Gerenciamento de Módulos</value>
+    </data>
+    <data name="siteModulosTituloEditar" xml:space="preserve">
+        <value>Editar Módulos</value>
+    </data>
+    <data name="siteModulosTbModulos" xml:space="preserve">
+        <value>Inserir Módulo</value>
+    </data>
+    <data name="siteModulosTbModulosEditar" xml:space="preserve">
+        <value>Editar Módulo</value>
+    </data>
+	
+    <data name="siteModulosDatas" xml:space="preserve">
+        <value>Data(s)</value>
+    </data>
+    <data name="siteModulosDataCriacao" xml:space="preserve">
+        <value>Data de Criação</value>
+    </data>
+    <data name="siteModulosDataInicio" xml:space="preserve">
+        <value>Data Início</value>
+    </data>
+    <data name="siteModulosDataFinal" xml:space="preserve">
+        <value>Data Final</value>
+    </data>
+
+    <data name="siteModulosNome" xml:space="preserve">
+        <value>Nome da Módulo</value>
+    </data>
+    <data name="siteModulosDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="siteModulosStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="siteModulosValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="siteModulosCargaHoraria" xml:space="preserve">
+        <value>Carga Horária</value>
+    </data>
+		<data name="siteModulosCargaHorariaInstrucoesM" xml:space="preserve">
+			<value>Informar valores em minutos.</value>
+		</data>
+    <data name="siteModulosDuracaoAula" xml:space="preserve">
+        <value>Duração de Cada Aula</value>
+    </data>
+    <data name="siteModulosAnotacoesInternas" xml:space="preserve">
+        <value>Anotações Internas</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Manutenção - Módulos.-->
+    <!--**************************************************************************************-->
+    <data name="siteModulosManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Módulos</value>
+    </data>
+    <data name="siteModulosManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Módulos - Editar</value>
+    </data>
+    <data name="siteModulosManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="siteModulosManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="siteModulosManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteModulosManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Aulas.-->
+    <!--**************************************************************************************-->
+    <data name="siteAulasTitulo" xml:space="preserve">
+        <value>Gerenciamento de Aulas</value>
+    </data>
+    <data name="siteAulasTituloEditar" xml:space="preserve">
+        <value>Editar Aulas</value>
+    </data>
+    <data name="siteAulasTbAulas" xml:space="preserve">
+        <value>Inserir Aula</value>
+    </data>
+    <data name="siteAulasTbAulasEditar" xml:space="preserve">
+        <value>Editar Aula</value>
+    </data>
+	
+    <data name="siteAulasDatas" xml:space="preserve">
+        <value>Data(s)</value>
+    </data>
+    <data name="siteAulasDataCriacao" xml:space="preserve">
+        <value>Data de Criação</value>
+    </data>
+    <data name="siteAulasDataAula" xml:space="preserve">
+        <value>Data da Aula</value>
+    </data>
+
+    <data name="siteAulasTema" xml:space="preserve">
+        <value>Tema</value>
+    </data>
+    <data name="siteAulasDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="siteAulasLocal" xml:space="preserve">
+        <value>Local</value>
+    </data>
+    <data name="siteAulasStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="siteAulasValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="siteAulasCargaHoraria" xml:space="preserve">
+        <value>Carga Horária</value>
+    </data>
+		<data name="siteAulasCargaHorariaInstrucoesM" xml:space="preserve">
+			<value>Informar valores em minutos.</value>
+		</data>
+    <data name="siteAulasReposicao" xml:space="preserve">
+        <value>Reposição</value>
+    </data>
+    <data name="siteAulasAnotacoesInternas" xml:space="preserve">
+        <value>Anotações Internas</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Aulas.-->
+    <!--**************************************************************************************-->
+    <data name="siteAulasManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Aulas</value>
+    </data>
+    <data name="siteAulasManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Aulas - Editar</value>
+    </data>
+    <data name="siteAulasManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="siteAulasManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="siteAulasManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="siteAulasManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Chat/Bate-Papo/Atendimento.-->
+    <!--**************************************************************************************-->
+    <data name="siteAtendimentoIncludeTituloChat" xml:space="preserve">
+        <value>Chat</value>
+    </data>
+    <data name="siteAtendimentoIncludeTituloMensagensParticulares" xml:space="preserve">
+        <value>Mensagens Particulares</value>
+    </data>
+    <data name="siteAtendimentoMensagem" xml:space="preserve">
+        <value>Mensagem</value>
+    </data>
+    <data name="siteAtendimentoNumeroMensagemRecebidas" xml:space="preserve">
+        <value>Número de Mensagens Recebidas</value>
+    </data>
+    <data name="siteAtendimentoEnvioMensagem" xml:space="preserve">
+        <value>Envio de Mensagem</value>
+    </data>
+    <data name="siteAtendimentoNomeRemetente" xml:space="preserve">
+        <value>Nome</value>
+    </data>
+    <data name="siteAtendimentoEmailRemetente" xml:space="preserve">
+        <value>e-mail</value>
+    </data>
+	
+    <data name="siteAtendimentoMensagemSucesso" xml:space="preserve">
+        <value>Mensagem enviada com sucesso.</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Envio de ítens.-->
+    <!--**************************************************************************************-->
+    <data name="siteItensEnviarInstrucao01" xml:space="preserve">
+        <value>Selecione os usuários que gostaria de enviar este ítem e em seguida acione o botão abaixo.</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Mensagens automatizadas.-->
+    <!--**************************************************************************************-->
+    <data name="siteMensagemSaudacao" xml:space="preserve">
+        <value>Olá</value>
+    </data>
+    <data name="siteMensagemEmailFinal" xml:space="preserve">
+        <value>Qualquer problema, entre em contato com a admnistração do site. Obrigado.</value>
+    </data>
+
+    <data name="siteMensagemConteudoItensEnviarAssunto" xml:space="preserve">
+        <value>Envio de iten pelo site.</value>
+    </data>
+    <data name="siteMensagemConteudoItensEnviar01" xml:space="preserve">
+        <value>Você está recebendo uma mensagem de:</value>
+    </data>
+    <data name="siteMensagemConteudoItensEnviar02" xml:space="preserve">
+        <value>Através do site:</value>
+    </data>
+    <data name="siteMensagemConteudoItensEnviar03" xml:space="preserve">
+        <value>Seu amigo achou interessante indicar o seguinte item com você:</value>
+    </data>
+	
+    <data name="siteMensagemIndividualAssunto" xml:space="preserve">
+        <value>Envio de mensagem pelo site.</value>
+    </data>
+    <data name="siteMensagemIndividualEnviar01" xml:space="preserve">
+        <value>Você está recebendo uma mensagem de:</value>
+    </data>
+    <data name="siteMensagemIndividualEnviar02" xml:space="preserve">
+        <value>Através do site:</value>
+    </data>
+    <data name="siteMensagemIndividualEnviar03" xml:space="preserve">
+        <value>Mensagem:</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--ADM/Painel de Controle.-->
+    <!--**************************************************************************************-->
+    <data name="siteAdmPainelTitulo" xml:space="preserve">
+        <value>Página Inicial</value><!--Painel de Controle-->
+    </data>
+
+    <data name="siteAdmPainelSaudacao" xml:space="preserve">
+        <value>Olá</value>
+    </data>
+    <data name="siteAdmPainelMensagem01" xml:space="preserve">
+        <value>bem-vindo ao seu painel de controle.</value>
+    </data>
+
+    <data name="siteAdmPainelOpcoesGerais" xml:space="preserve">
+        <value>Opções Principais</value>
+    </data>
+    <data name="siteAdmPainelOpcoes" xml:space="preserve">
+        <value>Opções</value>
+    </data>
+    <data name="siteAdmPainelOpcoesComplementares" xml:space="preserve">
+        <value>Opções Complementares</value>
+    </data>
+
+    <data name="siteAdmPainelConteudoAcessoRestrito" xml:space="preserve">
+        <value>Conteúdo Restrito</value>
+    </data>
+
+    <!--Opções Principais.-->
+    <data name="siteAdmPainelCadastroAtualizar" xml:space="preserve">
+        <value>Atualizar Cadastro</value>
+    </data>
+    <data name="siteAdmPainelCadastroConfiguracoes" xml:space="preserve">
+        <value>Configurações</value>
+    </data>
+    <data name="siteAdmPainelCadastroPerfil" xml:space="preserve">
+        <value>Perfil</value>
+    </data>
+    <data name="siteAdmPainelCadastroImagem" xml:space="preserve">
+        <value>Alterar Imagem Principal</value>
+    </data>
+
+    <!--Opções.-->
+    <data name="siteAdmPainelPedidosHistorico" xml:space="preserve">
+        <value>Histórico de Pedidos</value>
+    </data>
+	
+    <data name="siteAdmPainelCadastroAdministrar" xml:space="preserve">
+        <value>Gerenciar Cadastros</value>
+    </data>
+    <data name="siteAdmPainelCadastroVinculos1Gerenciamento" xml:space="preserve">
+        <value>Gerenciamento de Amigos</value>
+    </data>
+    <data name="siteAdmPainelCadastroAtendimento" xml:space="preserve">
+        <value>Mensagens</value>
+    </data>
+	
+    <data name="siteAdmPainelContatosAdministrar" xml:space="preserve">
+        <value>Gerenciar Contatos</value>
+    </data>
+    <data name="siteAdmPainelCadastroContasBancarias" xml:space="preserve">
+        <value>Gerenciar Contas Bancárias</value>
+    </data>
+	
+    <data name="siteAdmPainelVeiculosGerenciamento" xml:space="preserve">
+        <value>Gerenciamento de Veículos</value>
+    </data>
+    <data name="siteAdmPainelVeiculosInclusao" xml:space="preserve">
+        <value>Inclusão de Veículos</value>
+    </data>
+
+    <data name="siteAdmPainelImoveisGerenciamento" xml:space="preserve">
+        <value>Gerenciamento de Imóveis</value>
+    </data>
+    <data name="siteAdmPainelImoveisInclusao" xml:space="preserve">
+        <value>Inclusão de Imóveis</value>
+    </data>
+
+    <data name="siteAdmPainelForumTopicoAdministrar" xml:space="preserve">
+        <value>Administrar Tópicos de Fórum</value>
+    </data>
+    <data name="siteAdmPainelForumPostagensAdministrar" xml:space="preserve">
+        <value>Administrar Postagens de Fórum</value>
+    </data>
+
+    <data name="siteAdmPainelPaginasAdministrar" xml:space="preserve">
+        <value>Administrar/Criar Páginas</value>
+    </data>
+    <data name="siteAdmPainelPaginasIndice" xml:space="preserve">
+        <value>Listar Páginas</value>
+    </data>
+    
+    <data name="siteAdmPainelEnquetesAdministrar" xml:space="preserve">
+        <value>Administrar Enquetes</value>
+    </data>
+    <data name="siteAdmPainelHistoricoAdministrar" xml:space="preserve">
+        <value>Histórico de Registros</value>
+    </data>
+    <data name="siteAdmPainelTarefasAdministrar" xml:space="preserve">
+        <value>Administrar Tarefas</value>
+    </data>
+    
+    <data name="siteAdmPainelPublicacoesAdministrar" xml:space="preserve">
+        <value>Administrar Publicações</value>
+    </data>
+    <data name="siteAdmPainelPublicacoesInclusao" xml:space="preserve">
+        <value>Inclusão de Publicações</value>
+    </data>
+    <data name="siteAdmPainelPublicacoesGaleriaAdministrar" xml:space="preserve">
+        <value>Administrar Galeria de Fotos</value>
+    </data>
+    
+    <data name="siteAdmPainelPublicacoesInclusao" xml:space="preserve">
+        <value>Inclusão de Publicações</value>
+    </data>
+    
+    <data name="siteAdmPainelAnimaisAdministrar" xml:space="preserve">
+        <value>Administrar Animais</value>
+    </data>
+    <data name="siteAdmPainelProdutosAdministrar" xml:space="preserve">
+        <value>Administrar Produtos</value>
+    </data>
+
+    <data name="siteAdmPainelConteudoAdministrar" xml:space="preserve">
+        <value>Gerenciar Conteúdo</value>
+    </data>
+	
+    <data name="siteAdmPainelCategoriasAdministrar" xml:space="preserve">
+        <value>Gerenciar Categorias</value>
+    </data>
+
+    <data name="siteAdmPainelProcessosAdministrar" xml:space="preserve">
+        <value>Gerenciar Processos</value>
+    </data>
+	
+    <data name="siteAdmPainelTurmasIndice" xml:space="preserve">
+        <value>Turmas</value>
+    </data>
+    <data name="siteAdmPainelModulosIndice" xml:space="preserve">
+        <value>Módulos</value>
+    </data>
+    <data name="siteAdmPainelAulasIndice" xml:space="preserve">
+        <value>Aulas</value>
+    </data>
+
+    <data name="siteAdmPainelFluxoAdministrar" xml:space="preserve">
+        <value>Gerenciar Fluxo</value>
+    </data>
+	
+    <data name="siteAdmPainelRelatorios" xml:space="preserve">
+        <value>Relatórios</value>
+    </data>
+    <data name="siteAdmPainelRelatorios01" xml:space="preserve">
+        <value>Relatório 01</value>
+    </data>
+
+    <!--Opções Complementares.-->
+    <data name="siteAdmPainelImagensAdministrar" xml:space="preserve">
+        <value>Imagens</value>
+    </data>
+    <data name="siteAdmPainelArquivosAdministrar" xml:space="preserve">
+        <value>Arquivos</value>
+    </data>
+    <data name="siteAdmPainelConteudoHTML1Administrar" xml:space="preserve">
+        <value>Vídeos (YouTube)</value>
+    </data>
+    <data name="siteAdmPainelVideosAdministrar" xml:space="preserve">
+        <value>Vídeos</value>
+    </data>
+
+    <!--Log.-->
+    <data name="siteAdmPainelLog" xml:space="preserve">
+        <value>Log</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--ADM/Painel de Controle - Cadastro - Vínculos.-->
+    <!--**************************************************************************************-->
+    <data name="siteAdmPainelCadastroVinculos1Pesquisar" xml:space="preserve">
+        <value>Pesquisar Amigos</value>
+    </data>
+    <data name="siteAdmPainelCadastroVinculos1PalabraChave" xml:space="preserve">
+        <value>e-mail ou Nome</value>
+    </data>
+
+    <data name="siteAdmPainelCadastroVinculos1SolicitacoesPendentes" xml:space="preserve">
+        <value>Solicitações de Amizade</value>
+    </data>
+    <data name="siteAdmPainelCadastroVinculos1SolicitacoesPendentesInstrucao01" xml:space="preserve">
+        <value>Amigos que solicitaram sua amizade para confirmação.</value>
+    </data>
+
+    <data name="siteAdmPainelCadastroVinculos1SolicitacoesConfirmadas" xml:space="preserve">
+        <value>Amigos</value>
+    </data>
+
+    <!--Ações.-->
+    <data name="siteAdmPainelCadastroVinculos1Solicitar" xml:space="preserve">
+        <value>Solicitar Amizade</value>
+    </data>
+    <data name="siteAdmPainelCadastroVinculos1CancelarSolicitacao" xml:space="preserve">
+        <value>Cancelar Solicitação</value>
+    </data>
+    <data name="siteAdmPainelCadastroVinculos1AceitarSolicitacao" xml:space="preserve">
+        <value>Aceitar Solicitação</value>
+    </data>
+    <data name="siteAdmPainelCadastroVinculos1RecusarSolicitacao" xml:space="preserve">
+        <value>Recusar Solicitação</value>
+    </data>
+    <data name="siteAdmPainelCadastroVinculos1Cancelar" xml:space="preserve">
+        <value>Cancelar Amizade</value>
+    </data>
+
+    <!--Status.-->
+    <data name="siteAdmPainelCadastroVinculos1StatusSolicitacaoEnviada" xml:space="preserve">
+        <value>Solicitação já enviada.</value>
+    </data>
+    <data name="siteAdmPainelCadastroVinculos1StatusSolicitacaoEnviadaPeloUsuario" xml:space="preserve">
+        <value>Solicitação enviada pelo usuário.</value>
+    </data>
+    <data name="siteAdmPainelCadastroVinculos1StatusSolicitacaoConfirmada" xml:space="preserve">
+        <value>Status: Solicitação aceita.</value>
+    </data>
+
+    <data name="siteAdmPainelCadastroVinculos1StatusSucessoSolicitacao" xml:space="preserve">
+        <value>Solicitação enviada com sucesso.</value>
+    </data>
+    <data name="siteAdmPainelCadastroVinculos1StatusSucessoCancelamentoSolicitacao" xml:space="preserve">
+        <value>Cancelamento de solicitação realizado com sucesso.</value>
+    </data>
+    <data name="siteAdmPainelCadastroVinculos1StatusSucessoSolicitaoConfirmacao" xml:space="preserve">
+        <value>Solicitação confirmada com sucesso.</value>
+    </data>
+    <data name="siteAdmPainelCadastroVinculos1StatusSucessoCancelamentoVinculo" xml:space="preserve">
+        <value>Cancelamento de amizade realizado com sucesso.</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--ADM/Painel de Controle - Cadastro - Bate-Papo/Chat/Atendimento.-->
+    <!--**************************************************************************************-->
+    <!--Mensagens.-->
+    <data name="siteAdmPainelCadastroMensagemEnviar" xml:space="preserve">
+        <value>Enviar Mensagem</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Log.-->
+    <!--**************************************************************************************-->
+    <data name="siteLogInteratividadeConfirmar" xml:space="preserve">
+        <value>Confirmar</value>
+    </data>
+    <data name="siteLogInteratividadeConfirmado" xml:space="preserve">
+        <value>Confirmado</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Mensagens.-->
+    <!--**************************************************************************************-->
+    <data name="siteMensagemRegistrosVazio" xml:space="preserve">
+        <value>Nenhum registro encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemCategoriasVazio" xml:space="preserve">
+        <value>Nenhum registro encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemConteudoVazio" xml:space="preserve">
+        <value></value><!--Aguardando conteúdo.-->
+    </data>
+    <data name="siteMensagemProdutosVazio" xml:space="preserve">
+        <value>Nenhuma obra encontrada, no momento.</value>
+    </data>
+    <data name="siteMensagemArquivosVazio" xml:space="preserve">
+        <value>Nenhum arquivo encontrado, no momento.</value>
+    </data>
+    ,<data name="siteMensagemPublicacoesVazio" xml:space="preserve">
+        <value>Nenhuma publicação encontrada, no momento.</value>
+    </data>
+    <data name="siteMensagemPublicacoesVazio" xml:space="preserve">
+        <value>Nenhuma publicação encontrada, no momento.</value>
+    </data>
+    <data name="siteMensagemPublicacoesGaleriaVazio" xml:space="preserve">
+        <value>Nenhuma galeria encontrada, no momento.</value>
+    </data>
+    <data name="siteMensagemProdutosVazio" xml:space="preserve">
+        <value>Nenhum registro encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemCadastroVazio" xml:space="preserve">
+        <value>Nenhum registro encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemCadastroContasBancariasVazio" xml:space="preserve">
+        <value>Nenhum registro encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemContatosVazio" xml:space="preserve">
+        <value>Nenhum registro encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemVeiculosVazio" xml:space="preserve">
+        <value>Nenhum veículo encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemImoveisVazio" xml:space="preserve">
+        <value>Nenhum imóvel encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemAnimaisVazio" xml:space="preserve">
+        <value>Nenhum animal encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemAfiliacoesVazio" xml:space="preserve">
+        <value>Nenhum registro encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemForumTopicosVazio" xml:space="preserve">
+        <value>Nenhum tópico encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemForumPostagensVazio" xml:space="preserve">
+        <value>Nenhuma postagem encontrada, no momento.</value>
+    </data>
+    <data name="siteMensagemEnquetesVazio" xml:space="preserve">
+        <value>Nenhuma enquete encontrada, no momento.</value>
+    </data>
+    <data name="siteMensagemEnquetesStatusVoto1" xml:space="preserve">
+        <value>Enquete respondida.</value>
+    </data>
+    <data name="siteMensagemEnquetesStatusVoto2" xml:space="preserve">
+        <value>Erro ao registrar o voto. Verifique se está logado corretamente e tente novamente.</value>
+    </data>
+    <data name="siteMensagemEnquetesOpcoesVazio" xml:space="preserve">
+        <value>Nenhuma opção encontrada, no momento.</value>
+    </data>
+    <data name="siteMensagemEnquetesOpcoesVotosSucesso" xml:space="preserve">
+        <value>Voto registrado com sucesso.</value>
+    </data>
+    <data name="siteMensagemQuestoesStatusResposta1" xml:space="preserve">
+        <value>Questão respondida.</value>
+    </data>
+    <data name="siteMensagemPaginasVazio" xml:space="preserve">
+        <value>Nenhuma página encontrada, no momento.</value>
+    </data>
+    <data name="siteMensagemProcessosVazio" xml:space="preserve">
+        <value>Nenhum processo encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemHistoricoVazio" xml:space="preserve">
+        <value>Nenhum registro encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemTareafsVazio" xml:space="preserve">
+        <value>Nenhum registro encontrado, no momento.</value>
+    </data>
+    <data name="siteMensagemLogVazio" xml:space="preserve">
+        <value>Nenhum registro encontrado, no momento.</value>
+    </data>
+	
+    <data name="siteMensagemSelecaoVazio" xml:space="preserve">
+        <value>Nenhum registro selecionado, no momento.</value>
+    </data>
+    <data name="siteMensagemSelecaoEnvio" xml:space="preserve">
+        <value>Seleção enviada com sucesso.</value>
+    </data>
+
+    <data name="siteMensagemFormulariosEnvio" xml:space="preserve">
+        <value>
+        Mensagem enviada com sucesso. &lt;br&gt;&lt;br&gt;
+        Em breve, retornaremos seu contato. &lt;br&gt;&lt;br&gt;
+        Obrigado e aguarde.
+        </value>
+    </data>
+    <data name="siteMensagemFormulariosCamposObrigatoriosVazio" xml:space="preserve">
+        <value>Os seguinte(s) campo(s) devem ser preenchido(s): </value>
+    </data>
+    
+    <data name="siteMensagemImagemPlaceholder" xml:space="preserve">
+        <value>
+            Imagem indisponível &lt;br&gt;
+            no momento.
+        </value>
+    </data>
+    <data name="siteMensagemImagemPlaceholderLink" xml:space="preserve">
+        <value>
+            Clique aqui para alterar imagem.
+        </value>
+    </data>
+
+    <!--ADM.-->
+    <data name="siteMensagemPedidosVazio" xml:space="preserve">
+        <value>Nenhum pedido registrado, no momento.</value>
+    </data>
+    <data name="siteMensagemPedidosItensVazio" xml:space="preserve">
+        <value>Nenhum registro encontrado, no momento.</value>
+    </data>
+
+    <!--e-mails.-->
+    <data name="siteMensagemEmailAssuntoCadastroConfirmacaoAtivacao" xml:space="preserve">
+        <value>Solicitação de confirmação de endereço de e-mail.</value>
+    </data>
+
+    <data name="siteMensagemEmailCorpoMensagemSaudacao" xml:space="preserve">
+        <value>Olá</value>
+    </data>
+    <!--**************************************************************************************-->
+    
+
+    <!--Mensagem de status.-->
+    <!--**************************************************************************************-->
+    <!--Status genéricos.-->
+    <data name="siteStatus21" xml:space="preserve">
+        <value>Item incluído com sucesso.</value>
+    </data>
+    <data name="siteStatus21e" xml:space="preserve">
+        <value>Erro na inclusão do item.</value>
+    </data>
+    <data name="siteStatus22" xml:space="preserve">
+        <value>Item retirado com sucesso.</value>
+    </data>
+    <data name="siteStatus22e" xml:space="preserve">
+        <value>Erro na retirada do item.</value>
+    </data>
+
+    <!--Críticas de formulários.-->
+    <data name="siteStatusCritica1" xml:space="preserve">
+        <value>(*) - Este campo aceita somente caractéres numéricos e não pode conter vírgula (,). Somente ponto (.) para números decimais.</value>
+    </data>
+    <data name="siteStatusCritica2" xml:space="preserve">
+        <value>(**) - Este campo requer preenchimento.</value>
+    </data>
+    <data name="siteStatusCritica3" xml:space="preserve">
+        <value>(***) - Este campo aceita somente caractéres numéricos.</value>
+    </data>
+    <data name="siteStatusCritica4" xml:space="preserve">
+        <value>Campo obrigatório: </value>
+    </data>
+        <data name="siteStatusCritica4Bullet" xml:space="preserve">
+            <value> (*)</value>
+        </data>
+    <!--**************************************************************************************-->
+</root>

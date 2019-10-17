@@ -1,0 +1,3638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+    <!--Referências-->
+    <!--**************************************************************************************-->
+    <!--&#160; - Espaço não formatável.-->
+    <!--&lt;br&gt; - Quebra de linha.-->
+    <!--&#169; - Copyright.-->
+    <!--&#8226; - •.-->
+    <!--**************************************************************************************-->
+
+    <!--Sistema-->
+
+    <!--Itens genéricos.-->
+    <!--**************************************************************************************-->
+    <data name="sistema" xml:space="preserve">
+        <value>Sistema</value>
+    </data>
+    <data name="sistemaItemRoot" xml:space="preserve">
+        <value>Raiz</value>
+    </data>
+    <data name="sistemaItemRootDropDown" xml:space="preserve">
+        <value>Raiz</value>
+    </data>
+    <data name="sistemaItemCategoriaVinculada" xml:space="preserve">
+        <value>Categoria Vinculada</value>
+    </data>
+    <data name="sistemaItemNenhumDropDown" xml:space="preserve">
+        <value>Nenhum</value>
+    </data>
+    <data name="sistemaItemId" xml:space="preserve">
+        <value>ID</value>
+    </data>
+    <data name="sistemaItemInserir" xml:space="preserve">
+        <value>Inserir</value>
+    </data>
+    <data name="sistemaItemArquivo" xml:space="preserve">
+        <value>Arquivo</value>
+    </data>
+    <data name="sistemaItemImagem" xml:space="preserve">
+        <value>Imagem</value>
+    </data>
+    <data name="sistemaItemImagemExcluir" xml:space="preserve">
+        <value>Excluir Imagem</value>
+    </data>
+    <data name="sistemaItemNClassificacao" xml:space="preserve">
+        <value>Nº de Classificação</value>
+    </data>
+        <data name="sistemaItemNClassificacaoA" xml:space="preserve">
+            <value>Nº de Class.</value>
+        </data>
+        <data name="sistemaItemClassificacaoPadrao" xml:space="preserve">
+            <value>Restaurar Classificação Padrao</value>
+        </data>
+    <data name="sistemaItemData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="sistemaItemDataPublicacao" xml:space="preserve">
+        <value>Data de Publicação</value>
+    </data>
+    <data name="sistemaItemDataInicial" xml:space="preserve">
+        <value>Data Inicial</value>
+    </data>
+        <data name="sistemaItemDataInicialA" xml:space="preserve">
+            <value>D. I.</value>
+        </data>
+    <data name="sistemaItemDataFinal" xml:space="preserve">
+        <value>Data Final</value>
+    </data>
+        <data name="sistemaItemDataFinalA" xml:space="preserve">
+            <value>D. F.</value>
+        </data>
+    <data name="sistemaItemDataCriacao" xml:space="preserve">
+        <value>Data de Criação</value>
+    </data>
+    <data name="sistemaItemMinutos" xml:space="preserve">
+        <value>Min</value>
+    </data>
+    <data name="sistemaItemSegundos" xml:space="preserve">
+        <value>Seg</value>
+    </data>
+    <data name="sistemaItemTotal" xml:space="preserve">
+        <value>Total</value>
+    </data>
+    <data name="sistemaItemSubtotal" xml:space="preserve">
+        <value>Subtotal</value>
+    </data>
+
+    <data name="sistemaItemNomeRemetente" xml:space="preserve">
+        <value>Nome Remetente</value>
+    </data>
+    <data name="sistemaItemEmailRemetente" xml:space="preserve">
+        <value>e-mail Remetente</value>
+    </data>
+    <data name="sistemaItemAssunto" xml:space="preserve">
+        <value>Assunto</value>
+    </data>
+    <data name="sistemaItemObsInterno" xml:space="preserve">
+        <value>OBS (interno)</value>
+    </data>
+    <data name="sistemaItemInformacoes" xml:space="preserve">
+        <value>Informações</value>
+    </data>
+    <data name="sistemaItemVisualizacao" xml:space="preserve">
+        <value>Visualização</value>
+    </data>
+    <data name="sistemaItemAtivacao" xml:space="preserve">
+        <value>Trava</value>
+    </data>
+        <data name="sistemaItemAtivacao0" xml:space="preserve">
+            <value>Blc</value>
+        </data>
+        <data name="sistemaItemAtivacao1" xml:space="preserve">
+            <value>Lib</value>
+        </data>
+    <data name="sistemaItemAtivacao3" xml:space="preserve">
+        <value>Trava</value>
+    </data>
+        <data name="sistemaItemAtivacao4" xml:space="preserve">
+            <value>Tratado</value>
+        </data>
+        <data name="sistemaItemAtivacao5" xml:space="preserve">
+            <value>Liberado</value>
+        </data>
+    <data name="sistemaItemAcesso" xml:space="preserve">
+        <value>Acesso</value>
+    </data>
+        <data name="sistemaItemAcesso0" xml:space="preserve">
+            <value>L</value>
+        </data>
+        <data name="sistemaItemAcesso1" xml:space="preserve">
+            <value>R</value>
+        </data>
+    <data name="sistemaItemSim" xml:space="preserve">
+        <value>Sim</value>
+    </data>
+    <data name="sistemaItemNao" xml:space="preserve">
+        <value>Não</value>
+    </data>
+    <data name="sistemaItemFuncoes" xml:space="preserve">
+        <value>Funções</value>
+    </data>
+    <data name="sistemaItemInserir" xml:space="preserve">
+        <value>Inserir</value>
+    </data>
+        <data name="sistemaItemInserirConteudo" xml:space="preserve">
+            <value>Inserir&#160;Conteúdo</value>
+        </data>
+        <data name="sistemaItemInserirFotos" xml:space="preserve">
+            <value>Inserir&#160;Fotos</value>
+        </data>
+        <data name="sistemaItemInserirVideos" xml:space="preserve">
+            <value>Inserir&#160;Vídeos</value>
+        </data>
+        <data name="sistemaItemInserirArquivos" xml:space="preserve">
+            <value>Inserir&#160;Arquivos</value>
+        </data>
+        <data name="sistemaItemInserirZip" xml:space="preserve">
+            <value>Inserir&#160;Zip</value>
+        </data>
+        <data name="sistemaItemInserirSWFs" xml:space="preserve">
+            <value>Inserir&#160;SWFs</value>
+        </data>
+        <data name="sistemaItemInserirConteudoHTML" xml:space="preserve">
+            <value>Inserir&#160;Conteúdo&#160;HTML</value>
+        </data>
+		
+        <data name="sistemaItemInserirCategorias" xml:space="preserve">
+            <value>Inserir&#160;Categorias</value>
+        </data>
+        <data name="sistemaItemInserirProcessos" xml:space="preserve">
+            <value>Inserir&#160;Processos</value>
+        </data>
+        <data name="sistemaItemInserirHistorico" xml:space="preserve">
+            <value>Inserir&#160;Ficha Técnica de Tratamento</value>
+        </data>
+        <data name="sistemaItemInserirTarefas" xml:space="preserve">
+            <value>Inserir&#160;Tarefas</value>
+        </data>
+        <data name="sistemaItemInserirModulos" xml:space="preserve">
+            <value>Inserir&#160;Módulos</value>
+        </data>
+        <data name="sistemaItemInserirAulas" xml:space="preserve">
+            <value>Inserir&#160;Aulas</value>
+        </data>
+		
+        <data name="sistemaItemGerenciar" xml:space="preserve">
+            <value>Gerenciar</value>
+        </data>
+        <data name="sistemaItemGerenciarIPs" xml:space="preserve">
+            <value>Gerenciar&#160;IPs</value>
+        </data>
+        <data name="sistemaItemGerenciarCadastros" xml:space="preserve">
+            <value>Gerenciar&#160;Cadastros</value>
+        </data>
+        <data name="sistemaItemGerenciarPaginas" xml:space="preserve">
+            <value>Gerenciar&#160;Páginas</value>
+        </data>
+        <data name="sistemaItemGerenciarAula" xml:space="preserve">
+            <value>Gerenciar&#160;Aula</value>
+        </data>
+		
+        <data name="sistemaItemVincularCategorias" xml:space="preserve">
+            <value>Relacionar&#160;Categorias</value>
+        </data>
+        <data name="sistemaItemVincularProdutos" xml:space="preserve">
+            <value>Relacionar&#160;Produtos</value>
+        </data>
+        <data name="sistemaItemVincularDBIBGE" xml:space="preserve">
+            <value>Relacionar&#160;DB&#160;IBGE</value>
+        </data>
+    <data name="sistemaItemDetalhes" xml:space="preserve">
+        <value>Detalhes</value>
+    </data>
+    <data name="sistemaItemEditar" xml:space="preserve">
+        <value>Editar</value>
+    </data>
+    <data name="sistemaItemExcluir" xml:space="preserve">
+        <value>Excluir</value>
+    </data>
+    <data name="sistemaItemSelecionar" xml:space="preserve">
+        <value>Selecionar</value>
+    </data>
+		<data name="sistemaItemSelecionarA" xml:space="preserve">
+			<value>Sel.</value>
+		</data>
+
+        <data name="sistemaItemVisualizacao1" xml:space="preserve">
+            <value>Link Para Pop-up</value>
+        </data>
+        <data name="sistemaItemVisualizacao2" xml:space="preserve">
+            <value>Direto Na Página</value>
+        </data>
+        <data name="sistemaItemVisualizacao3" xml:space="preserve">
+            <value>Link Para Download</value>
+        </data>
+        <data name="sistemaItemVisualizacao4" xml:space="preserve">
+            <value>Link Direto para Mídia</value>
+        </data>
+		
+    <data name="sistemaItemVersaoImpressao" xml:space="preserve">
+        <value>Versão Impressão</value>
+    </data>
+    <data name="sistemaItemImpressao" xml:space="preserve">
+        <value>Impressão</value>
+    </data>
+    <data name="sistemaItemCadastroVinculado" xml:space="preserve">
+        <value>Cadastro Vinculado</value>
+    </data>
+    <data name="sistemaItemTextoLink" xml:space="preserve">
+        <value>Texto Para Exibição Em Forma de Link Para Baixar o Arquivo</value>
+    </data>
+    <data name="sistemaItemValorDescicao01" xml:space="preserve">
+        <value>formato: 1000,00</value>
+    </data>
+    <data name="sistemaItemURL01" xml:space="preserve">
+        <value>Endereço URL (Link)</value>
+    </data>
+    <data name="sistemaItemURL02" xml:space="preserve">
+        <value>(endereço completo - incluir com o http://www.)</value>
+    </data>
+    <data name="sistemaItemHTML01" xml:space="preserve">
+        <value>Código HTML</value>
+    </data>
+    <data name="sistemaItemHTML02" xml:space="preserve">
+        <value>(Código em HTML para incorporar à página. Caso tenha dúvida sobre este recurso, entre em contato com o desenvolvedor.)</value>
+    </data>
+    <data name="sistemaItemPalavrasChave01" xml:space="preserve">
+        <value>Palavras-chave</value>
+    </data>
+    <data name="sistemaItemPalavrasChave02" xml:space="preserve">
+        <value>(Palavras separadas por vírgula (,).)</value>
+    </data>
+    <data name="sistemaItemDimensoes" xml:space="preserve">
+        <value>Dimensões</value>
+    </data>
+		<data name="sistemaItemLarguraPixels" xml:space="preserve">
+			<value>Largura (pxls)</value>
+		</data>
+		<data name="sistemaItemAlturaPixels" xml:space="preserve">
+			<value>Altura (pxls)</value>
+		</data>
+    <data name="sistemaItemFiltroGenerico01" xml:space="preserve">
+        <value>Deixe a tecla "Ctrl" do seu teclado pressionada para permitir seleção múltipla.</value>
+    </data>
+    <data name="sistemaItemFiltroGenerico02" xml:space="preserve">
+        <value>Selecione</value>
+    </data>
+    <data name="sistemaItemFiltroGenerico03" xml:space="preserve">
+        <value>Nenhum</value>
+    </data>
+    <data name="sistemaItemFiltroGenerico04" xml:space="preserve">
+        <value>Para incluir opções, acesse a área de manutenção.</value>
+    </data>
+    <data name="sistemaItemSelecionarCategoriasMultiplas" xml:space="preserve">
+        <value>Selecionar Categorias Múltiplas</value>
+    </data>
+
+    <!--Paginação.-->
+    <data name="sistemaPaginacaoPaginaContador01" xml:space="preserve">
+        <value>Página</value>
+    </data>
+    <data name="sistemaItemPaginacaoPrimeira" xml:space="preserve">
+        <value>Primeira</value>
+    </data>
+    <data name="sistemaItemPaginacaoUltima" xml:space="preserve">
+        <value>Última</value>
+    </data>
+    <data name="sistemaItemPaginacaoAnterior" xml:space="preserve">
+        <value>&lt; Anterior</value>
+    </data>
+    <data name="sistemaItemPaginacaoProxima" xml:space="preserve">
+        <value>Próxima &gt;</value>
+    </data>
+    <!--Textos alternativos de botões.-->
+    <data name="sistemaBotaoVoltar" xml:space="preserve">
+        <value>Voltar</value>
+    </data>
+    <data name="sistemaBotaoExcluir" xml:space="preserve">
+        <value>Excluir</value>
+    </data>
+    <data name="sistemaBotaoIncluir" xml:space="preserve">
+        <value>Incluir</value>
+    </data>
+    <data name="sistemaBotaoAtualizar" xml:space="preserve">
+        <value>Atualizar</value>
+    </data>
+    <data name="sistemaBotaoUpload" xml:space="preserve">
+        <value>Upload</value>
+    </data>
+    <data name="sistemaBotaoSalvar" xml:space="preserve">
+        <value>Salvar</value>
+    </data>
+    <data name="sistemaBotaoAplicar" xml:space="preserve">
+        <value>Aplicar</value>
+    </data>
+    <data name="sistemaBotaoFechar" xml:space="preserve">
+        <value>Fechar</value>
+    </data>
+    <data name="sistemaBotaoFinalizar" xml:space="preserve">
+        <value>Finalizar</value>
+    </data>
+    <data name="sistemaBotaoEnviar" xml:space="preserve">
+        <value>Enviar</value>
+    </data>
+    <data name="sistemaBotaoLogin" xml:space="preserve">
+        <value>Login</value>
+    </data>
+    <data name="sistemaBotaoBusca" xml:space="preserve">
+        <value>Busca</value>
+    </data>
+    <data name="sistemaBotaoImprimir" xml:space="preserve">
+        <value>Imprimir</value>
+    </data>
+    <data name="sistemaBotaoNovo" xml:space="preserve">
+        <value>Novo</value>
+    </data>
+    <data name="sistemaBotaoImportar" xml:space="preserve">
+        <value>Importar</value>
+    </data>
+
+    <!--Formatos.-->
+    <data name="sistemaFormatoCorWeb" xml:space="preserve">
+        <value>(código web ex: #ffffff - branco)</value>
+    </data>
+    <data name="sistemaFormatoPixels" xml:space="preserve">
+        <value>Em Pixels (somente números)</value>
+    </data>
+    <data name="sistemaFormatoDataPt01" xml:space="preserve">
+        <value>(dd/mm/aaaa)</value>
+    </data>
+    <data name="sistemaFormatoDataEn01" xml:space="preserve">
+        <value>(mm/dd/yyyy)</value>
+    </data>
+    <data name="sistemaFormatoHora01" xml:space="preserve">
+        <value>(hh:mm)</value>
+    </data>
+    <!--CEP.-->
+    <data name="sistemaCEPBrasil" xml:space="preserve">
+        <value>Brasil</value>
+    </data>
+    <data name="sistemaCEPNaoEncontrado" xml:space="preserve">
+        <value>CEP não encontrado em nossa base de dados. Verifique se as informações estão corretas.</value>
+    </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Menu principal (lateral).-->
+    <!--**************************************************************************************-->
+    <data name="sistemaMenuHome" xml:space="preserve">
+        <value>Estrutura de Links</value>
+    </data>
+        <data name="sistemaMenuHomeToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a estrutura de organização do sistema.</value>
+        </data>
+    <data name="sistemaMenuBusca" xml:space="preserve">
+        <value>Busca no Sistema</value>
+    </data>
+        <data name="sistemaMenuBuscaToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área busca no sistema.</value>
+        </data>
+    <data name="sistemaMenuProdutosManutencao" xml:space="preserve">
+        <value>Manutenção - Obras</value>
+    </data>
+        <data name="sistemaMenuProdutosManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para o cadastro de obras.</value>
+        </data>
+    <data name="sistemaMenuVeiculosManutencao" xml:space="preserve">
+        <value>Manutenção - Veículos</value>
+    </data>
+        <data name="sistemaMenuVeiculosManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para o cadastro de veículos.</value>
+        </data>
+    <data name="sistemaMenuCadastroManutencao" xml:space="preserve">
+        <value>Manutenção - Cadastro</value>
+    </data>
+        <data name="sistemaMenuCadastroManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para o cadastro.</value>
+        </data>
+    <data name="sistemaMenuHistoricoManutencao" xml:space="preserve">
+        <value>Manutenção - Tratamento</value>
+    </data>
+        <data name="sistemaMenuHistoricoManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para o tratamento.</value>
+        </data>
+    <data name="sistemaMenuOrcamentosManutencao" xml:space="preserve">
+        <value>Manutenção - Orçamentos</value>
+    </data>
+        <data name="sistemaMenuOrcamentosManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para os orçamentos.</value>
+        </data>
+    <data name="sistemaMenuOrcamentosItensManutencao" xml:space="preserve">
+        <value>Manutenção - Orçamentos Itens</value>
+    </data>
+        <data name="sistemaMenuOrcamentosItensManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para os itens dos orçamentos.</value>
+        </data>
+    <data name="sistemaMenuPedidosManutencao" xml:space="preserve">
+        <value>Manutenção - Pedidos</value>
+    </data>
+        <data name="sistemaMenuPedidosManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para os pedidos.</value>
+        </data>
+    <data name="sistemaMenuImoveisManutencao" xml:space="preserve">
+        <value>Manutenção - Imóveis</value>
+    </data>
+		<data name="sistemaMenuImoveisManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para os imóveis.</value>
+        </data>
+    <data name="sistemaMenuPaginasManutencao" xml:space="preserve">
+        <value>Manutenção - Páginas</value>
+    </data>
+        <data name="sistemaMenuPaginasManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para as páginas.</value>
+        </data>
+    <data name="sistemaMenuProcessosManutencao" xml:space="preserve">
+        <value>Manutenção - Processos</value>
+    </data>
+        <data name="sistemaMenuProcessosManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para os processos.</value>
+        </data>
+    <data name="sistemaMenuTurmasManutencao" xml:space="preserve">
+        <value>Manutenção - Turmas</value>
+    </data>
+        <data name="sistemaMenuTurmasManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para as turmas.</value>
+        </data>
+    <data name="sistemaMenuModulosManutencao" xml:space="preserve">
+        <value>Manutenção - Módulos</value>
+    </data>
+        <data name="sistemaMenuModulosManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para os módulos.</value>
+        </data>
+    <data name="sistemaMenuAulasManutencao" xml:space="preserve">
+        <value>Manutenção - Aulas</value>
+    </data>
+        <data name="sistemaMenuAulasManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para as aulas.</value>
+        </data>
+    <data name="sistemaMenuFluxoManutencao" xml:space="preserve">
+        <value>Manutenção - Fluxo de Caixa</value>
+    </data>
+        <data name="sistemaMenuFluxoManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para o fluxo de caixa.</value>
+        </data>
+    <data name="sistemaMenuLogManutencao" xml:space="preserve">
+        <value>Manutenção - Log</value>
+    </data>
+        <data name="sistemaMenuLogManutencaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a área de inclusão de informações complementares para o log.</value>
+        </data>
+    <data name="sistemaMenuProdutos" xml:space="preserve">
+        <value>Obras - Índice Geral</value>
+    </data>
+        <data name="sistemaMenuProdutosToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a listagem de obras registrados no sistema.</value>
+        </data>
+    <data name="sistemaMenuHistorico" xml:space="preserve">
+        <value>Ficha Técnica de Tratamentos - Índice Geral</value>
+    </data>
+        <data name="sistemaMenuHistoricoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a listagem das fichas técnicas de tratamento registrados no sistema.</value>
+        </data>
+    <data name="sistemaMenuTarefas" xml:space="preserve">
+        <value>Tarefas - Índice Geral</value>
+    </data>
+        <data name="sistemaMenuTarefasToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a listagem de tarefas registrados no sistema.</value>
+        </data>
+    <data name="sistemaMenuProcessos" xml:space="preserve">
+        <value>Processos - Índice Geral</value>
+    </data>
+        <data name="sistemaMenuProcessosToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a listagem de processos registrados no sistema.</value>
+        </data>
+    <data name="sistemaMenuOrcamentos" xml:space="preserve">
+        <value>Orçamentos - Índice Geral</value>
+    </data>
+        <data name="sistemaMenuOrcamentosToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a listagem de orçamentos registrados no sistema.</value>
+        </data>
+    <data name="sistemaMenuPedidos" xml:space="preserve">
+        <value>Pedidos - Índice Geral</value>
+    </data>
+        <data name="sistemaMenuPedidosToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a listagem de pedidos registrados no sistema.</value>
+        </data>
+    <data name="sistemaMenuPedidosParcelas" xml:space="preserve">
+        <value>Pedidos - Parcelas - Índice Geral</value>
+    </data>
+        <data name="sistemaMenuPedidosParcelasParcelasToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a listagem de parcelas de pedidos registrados no sistema.</value>
+        </data>
+	<data name="sistemaMenuForumPostagens" xml:space="preserve">
+        <value>Teste de Solubilidade - Índice Geral</value>
+    </data>
+        <data name="sistemaMenuForumPostagensToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a listagem de testes de solubilidade registradas no sistema.</value>
+        </data>
+		
+	<data name="sistemaMenuRelatorios" xml:space="preserve">
+        <value>Relatórios</value>
+    </data>
+        <data name="sistemaMenuRelatoriosToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar os relatórios disponíveis no sistema.</value>
+        </data>
+	<data name="sistemaMenuImportacao" xml:space="preserve">
+        <value>Importação</value>
+    </data>
+        <data name="sistemaMenuImportacaoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar o módulo de importação de dados para o sistema.</value>
+        </data>
+		
+	<data name="sistemaMenuDBCEP" xml:space="preserve">
+        <value>DB CEP</value>
+    </data>
+        <data name="sistemaMenuDBCEPToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar os registro do DB CEP disponíveis no sistema.</value>
+        </data>
+		
+	<data name="sistemaMenuDBIBGE" xml:space="preserve">
+        <value>DB IBGE</value>
+    </data>
+        <data name="sistemaMenuDBIBGEToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar os registro do DB IBGE disponíveis no sistema.</value>
+        </data>
+
+    <data name="sistemaMenuAlterarSenha" xml:space="preserve">
+        <value>Alterar Senha de Acesso</value>
+    </data>
+        <data name="sistemaMenuAlterarSenhaTip" xml:space="preserve">
+            <value>Clique aqui para alterar a senha de acesso deste usuário do sistema.</value>
+        </data>
+    <data name="sistemaMenuLogOff" xml:space="preserve">
+        <value>Log-off (sair do sistema)</value>
+    </data>
+        <data name="sistemaMenuLogOffToolTip" xml:space="preserve">
+            <value>Clique aqui para fazer log-off e sair do sistema.</value>
+        </data>
+    <!--**************************************************************************************-->
+    
+    <!--Menu Secundário (superior).-->
+    <!--**************************************************************************************-->
+    <data name="sistemaMenuPaginaInicial" xml:space="preserve">
+        <value>Página Inicial do Sistema</value>
+    </data>
+        <data name="sistemaMenuPaginaInicialToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a página inicial do sistema.</value>
+        </data>
+    <data name="sistemaMenuSiteSistema" xml:space="preserve">
+        <value>Site Sistema Dinâmico</value>
+    </data>
+        <data name="sistemaMenuSiteSistemaToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar o site do Sistema Dinâmico.</value>
+        </data>
+    <data name="sistemaMenuContato" xml:space="preserve">
+        <value>Contato</value>
+    </data>
+        <data name="sistemaMenuContatoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar a página de contato do Sistema Dinâmico.</value>
+        </data>
+    <data name="sistemaMenuManual" xml:space="preserve">
+        <value>&#8226; Manual</value>
+    </data>
+        <data name="sistemaMenuContatoToolTip" xml:space="preserve">
+            <value>Clique aqui para acessar o manual de ajuda.</value>
+        </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Usuários.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaUsuarios" xml:space="preserve">
+        <value>Usuários</value>
+    </data>
+    <data name="sistemaUsuariosEditar" xml:space="preserve">
+        <value>Editar Usuários</value>
+    </data>
+    <data name="sistemaUsuariosGerenciamento" xml:space="preserve">
+        <value>Gerenciamento de Usuários</value>
+    </data>
+    <data name="sistemaUsuariosTbUsuarios" xml:space="preserve">
+        <value>Incluir Usuários</value>
+    </data>
+    <data name="sistemaUsuariosNome" xml:space="preserve">
+        <value>Nome</value>
+    </data>
+    <data name="sistemaUsuariosUsuario" xml:space="preserve">
+        <value>Usuário</value>
+    </data>
+    <data name="sistemaUsuariosSenha" xml:space="preserve">
+        <value>Senha</value>
+    </data>
+    <data name="sistemaUsuariosEmail" xml:space="preserve">
+        <value>e-mail</value>
+    </data>
+    <data name="sistemaUsuariosUsuarioTipo" xml:space="preserve">
+        <value>Tipo de Acesso</value>
+    </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Login (Login.aspx).-->
+    <!--**************************************************************************************-->
+    <data name="sistemaLoginUsuario" xml:space="preserve">
+        <value>Usuário</value>
+    </data>
+    <data name="sistemaLoginSenha" xml:space="preserve">
+        <value>Senha</value>
+    </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Main - Página inicial do sistema (Main.aspx).-->
+    <!--**************************************************************************************-->
+    <data name="sistemaMainTitulo" xml:space="preserve">
+        <value>Bem-vindo</value>
+    </data>
+    <data name="sistemaMainBemvindo" xml:space="preserve">
+        <value>Bem-vindo</value>
+    </data>
+    <data name="sistemaMainLogado" xml:space="preserve">
+        <value>Você está logado como</value>
+    </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Categorias.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaCategoriasTituloEditar" xml:space="preserve">
+        <value>Editar Categorias</value>
+    </data>
+    <data name="sistemaCategoriasTbCategorias" xml:space="preserve">
+        <value>Incluir Categorias</value>
+    </data>
+    <data name="sistemaCategoriasCategoria" xml:space="preserve">
+        <value>Categoria</value>
+    </data>
+    <data name="sistemaCategoriasTbCategoriasEditar" xml:space="preserve">
+        <value>Editar Categoria</value>
+    </data>
+    <data name="sistemaCategoriasNClassificacao" xml:space="preserve">
+        <value>Nº de Class.</value>
+    </data>
+    <data name="sistemaCategoriasDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="sistemaCategoriasTipo" xml:space="preserve">
+        <value>Tipo</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Categorias múltiplas.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaCategoriasMultiplasTitulo" xml:space="preserve">
+        <value>Seleção de Categorias</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Conteúdo.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaConteudoTitulo" xml:space="preserve">
+        <value>Inserir Conteúdo</value>
+    </data>
+    <data name="sistemaConteudoTituloEditar" xml:space="preserve">
+        <value>Editar Conteúdo</value>
+    </data>
+    <data name="sistemaConteudoTbConteudo" xml:space="preserve">
+        <value>Incluir Conteúdo</value>
+    </data>
+    <data name="sistemaConteudoTbConteudoEditar" xml:space="preserve">
+        <value>Editar Conteúdo</value>
+    </data>
+    <data name="sistemaConteudoTbImagem" xml:space="preserve">
+        <value>Incluir Imagem</value>
+    </data>
+    <data name="sistemaConteudoTbImagemEditar" xml:space="preserve">
+        <value>Editar Imagem</value>
+    </data>
+    <data name="sistemaConteudoTbVideo" xml:space="preserve">
+        <value>Incluir Vídeos</value>
+    </data>
+    <data name="sistemaConteudoTbVideoEditar" xml:space="preserve">
+        <value>Editar Vídeo</value>
+    </data>
+    <data name="sistemaConteudoTbArquivos" xml:space="preserve">
+        <value>Incluir Arquivos (PDFs, Word, Power Point, Excel, Zip, Entre Outros)</value>
+    </data>
+    <data name="sistemaConteudoTbArquivosEditar" xml:space="preserve">
+        <value>Editar Arquivo</value>
+    </data>
+    <data name="sistemaConteudoTbColunas" xml:space="preserve">
+        <value>Incluir Divisão de Colunas</value>
+    </data>
+    <data name="sistemaConteudoTbColunasEditar" xml:space="preserve">
+        <value>Editar Divisão de Colunas</value>
+    </data>
+    <data name="sistemaConteudoTbSWF" xml:space="preserve">
+        <value>Incluir SWF</value>
+    </data>
+    <data name="sistemaConteudoTbSWFEditar" xml:space="preserve">
+        <value>Editar SWF</value>
+    </data>
+
+    <data name="sistemaConteudoFormatacao" xml:space="preserve">
+        <value>Formatação</value>
+    </data>
+        <data name="sistemaConteudoFormatacao1" xml:space="preserve">
+            <value>Título</value>
+        </data>
+        <data name="sistemaConteudoFormatacao2" xml:space="preserve">
+            <value>Subtítulo</value>
+        </data>
+        <data name="sistemaConteudoFormatacao3" xml:space="preserve">
+            <value>Texto Corrido</value>
+        </data>
+        <data name="sistemaConteudoFormatacao4" xml:space="preserve">
+            <value>Tab/Recuo</value>
+        </data>
+        <data name="sistemaConteudoFormatacao7" xml:space="preserve">
+            <value>HTML</value>
+        </data>
+    <data name="sistemaConteudoAlinhamento" xml:space="preserve">
+        <value>Alinhamento do Texto</value>
+    </data>
+        <data name="sistemaConteudoAlinhamento3" xml:space="preserve">
+            <value>Esquerda</value>
+        </data>
+        <data name="sistemaConteudoAlinhamento2" xml:space="preserve">
+            <value>Centralizado</value>
+        </data>
+        <data name="sistemaConteudoAlinhamento1" xml:space="preserve">
+            <value>Direita</value>
+        </data>
+        <data name="sistemaConteudoAlinhamento4" xml:space="preserve">
+            <value>Justificado</value>
+        </data>
+    <data name="sistemaConteudoAlinhamentoImagem" xml:space="preserve">
+        <value>Alinhamento da Imagem</value>
+    </data>
+        <data name="sistemaConteudoAlinhamentoImagem3" xml:space="preserve">
+            <value>Esquerda</value>
+        </data>
+        <data name="sistemaConteudoAlinhamentoImagem2" xml:space="preserve">
+            <value>Centralizado</value>
+        </data>
+        <data name="sistemaConteudoAlinhamentoImagem1" xml:space="preserve">
+            <value>Direita</value>
+        </data>
+    <data name="sistemaConteudoNClassificacao" xml:space="preserve">
+        <value>Nº de Class.</value>
+    </data>
+    <data name="sistemaConteudoDimensaoImagem" xml:space="preserve">
+        <value>Manter Dimensões Originais</value>
+    </data>
+		<data name="sistemaConteudoDimensaoImagemSim" xml:space="preserve">
+			<value>Sim</value>
+		</data>
+		<data name="sistemaConteudoDimensaoImagemNao" xml:space="preserve">
+			<value>Não</value>
+		</data>
+    <data name="sistemaConteudoConteudo" xml:space="preserve">
+        <value>Conteúdo</value>
+    </data>
+    <data name="sistemaConteudoLegenda" xml:space="preserve">
+        <value>Legenda</value>
+    </data>
+    <data name="sistemaConteudoNColunas" xml:space="preserve">
+        <value>Nº de Colunas</value>
+    </data>
+		<data name="sistemaConteudoColunasEditar" xml:space="preserve">
+			<value>Incluir Conteúdo Coluna</value>
+		</data>
+    <data name="sistemaConteudoVideo" xml:space="preserve">
+        <value>Arquivo de Vídeo</value>
+    </data>
+    <data name="sistemaConteudoSWF" xml:space="preserve">
+        <value>SWF</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Produtos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaProdutosTitulo" xml:space="preserve">
+        <value>Inserir Obras</value>
+    </data>
+    <data name="sistemaProdutosTituloEditar" xml:space="preserve">
+        <value>Editar Obras</value>
+    </data>
+    <data name="sistemaProdutosTbProdutos" xml:space="preserve">
+        <value>Inserir Obra</value>
+    </data>
+    <data name="sistemaProdutosTbProdutosEditar" xml:space="preserve">
+        <value>Editar Obra</value>
+    </data>
+    <data name="sistemaProduto" xml:space="preserve">
+        <value>Título</value>
+    </data>
+    <data name="sistemaProdutosCodigo" xml:space="preserve">
+        <value>N. Ref.</value>
+    </data>
+    <data name="sistemaProdutosCadastroUsuario" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+    <data name="sistemaProdutosCadastroUsuarioSelecao" xml:space="preserve">
+        <value>Nenhum</value>
+    </data>
+    <data name="sistemaProdutosData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="sistemaProdutosTipo" xml:space="preserve">
+        <value>Tipo de Produto</value>
+    </data>
+    <data name="sistemaProdutosValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="sistemaProdutosPeso" xml:space="preserve">
+        <value>Peso</value>
+    </data>
+    <data name="sistemaProdutosStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="sistemaProdutosAtivacaoPromocoes" xml:space="preserve">
+        <value>Ativ. Prom.</value>
+    </data>
+    <data name="sistemaProdutosAtivacaoHome" xml:space="preserve">
+        <value>Ativ. Home</value>
+    </data>
+    <data name="sistemaProdutosAtivacaoHomeCategoria" xml:space="preserve">
+        <value>Ativ. Cat.</value>
+    </data>
+	
+    <data name="sistemaProdutosVinculados" xml:space="preserve">
+        <value>Produtos Vinculados</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Manutenção - Produtos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaProdutosManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Produtos</value>
+    </data>
+    <data name="sistemaProdutosManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Produtos - Editar</value>
+    </data>
+    <data name="sistemaProdutosManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sistemaProdutosManutencaoTbTipo" xml:space="preserve">
+        <value>Inserir Tipo de Produto</value>
+    </data>
+    <data name="sistemaProdutosManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sistemaProdutosManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaProdutosManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Publicações.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaPublicacoesTitulo" xml:space="preserve">
+        <value>Inserir Publicações</value>
+    </data>
+    <data name="sistemaPublicacoesTituloEditar" xml:space="preserve">
+        <value>Editar Publicações</value>
+    </data>
+    <data name="sistemaPublicacoesTbPublicacoes" xml:space="preserve">
+        <value>Inserir Publicação</value>
+    </data>
+    <data name="sistemaPublicacoesTbPublicacoesEditar" xml:space="preserve">
+        <value>Editar Publicação</value>
+    </data>
+    <data name="sistemaPublicacoes" xml:space="preserve">
+        <value>Título da Publicação</value>
+    </data>
+    <data name="sistemaPublicacoesData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="sistemaPublicacoesDataFinal" xml:space="preserve">
+        <value>Data Final</value>
+    </data>
+    <!--data name="sistemaPublicacoesTitulo" xml:space="preserve">
+        <value>Título</value>
+    </data-->
+    <data name="sistemaPublicacoesConteudoSimples" xml:space="preserve">
+        <value>Conteúdo</value>
+    </data>
+    <data name="sistemaPublicacoesFonte" xml:space="preserve">
+        <value>Fonte</value>
+    </data>
+    <data name="sistemaPublicacoesFonteLink" xml:space="preserve">
+        <value>Link da Fonte</value>
+    </data>
+    <data name="sistemaPublicacoesEditoria" xml:space="preserve">
+        <value>Editoria</value>
+    </data>
+    <data name="sistemaPublicacoesAtivacaoHome" xml:space="preserve">
+        <value>Ativ. Home</value>
+    </data>
+    <data name="sistemaPublicacoesAtivacaoHomeCategoria" xml:space="preserve">
+        <value>Ativ. Cat.</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Arquivos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaArquivos" xml:space="preserve">
+        <value>Inserir Arquivos</value>
+    </data>
+    <data name="sistemaArquivosEditar" xml:space="preserve">
+        <value>Editar Arquivos</value>
+    </data>
+    <data name="sistemaArquivosVisualizacao" xml:space="preserve">
+        <value>Visualização</value>
+    </data>
+    <data name="sistemaArquivosDuracao" xml:space="preserve">
+        <value>Duração</value>
+    </data>
+    <data name="sistemaArquivosDimensao" xml:space="preserve">
+        <value>Dimensão</value>
+    </data>
+    <data name="sistemaArquivosLegenda" xml:space="preserve">
+        <value>Título</value>
+    </data>
+    <data name="sistemaArquivosDescicao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Cadastro.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaCadastroTitulo" xml:space="preserve">
+        <value>Inserir Cadastros</value>
+    </data>
+    <data name="sistemaCadastroTituloEditar" xml:space="preserve">
+        <value>Editar Cadastros</value>
+    </data>
+    <data name="sistemaCadastroTituloArquivosComplementares" xml:space="preserve">
+        <value>Cadastro - Arquivos Complementares</value>
+    </data>
+    <data name="sistemaCadastroTbCadastro" xml:space="preserve">
+        <value>Inserir Novo Cadastro</value>
+    </data>
+    <data name="sistemaCadastroTbCadastroEditar" xml:space="preserve">
+        <value>Editar Cadastro</value>
+    </data>
+    <data name="sistemaCadastroData" xml:space="preserve">
+        <value>Data de Cadastro</value>
+    </data>
+    <data name="sistemaCadastroTipoCadastro" xml:space="preserve">
+        <value>Tipo de Cadastro</value>
+    </data>
+    <data name="sistemaCadastroAtividades" xml:space="preserve">
+        <value>Atividades</value>
+    </data>
+    <data name="sistemaCadastro" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+    <data name="sistemaCadastroTipo" xml:space="preserve">
+        <value>Tipo de Cadastro</value>
+    </data>
+    <data name="sistemaCadastroNome" xml:space="preserve">
+        <value>Nome</value>
+    </data>
+    <data name="sistemaCadastroSexo" xml:space="preserve">
+        <value>Sexo</value>
+    </data>
+        <data name="sistemaCadastroSexo1" xml:space="preserve">
+            <value>Masculino</value>
+        </data>
+        <data name="sistemaCadastroSexo2" xml:space="preserve">
+            <value>Feminino</value>
+        </data>
+    <data name="sistemaCadastroPfPj" xml:space="preserve">
+        <value>PF ou PJ</value>
+    </data>
+        <data name="sistemaCadastroPfPj1" xml:space="preserve">
+            <value>Pessoa Física</value>
+        </data>
+        <data name="sistemaCadastroPfPj2" xml:space="preserve">
+            <value>Pessoa Jurídica</value>
+        </data>
+    <data name="sistemaCadastroAltura" xml:space="preserve">
+        <value>Altura</value>
+    </data>
+        <data name="sistemaCadastroAlturaMedida" xml:space="preserve">
+            <value>m</value>
+        </data>
+    <data name="sistemaCadastroPeso" xml:space="preserve">
+        <value>Peso</value>
+    </data>
+        <data name="sistemaCadastroPesoMedida" xml:space="preserve">
+            <value>kg</value>
+        </data>
+    <data name="sistemaCadastroRazaoSocial" xml:space="preserve">
+        <value>Razão Social</value>
+    </data>
+    <data name="sistemaCadastroNomeFantasia" xml:space="preserve">
+        <value>Nome Fantasia</value>
+    </data>
+    <data name="sistemaCadastroDataNascimento" xml:space="preserve">
+        <value>Data de Nascimento</value>
+    </data>
+    <data name="sistemaCadastroDataCadastro" xml:space="preserve">
+        <value>Data de Cadastro</value>
+    </data>
+    <data name="sistemaCadastroCPF" xml:space="preserve">
+        <value>CPF</value>
+    </data>
+        <data name="sistemaCadastroCPFExistente" xml:space="preserve">
+            <value>CPF já existente em nosso banco de dados.</value>
+        </data>
+        <data name="sistemaCadastroCPFInvalido" xml:space="preserve">
+            <value>CPF inválido.</value>
+        </data>
+    <data name="sistemaCadastroRG" xml:space="preserve">
+        <value>RG</value>
+    </data>
+    <data name="sistemaCadastroCNPJ" xml:space="preserve">
+        <value>CNPJ</value>
+    </data>
+        <data name="sistemaCadastroCNPJExistente" xml:space="preserve">
+            <value>CNPJ já existente em nosso banco de dados.</value>
+        </data>
+        <data name="sistemaCadastroCNPJInvalido" xml:space="preserve">
+            <value>CNPJ inválido.</value>
+        </data>
+    
+    <data name="sistemaCadastroDocumento" xml:space="preserve">
+        <value>Documento</value>
+    </data>
+    <data name="sistemaCadastroInscricaoMunicipal" xml:space="preserve">
+        <value>Inscr. Municipal</value>
+    </data>
+    <data name="sistemaCadastroInscricaoEstadual" xml:space="preserve">
+        <value>Inscr. Estadual</value>
+    </data>
+    
+    <data name="sistemaCadastroEnderecoPrincipal" xml:space="preserve">
+        <value>Endereço</value>
+    </data>
+    <data name="sistemaCadastroEnderecoNumeroPrincipal" xml:space="preserve">
+        <value>Número</value>
+    </data>
+    <data name="sistemaCadastroEnderecoComplementoPrincipal" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaCadastroBairroPrincipal" xml:space="preserve">
+        <value>Bairro</value>
+    </data>
+    <data name="sistemaCadastroCidadePrincipal" xml:space="preserve">
+        <value>Cidade</value>
+    </data>
+    <data name="sistemaCadastroEstadoPrincipal" xml:space="preserve">
+        <value>Estado</value>
+    </data>
+    <data name="sistemaCadastroPaisPrincipal" xml:space="preserve">
+        <value>País</value>
+    </data>
+    <data name="sistemaCadastroCEPPrincipal" xml:space="preserve">
+        <value>CEP</value>
+    </data>
+
+    <data name="sistemaCadastroPontoReferencia" xml:space="preserve">
+        <value>Ponto de Referência</value>
+    </data>
+    <data name="sistemaCadastroEmailPrincipal" xml:space="preserve">
+        <value>e-mail</value>
+    </data>
+		<data name="sistemaCadastroEmailPrincipalVerificacaoDuplicadoAlerta1" xml:space="preserve">
+			<value>
+				Alerta para e-mail duplicado. O e-mail informado já existe em nosso banco de dados.
+			</value>
+		</data>
+    <data name="sistemaCadastroTel" xml:space="preserve">
+        <value>Tel</value>
+    </data>
+    <data name="sistemaCadastroCel" xml:space="preserve">
+        <value>Cel</value>
+    </data>
+    <data name="sistemaCadastroFax" xml:space="preserve">
+        <value>Fax</value>
+    </data>
+    <data name="sistemaCadastroSitePrincipal" xml:space="preserve">
+        <value>Site</value>
+    </data>
+    <data name="sistemaCadastroNFuncionarios" xml:space="preserve">
+        <value>Nº de Funcionários</value>
+    </data>
+    <data name="sistemaCadastroObs" xml:space="preserve">
+        <value>OBS</value>
+    </data>
+    <data name="sistemaCadastroAtivacaoMalaDireta" xml:space="preserve">
+        <value>Ativação Mala Direta</value>
+    </data>
+    <data name="sistemaCadastroUsuario" xml:space="preserve">
+        <value>Usuário</value>
+    </data>
+    <data name="sistemaCadastroSenha" xml:space="preserve">
+        <value>Senha</value>
+    </data>
+    <data name="sistemaCadastroStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="sistemaCadastroLogo" xml:space="preserve">
+        <value>Logo</value>
+    </data>
+    <data name="sistemaCadastroBanner" xml:space="preserve">
+        <value>Banner</value>
+    </data>
+    <data name="sistemaCadastroMapaImagem" xml:space="preserve">
+        <value>Mapa (Imagem)</value>
+    </data>
+    <data name="sistemaCadastroMapaOnline" xml:space="preserve">
+        <value>Mapa On-line</value>
+    </data>
+    <data name="sistemaCadastroApresentacao" xml:space="preserve">
+        <value>Apresentação</value>
+    </data>
+    <data name="sistemaCadastroServicos" xml:space="preserve">
+        <value>Serviços</value>
+    </data>
+    <data name="sistemaCadastroPromocoes" xml:space="preserve">
+        <value>Promoções</value>
+    </data>
+    <data name="sistemaCadastroCondicoesComerciais" xml:space="preserve">
+        <value>Condições Comerciais</value>
+    </data>
+    <data name="sistemaCadastroFormasPagamento" xml:space="preserve">
+        <value>Formas de Pagamento</value>
+    </data>
+    <data name="sistemaCadastroHorarioAtendimento" xml:space="preserve">
+        <value>Horário de Atendimento</value>
+    </data>
+    <data name="sistemaCadastroSituacaoAtual" xml:space="preserve">
+        <value>Situação Atual</value>
+    </data>
+
+    <data name="sistemaCadastroAdministrar" xml:space="preserve">
+        <value>Administrar</value>
+    </data>
+        <data name="sistemaCadastroAdministrarTitulo" xml:space="preserve">
+            <value>Administração de Cadastro</value>
+        </data>
+        <data name="sistemaCadastroAdministrarTbDetalhes" xml:space="preserve">
+            <value>Informações Principais</value>
+        </data>
+        <data name="sistemaCadastroAdministrarFuncoes" xml:space="preserve">
+            <value>Funções</value>
+        </data>
+        <data name="sistemaCadastroAdministrarEnviarConteudo" xml:space="preserve">
+            <value>Enviar Conteúdo Padrão</value>
+        </data>
+        <data name="sistemaCadastroAdministrarPedidosRealizados" xml:space="preserve">
+            <value>Pedidos Realizados</value>
+        </data>
+		
+        <data name="sistemaCadastroAdministrarPedidosEmissaoAvulsa" xml:space="preserve">
+            <value>Emissão de Cobrança Avulsa</value><!--Não está em uso-->
+        </data>
+        <data name="sistemaCadastroAdministrarPedidosNovoPedido" xml:space="preserve">
+            <value>Novo Pedido</value>
+        </data>
+
+    <data name="sistemaCadastroLogoInserir" xml:space="preserve">
+        <value>Inserir Logo</value>
+    </data>
+    <data name="sistemaCadastroMapaInserir" xml:space="preserve">
+        <value>Inserir Mapa</value>
+    </data>
+    <data name="sistemaCadastroBannerInserir" xml:space="preserve">
+        <value>Inserir Banner</value>
+    </data>
+    <data name="sistemaCadastroAtivacaoDestaque" xml:space="preserve">
+        <value>Dest.</value>
+    </data>
+    <data name="sistemaCadastroAtivacaoMalaDireta" xml:space="preserve">
+        <value>Mala Direta</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Manutenção - Cadastro.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaCadastroManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Cadastro</value>
+    </data>
+    <data name="sistemaCadastroManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Cadastro - Editar</value>
+    </data>
+    <data name="sistemaCadastroManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sistemaCadastroManutencaoTbAtividades" xml:space="preserve">
+        <value>Inserir Atividades</value>
+    </data>
+    <data name="sistemaCadastroManutencaoTbTipo" xml:space="preserve">
+        <value>Inserir Tipo de Cadastro</value>
+    </data>
+    <data name="sistemaCadastroManutencaoTbAtividade" xml:space="preserve">
+        <value>Inserir Atividade</value>
+    </data>
+    <data name="sistemaCadastroManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sistemaCadastroManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaCadastroManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Histórico.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaHistoricoTitulo" xml:space="preserve">
+        <value>Ficha Técnica de Tratamento</value>
+    </data>
+    <data name="sistemaHistoricoEditarTitulo" xml:space="preserve">
+        <value>Editar Ficha Técnica de Tratamento</value>
+    </data>
+
+    <data name="sistemaHistoricoTbHistorico" xml:space="preserve">
+        <value>Inserir Ficha Técnica de Tratamento</value>
+    </data>
+    <data name="sistemaHistoricoTbHistoricoEditar" xml:space="preserve">
+        <value>Editar Ficha Técnica de Tratamento</value>
+    </data>
+	
+    <data name="sistemaHistoricoAssunto" xml:space="preserve">
+        <value>Tratamento</value>
+    </data>
+    <data name="sistemaHistorico" xml:space="preserve">
+        <value>Palavras-chave</value>
+    </data>
+    <data name="sistemaHistoricoData" xml:space="preserve">
+        <value>Entrada</value>
+    </data>
+
+    <data name="sistemaHistoricoCadastroVinculado" xml:space="preserve">
+        <value>Cadastro Principal</value>
+    </data>
+    <data name="sistemaHistoricoCadastroUsuario" xml:space="preserve">
+        <value>Usuário</value>
+    </data>
+    <data name="sistemaHistoricoCadastroUsuarioSelecao" xml:space="preserve">
+        <value>Nenhum</value>
+    </data>
+
+    <data name="sistemaHistoricoStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="sistemaHistoricoManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+	
+    <data name="sistemaHistoricoProtocolo" xml:space="preserve">
+        <value>Protocolo</value>
+    </data>
+    <data name="sistemaHistoricoInteracao" xml:space="preserve">
+        <value>Interação</value>
+    </data>
+		<data name="sistemaHistoricoInteracaoTitulo" xml:space="preserve">
+			<value>Interações</value>
+		</data>
+		<data name="sistemaHistoricoInteracaoEditarTitulo" xml:space="preserve">
+			<value>Editar Interações</value>
+		</data>
+	
+		<data name="sistemaHistoricoInteracaoTbHistoricoInteracao" xml:space="preserve">
+			<value>Inserir Interação</value>
+		</data>
+		<data name="sistemaHistoricoInteracaoTbHistoricoInteracaoEditar" xml:space="preserve">
+			<value>Editar Interação</value>
+		</data>
+
+		<data name="sistemaHistoricoInteracaoAssunto" xml:space="preserve">
+			<value>Assunto</value>
+		</data>
+		<data name="sistemaHistoricoInteracaoInteracao" xml:space="preserve">
+			<value>Interação</value>
+		</data>
+		
+	<data name="sistemaHistoricoEnvioAssuntoEmail" xml:space="preserve">
+		<value>Registro de Tratamento: </value>
+	</data>
+	<data name="sistemaHistoricoInteracaoEnvioAssuntoEmail" xml:space="preserve">
+		<value>Interação do Registro do Tratamento: </value>
+	</data>
+
+	<data name="sistemaHistoricoInteracaoEnvioEmailLink01" xml:space="preserve">
+		<value>Para visualizar este registro, acesse: </value>
+	</data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Histórico.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaHistoricoManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Tratamento</value>
+    </data>
+    <data name="sistemaHistoricoManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Tratamento - Editar</value>
+    </data>
+    <data name="sistemaHistoricoManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sistemaHistoricoManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sistemaHistoricoManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaHistoricoManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Tarefas.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaTarefasTitulo" xml:space="preserve">
+        <value>Tarefas</value>
+    </data>
+    <data name="sistemaTarefasEditarTitulo" xml:space="preserve">
+        <value>Editar Tarefas</value>
+    </data>
+
+    <data name="sistemaTarefasTbTarefas" xml:space="preserve">
+        <value>Inserir Tarefa</value>
+    </data>
+    <data name="sistemaTarefasTbTarefasEditar" xml:space="preserve">
+        <value>Editar Tarefa</value>
+    </data>
+    <data name="sistemaTarefasData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="sistemaTarefasDataHorario" xml:space="preserve">
+        <value>Horário</value>
+    </data>
+    <data name="sistemaTarefasDataFinal" xml:space="preserve">
+        <value>Data Final</value>
+    </data>
+    <data name="sistemaTarefas" xml:space="preserve">
+        <value>Tarefa</value>
+    </data>
+    <data name="sistemaTarefasDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+
+    <data name="sistemaTarefasCadastroVinculado" xml:space="preserve">
+        <value>Cadastro Principal</value>
+    </data>
+    <data name="sistemaTarefasCadastroUsuario" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+    <data name="sistemaTarefasCadastroUsuarioSelecao" xml:space="preserve">
+        <value>Nenhum</value>
+    </data>
+
+    <data name="sistemaTarefasStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="sistemaTarefasManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+	
+    <data name="sistemaTarefasLembreteEnvio" xml:space="preserve">
+        <value>Enviar Lembrete</value>
+    </data>
+		<data name="sistemaTarefasLembreteEnvioAssuntoEmail" xml:space="preserve">
+			<value>Lembrete: </value>
+		</data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Contatos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaContatosTitulo" xml:space="preserve">
+        <value>Contatos</value>
+    </data>
+    <data name="sistemaContatosEditarTitulo" xml:space="preserve">
+        <value>Editar Contatos</value>
+    </data>
+
+    <data name="sistemaContatosTbContato" xml:space="preserve">
+        <value>Inserir Contato</value>
+    </data>
+    <data name="sistemaContatosTbContatoEditar" xml:space="preserve">
+        <value>Editar Contatos</value>
+    </data>
+	
+    <data name="sistemaContatosFilial" xml:space="preserve">
+        <value>Filial</value>
+    </data>
+    <data name="sistemaContatosNome" xml:space="preserve">
+        <value>Nome</value>
+    </data>
+    <data name="sistemaContatosDepartamento" xml:space="preserve">
+        <value>Departamento</value>
+    </data>
+    <data name="sistemaContatosTelDDD" xml:space="preserve">
+        <value>DDD Tel.</value>
+    </data>
+    <data name="sistemaContatosTel" xml:space="preserve">
+        <value>Tel.</value>
+    </data>
+    <data name="sistemaContatosCelDDD" xml:space="preserve">
+        <value>DDD Cel.</value>
+    </data>
+    <data name="sistemaContatosCel" xml:space="preserve">
+        <value>Cel.</value>
+    </data>
+    <data name="sistemaContatosEMail" xml:space="preserve">
+        <value>e-mail</value>
+    </data>
+    <data name="sistemaContatosSenha" xml:space="preserve">
+        <value>Senha</value>
+    </data>
+    <data name="sistemaContatosOBS" xml:space="preserve">
+        <value>Obs</value>
+    </data>
+    <data name="sistemaContatosEndereco" xml:space="preserve">
+        <value>Endereço</value>
+    </data>
+    <data name="sistemaContatosEnderecoNumero" xml:space="preserve">
+        <value>Número</value>
+    </data>
+    <data name="sistemaContatosEnderecoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaContatosBairro" xml:space="preserve">
+        <value>Bairro</value>
+    </data>
+    <data name="sistemaContatosCidade" xml:space="preserve">
+        <value>Cidade</value>
+    </data>
+    <data name="sistemaContatosEstado" xml:space="preserve">
+        <value>Estado</value>
+    </data>
+    <data name="sistemaContatosPais" xml:space="preserve">
+        <value>País</value>
+    </data>
+    <data name="sistemaContatosPontoReferencia" xml:space="preserve">
+        <value>Ponto de Referência</value>
+    </data>
+	
+    <data name="sistemaCadastroConteudoModelos" xml:space="preserve">
+        <value>Modelos de Conteúdo</value>
+    </data>
+    <data name="sistemaCadastroConteudoModelosInstrucoes" xml:space="preserve">
+        <value>Instruções Campos Banco de Dados</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Contas bancárias.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaCadastroContasBancariasTitulo" xml:space="preserve">
+        <value>Contas Bancárias</value>
+    </data>
+    <data name="sistemaCadastroContasBancariasEditarTitulo" xml:space="preserve">
+        <value>Editar Contas Bancárias</value>
+    </data>
+
+    <data name="sistemaCadastroContasBancariasTbContasBancarias" xml:space="preserve">
+        <value>Inserir Conta Bancária</value>
+    </data>
+    <data name="sistemaCadastroContasBancariasTbContasBancariasEditar" xml:space="preserve">
+        <value>Editar Conta Bancária</value>
+    </data>
+	
+	
+    <data name="sistemaCadastroContasBancariasTituloConta" xml:space="preserve">
+        <value>Título da Conta</value>
+    </data>
+    <data name="sistemaCadastroContasBancariasNomeTitular" xml:space="preserve">
+        <value>Nome do Titular</value>
+    </data>
+    <data name="sistemaCadastroContasBancariasCpfCnpj" xml:space="preserve">
+        <value>CPF/CNPJ</value>
+    </data>
+    <data name="sistemaCadastroContasBancariasNBanco" xml:space="preserve">
+        <value>Nº do Banco</value>
+    </data>
+		<data name="sistemaCadastroContasBancariasNBancoInstrucao01" xml:space="preserve">
+			<value>0 - Não informado.</value>
+		</data>
+    <data name="sistemaCadastroContasBancariasNAgencia" xml:space="preserve">
+        <value>Nº da Agência</value>
+    </data>
+    <data name="sistemaCadastroContasBancariasDigitoAgencia" xml:space="preserve">
+        <value>Dígito da Agência</value>
+    </data>
+    <data name="sistemaCadastroContasBancariasNConta" xml:space="preserve">
+        <value>Nº da Conta</value>
+    </data>
+    <data name="sistemaCadastroContasBancariasDigitoConta" xml:space="preserve">
+        <value>Dígito da Conta</value>
+    </data>
+    <data name="sistemaCadastroContasBancariasTipoConta" xml:space="preserve">
+        <value>Tipo de Conta</value>
+    </data>
+		<data name="sistemaCadastroContasBancariasTipoConta1" xml:space="preserve">
+			<value>Conta Corrente</value>
+		</data>
+		<data name="sistemaCadastroContasBancariasTipoConta2" xml:space="preserve">
+			<value>Conta Poupança</value>
+		</data>
+    <data name="sistemaCadastroContasBancariasOBS" xml:space="preserve">
+        <value>OBS.</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Pedidos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaPedidosTitulo" xml:space="preserve">
+        <value>Pedidos</value>
+    </data>
+    <data name="sistemaPedidosTituloEditar" xml:space="preserve">
+        <value>Editar Pedidos</value>
+    </data>
+    <data name="sistemaPedidosTbPedidos" xml:space="preserve">
+        <value>Inserir Pedido</value>
+    </data>
+    <data name="sistemaPedidosTbPedidosEditar" xml:space="preserve">
+        <value>Editar Pedido</value>
+    </data>
+    <data name="sistemaPedidosTituloDetalhes" xml:space="preserve">
+        <value>Pedidos - Detalhes</value>
+    </data>
+
+    <data name="sistemaPedidosCadastroCliente" xml:space="preserve">
+        <value>Cliente</value>
+    </data>
+    <data name="sistemaPedidosNumero" xml:space="preserve">
+        <value>Nº do Pedido</value>
+    </data>
+    <data name="sistemaPedidosTipoPagamento" xml:space="preserve">
+        <value>Tipo de Pagamento</value>
+    </data>
+		<data name="sistemaPedidosTipoPagamentoDeposito" xml:space="preserve">
+			<value>Depósito</value>
+		</data>
+		<data name="sistemaPedidosTipoPagamentoBoletoManual" xml:space="preserve">
+			<value>Boleto Manual</value>
+		</data>
+    <data name="sistemaPedidosData" xml:space="preserve">
+        <value>Data do Pedido</value>
+    </data>
+		<data name="sistemaPedidosDataClassificacaoDesc" xml:space="preserve">
+			<value>Data Pedido Descendente</value>
+		</data>
+		<data name="sistemaPedidosDataClassificacaoAsc" xml:space="preserve">
+			<value>Data Pedido Ascendente</value>
+		</data>
+    <data name="sistemaPedidosDataPagamento" xml:space="preserve">
+        <value>Data do Pagamento</value>
+    </data>
+    <data name="sistemaPedidosDataEntrega" xml:space="preserve">
+        <value>Data da Entrega</value>
+    </data>
+    <data name="sistemaPedidosTipoEntrega" xml:space="preserve">
+        <value>Tipo de Entrega</value>
+    </data>
+    <data name="sistemaPedidosDataValidade" xml:space="preserve">
+        <value>Data de Validade</value>
+    </data>
+	
+    <data name="sistemaPedidosValorPedido" xml:space="preserve">
+        <value>Valor do Pedido</value>
+    </data>
+    <data name="sistemaPedidosValorFrete" xml:space="preserve">
+        <value>Valor do Frete</value>
+    </data>
+    <data name="sistemaPedidosValorDesconto" xml:space="preserve">
+        <value>Valor Desconto</value>
+    </data>
+    <data name="sistemaPedidosValorAcrescimo" xml:space="preserve">
+        <value>Valor Acréscimo</value>
+    </data>
+    <data name="sistemaPedidosValorTotal" xml:space="preserve">
+        <value>Valor Total</value>
+    </data>
+    <data name="sistemaPedidosPesoTotal" xml:space="preserve">
+        <value>Peso Total</value>
+    </data>
+	
+    <data name="sistemaPedidosObs" xml:space="preserve">
+        <value>Obs</value>
+    </data>
+    <data name="sistemaPedidosStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="sistemaPedidosManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+
+    <data name="sistemaPedidosEnviarVoucher" xml:space="preserve">
+        <value>Enviar Voucher</value>
+    </data>
+    <data name="sistemaPedidosEnviar" xml:space="preserve">
+        <value>Enviar Pedido</value>
+    </data>
+
+    <data name="sistemaPedidosInformacoes" xml:space="preserve">
+        <value>Informações Sobre o Pedido</value>
+    </data>
+    <data name="sistemaPedidosInformacoesCliente" xml:space="preserve">
+        <value>Informações Sobre o Cliente</value>
+    </data>
+    <data name="sistemaPedidosInformacoesClienteEndereco" xml:space="preserve">
+        <value>Endereço de Cadastro</value>
+    </data>
+
+    <data name="sistemaPedidosListagemItens" xml:space="preserve">
+        <value>Listagem de Itens</value>
+    </data>
+
+    <!--Itens.-->
+    <data name="sistemaPedidosItensTituloEditar" xml:space="preserve">
+        <value>Editar Itens</value>
+    </data>
+    <data name="sistemaPedidosItensTbPedidosEditar" xml:space="preserve">
+        <value>Editar Item</value>
+    </data>
+	
+    <data name="sistemaPedidosItensItem" xml:space="preserve">
+        <value>Item Número</value>
+    </data>
+    <data name="sistemaPedidosItensCodigo" xml:space="preserve">
+        <value>Cód.</value>
+    </data>
+    <data name="sistemaPedidosItensDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="sistemaPedidosItensQuantidade" xml:space="preserve">
+        <value>Quantidade</value>
+    </data>
+    <data name="sistemaPedidosItensValorUnitario" xml:space="preserve">
+        <value>Valor Unit.</value>
+    </data>
+    <data name="sistemaPedidosItensValorDesconto" xml:space="preserve">
+        <value>Valor Desconto</value>
+    </data>
+    <data name="sistemaPedidosItensValorAcrescimo" xml:space="preserve">
+        <value>Valor Acréscimo</value>
+    </data>
+    <data name="sistemaPedidosItensValorTotal" xml:space="preserve">
+        <value>Valor Total</value>
+    </data>
+    <data name="sistemaPedidosItensValorSubtotal" xml:space="preserve">
+        <value>Subtotal</value>
+    </data>
+    <data name="sistemaPedidosItensOBS" xml:space="preserve">
+        <value>Obs.</value>
+    </data>
+	
+    <data name="sistemaPedidosItensAvulso" xml:space="preserve">
+        <value>Avulso</value>
+    </data>
+    <data name="sistemaPedidosItensAvulsoIncluir" xml:space="preserve">
+        <value>Incluir Itens</value>
+    </data>
+    <data name="sistemaPedidosItensProdutosIncluir" xml:space="preserve">
+        <value>Incluir Produtos Cadastrados</value>
+    </data>
+    <data name="sistemaPedidosParcelasIncluir" xml:space="preserve">
+        <value>Inclusão de Parcelas</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Pedidos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaPedidosManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Pedidos</value>
+    </data>
+    <data name="sistemaPedidosManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Pedidos - Editar</value>
+    </data>
+    <data name="sistemaPedidosManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sistemaPedidosManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sistemaPedidosManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaPedidosManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+	
+    <data name="sistemaPedidosParcelasManutencaoTbTipo" xml:space="preserve">
+        <value>Inserir Tipo (Pedidos - Parcelas)</value>
+    </data>
+    <data name="sistemaPedidosParcelasManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status (Pedidos - Parcelas)</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Pedidos - Parcelas.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaPedidosParcelasTitulo" xml:space="preserve">
+        <value>Pedidos - Parcelas</value>
+    </data>
+    <data name="sistemaPedidosParcelasTituloEditar" xml:space="preserve">
+        <value>Editar Parcelas</value>
+    </data>
+    <data name="sistemaPedidosParcelasTbParcelas" xml:space="preserve">
+        <value>Inserir Parcela</value>
+    </data>
+    <data name="sistemaPedidosParcelasTbParcelasEditar" xml:space="preserve">
+        <value>Editar Parcela</value>
+    </data>
+
+    <data name="sistemaPedidosParcelasNParcela" xml:space="preserve">
+        <value>Nº da Parcela</value>
+    </data>
+    <data name="sistemaPedidosParcelasDataVencimento" xml:space="preserve">
+        <value>Data de Vencimento</value>
+    </data>
+    <data name="sistemaPedidosParcelasDataPagamento" xml:space="preserve">
+        <value>Data do Pagamento</value>
+    </data>
+    <data name="sistemaPedidosParcelasValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="sistemaPedidosParcelasValorDesconto" xml:space="preserve">
+        <value>Valor Desconto</value>
+    </data>
+    <data name="sistemaPedidosParcelasValorAcrescimo" xml:space="preserve">
+        <value>Valor Acréscimo</value>
+    </data>
+    <data name="sistemaPedidosParcelasValorTotal" xml:space="preserve">
+        <value>Valor Total</value>
+    </data>
+    <data name="sistemaPedidosParcelasTipo" xml:space="preserve">
+        <value>Tipo de Parcela</value>
+    </data>
+    <data name="sistemaPedidosParcelasStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <!--**************************************************************************************-->
+
+	
+    <!--Orçamentos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaOrcamentosTitulo" xml:space="preserve">
+        <value>Orçamentos</value>
+    </data>
+    <data name="sistemaOrcamentosTituloEditar" xml:space="preserve">
+        <value>Editar Orçamentos</value>
+    </data>
+    <data name="sistemaOrcamentosTbOrcamentosEditar" xml:space="preserve">
+        <value>Editar Orçamento</value>
+    </data>
+    <data name="sistemaOrcamentosTituloDetalhes" xml:space="preserve">
+        <value>Orçamentos - Detalhes</value>
+    </data>
+
+    <data name="sistemaOrcamentosCadastroCliente" xml:space="preserve">
+        <value>Cliente</value>
+    </data>
+    <data name="sistemaOrcamentosNumero" xml:space="preserve">
+        <value>Nº do Orçamento</value>
+    </data>
+    <data name="sistemaOrcamentosItensQuantidade" xml:space="preserve">
+        <value>Quantidade</value>
+    </data>
+		<data name="sistemaOrcamentosItensQuantidadeA" xml:space="preserve">
+			<value>Qtd.</value>
+		</data>
+    <data name="sistemaOrcamentosItensValorSubtotal" xml:space="preserve">
+        <value>Subtotal</value>
+    </data>
+
+    <data name="sistemaOrcamentosData" xml:space="preserve">
+        <value>Data do Orçamento</value>
+    </data>
+		<data name="sistemaOrcamentosDataClassificacaoDesc" xml:space="preserve">
+			<value>Data Orçamento Descendente</value>
+		</data>
+		<data name="sistemaOrcamentosDataClassificacaoAsc" xml:space="preserve">
+			<value>Data Orçamento Ascendente</value>
+		</data>
+    <data name="sistemaOrcamentosDataEntrega" xml:space="preserve">
+        <value>Data da Entrega</value>
+    </data>
+    <data name="sistemaOrcamentosTipoEntrega" xml:space="preserve">
+        <value>Tipo de Entrega</value>
+    </data>
+    <data name="sistemaOrcamentosValorOrcamento" xml:space="preserve">
+        <value>Valor do Orçamento</value>
+    </data>
+    <data name="sistemaOrcamentosValorFrete" xml:space="preserve">
+        <value>Valor do Frete</value>
+    </data>
+    <data name="sistemaOrcamentosValorTotal" xml:space="preserve">
+        <value>Valor Total</value>
+    </data>
+    <data name="sistemaOrcamentosPesoTotal" xml:space="preserve">
+        <value>Peso Total</value>
+    </data>
+    <data name="sistemaOrcamentosObs" xml:space="preserve">
+        <value>Obs</value>
+    </data>
+    <data name="sistemaOrcamentosStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="sistemaOrcamentosManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+
+    <data name="sistemaOrcamentosEnviar" xml:space="preserve">
+        <value>Enviar Orçamento</value>
+    </data>
+
+    <data name="sistemaOrcamentosInformacoes" xml:space="preserve">
+        <value>Informações Sobre o Orçamento</value>
+    </data>
+    <data name="sistemaOrcamentosInformacoesCliente" xml:space="preserve">
+        <value>Informações Sobre o Cliente</value>
+    </data>
+    <data name="sistemaOrcamentosInformacoesClienteEndereco" xml:space="preserve">
+        <value>Endereço de Cadastro</value>
+    </data>
+
+    <data name="sistemaOrcamentosListagemItens" xml:space="preserve">
+        <value>Listagem de Itens</value>
+    </data>
+	
+
+    <!--Orçamento Itens.-->
+    <data name="sistemaOrcamentosItensTitulo" xml:space="preserve">
+        <value>Itens do Orçamento</value>
+    </data>
+    <data name="sistemaOrcamentosItensTituloEditar" xml:space="preserve">
+        <value>Editar Itens</value>
+    </data>
+    <data name="sistemaOrcamentosItensTbOrcamentoItens" xml:space="preserve">
+        <value>Inserir Itens</value>
+    </data>
+    <data name="sistemaOrcamentosItensTbOrcamentosItensEditar" xml:space="preserve">
+        <value>Editar Item</value>
+    </data>
+	
+    <data name="sistemaOrcamentosItensTitulo" xml:space="preserve">
+        <value>Título</value>
+    </data>
+    <data name="sistemaOrcamentosItensDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+	
+    <data name="sistemaOrcamentosItensVoltar" xml:space="preserve">
+        <value>Voltar Para Edição do Orçamento</value>
+    </data>
+	
+    <!--Orçamento Fichas.-->
+    <data name="sistemaOrcamentosFichasTitulo" xml:space="preserve">
+        <value>Fichas</value>
+    </data>
+    <data name="sistemaOrcamentosFichasTituloEditar" xml:space="preserve">
+        <value>Editar Fichas</value>
+    </data>
+    <data name="sistemaOrcamentosFichasTbOrcamentoFichas" xml:space="preserve">
+        <value>Inserir Ficha</value>
+    </data>
+    <data name="sistemaOrcamentosFichasTbOrcamentosFichasEditar" xml:space="preserve">
+        <value>Editar Ficha</value>
+    </data>
+	
+    <data name="sistemaOrcamentosFichasData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="sistemaOrcamentosFichas" xml:space="preserve">
+        <value>Título</value>
+    </data>
+    <data name="sistemaOrcamentosFichasOBS" xml:space="preserve">
+        <value>OBS</value>
+    </data>
+	
+    <data name="sistemaOrcamentosFichasImportar" xml:space="preserve">
+        <value>Importar Fichas</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Veículos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaVeiculosTitulo" xml:space="preserve">
+        <value>Inserir Veículos</value>
+    </data>
+    <data name="sistemaVeiculosTituloEditar" xml:space="preserve">
+        <value>Editar Veículos</value>
+    </data>
+    <data name="sistemaVeiculosTbVeiculos" xml:space="preserve">
+        <value>Inserir Veículo</value>
+    </data>
+    <data name="sistemaVeiculosTbVeiculosEditar" xml:space="preserve">
+        <value>Editar Veículo</value>
+    </data>
+	
+    <data name="sistemaVeiculosCadastroUsuario" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+		<!--data name="sistemaVeiculosCadastroUsuarioSelecao" xml:space="preserve">
+			<value>Nenhum</value>
+		</data-->
+    <data name="sistemaVeiculosModalidade" xml:space="preserve">
+        <value>Modalidade</value>
+    </data>
+		<data name="sistemaVeiculosModalidade0" xml:space="preserve">
+			<value>Indefinido</value>
+		</data>
+		<data name="sistemaVeiculosModalidade1" xml:space="preserve">
+			<value>Novo</value>
+		</data>
+		<data name="sistemaVeiculosModalidade2" xml:space="preserve">
+			<value>Semi-novo</value>
+		</data>
+    <data name="sistemaVeiculosDataPublicacao" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="sistemaVeiculosCodigo" xml:space="preserve">
+        <value>Cod.</value>
+    </data>
+    <data name="sistemaVeiculo" xml:space="preserve">
+        <value>Veículo</value>
+    </data>
+    <data name="sistemaVeiculosDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+	
+    <data name="sistemaVeiculosPortas" xml:space="preserve">
+        <value>Portas</value>
+    </data>
+		<data name="sistemaVeiculosPortas0" xml:space="preserve">
+			<value>Não Aplicável</value>
+		</data>
+    <data name="sistemaVeiculosQuilometragem" xml:space="preserve">
+        <value>Quilometragem</value>
+    </data>
+		<data name="sistemaVeiculosQuilometragemDescricao01" xml:space="preserve">
+			<value>Formato 1000 (0 - Não Informado)</value>
+		</data>
+    <data name="sistemaVeiculosPlaca" xml:space="preserve">
+        <value>Placa</value>
+    </data>
+        <data name="sistemaVeiculosPlacaExistente" xml:space="preserve">
+            <value>Placa já existente em nosso banco de dados.</value>
+        </data>
+    <data name="sistemaVeiculosAnoFabricacao" xml:space="preserve">
+        <value>Ano Fabricação</value>
+    </data>
+    <data name="sistemaVeiculosAnoModelo" xml:space="preserve">
+        <value>Ano Modelo</value>
+    </data>
+	
+    <data name="sistemaVeiculosVeiculoEndereco" xml:space="preserve">
+        <value>Endereço</value>
+    </data>
+    <data name="sistemaVeiculosVeiculoEnderecoNumero" xml:space="preserve">
+        <value>Número</value>
+    </data>
+    <data name="sistemaVeiculosVeiculoEnderecoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaVeiculosVeiculoBairro" xml:space="preserve">
+        <value>Bairro</value>
+    </data>
+    <data name="sistemaVeiculosVeiculoCidade" xml:space="preserve">
+        <value>Cidade</value>
+    </data>
+    <data name="sistemaVeiculosVeiculoEstado" xml:space="preserve">
+        <value>Estado</value>
+    </data>
+    <data name="sistemaVeiculosVeiculoPais" xml:space="preserve">
+        <value>País</value>
+    </data>
+    <data name="sistemaVeiculosVeiculoCEP" xml:space="preserve">
+        <value>CEP</value>
+    </data>
+	
+    <data name="sistemaVeiculosContato" xml:space="preserve">
+        <value>Contato</value>
+    </data>
+    <data name="sistemaVeiculosEMail" xml:space="preserve">
+        <value>e-mail</value>
+    </data>
+    <data name="sistemaVeiculosLinkExterno" xml:space="preserve">
+        <value>Link Externo</value>
+    </data>
+    <data name="sistemaVeiculosValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+
+    <data name="sistemaVeiculosAtivacaoPromocoes" xml:space="preserve">
+        <value>Ativ. Prom.</value>
+    </data>
+    <data name="sistemaVeiculosAtivacaoHome" xml:space="preserve">
+        <value>Ativ. Home</value>
+    </data>
+    <data name="sistemaVeiculosAtivacaoHomeCategoria" xml:space="preserve">
+        <value>Ativ. Cat.</value>
+    </data>
+    <data name="sistemaVeiculosAtivacaoInfoCadastro" xml:space="preserve">
+        <value>Ativação Informações Cadastrais</value>
+    </data>
+		<data name="sistemaVeiculosAtivacaoInfoCadastroA" xml:space="preserve">
+			<value>Ativ. Info. Cad.</value>
+		</data>
+    <data name="sistemaVeiculosTipo" xml:space="preserve">
+        <value>Tipo de Veículo</value>
+    </data>
+    <data name="sistemaVeiculosStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Manutenção - Veiculos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaVeiculosManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Veículos</value>
+    </data>
+    <data name="sistemaVeiculosManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Veículos - Editar</value>
+    </data>
+    <data name="sistemaVeiculosManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sistemaVeiculosManutencaoTbTipo" xml:space="preserve">
+        <value>Inserir Tipo de Veículo</value>
+    </data>
+    <data name="sistemaVeiculosManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sistemaVeiculosManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaVeiculosManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+
+	
+    <!--Afiliações.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaAfiliacoesTitulo" xml:space="preserve">
+        <value>Inserir Afiliações</value>
+    </data>
+    <data name="sistemaAfiliacoesTituloEditar" xml:space="preserve">
+        <value>Editar Afiliações</value>
+    </data>
+    <data name="sistemaAfiliacoesTbAfiliacao" xml:space="preserve">
+        <value>Inserir Afiliação</value>
+    </data>
+    <data name="sistemaAfiliacoesTbAfiliacaoEditar" xml:space="preserve">
+        <value>Editar Afiliação</value>
+    </data>
+
+    <data name="sistemaAfiliacoesAfiliacao" xml:space="preserve">
+        <value>Afiliação</value>
+    </data>
+    <data name="sistemaAfiliacoesDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="sistemaAfiliacoesValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="sistemaAfiliacoesTipoCobranca" xml:space="preserve">
+        <value>Tipo de Cobrança</value>
+    </data>
+        <data name="sistemaAfiliacoesTipoCobranca0" xml:space="preserve">
+            <value>Recorrente</value>
+        </data>
+        <data name="sistemaAfiliacoesTipoCobranca1" xml:space="preserve">
+            <value>Taxa Única</value>
+        </data>
+    <data name="sistemaAfiliacoesPeriodoContratacao" xml:space="preserve">
+        <value>Período Contratação</value>
+    </data>
+        <data name="sistemaAfiliacoesPeriodoContratacaoYYYY" xml:space="preserve">
+            <value>Anos</value>
+        </data>
+        <data name="sistemaAfiliacoesPeriodoContratacaoM" xml:space="preserve">
+            <value>Meses</value>
+        </data>
+        <data name="sistemaAfiliacoesPeriodoContratacaoD" xml:space="preserve">
+            <value>Dias</value>
+        </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Formulários.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaFormulariosTitulo" xml:space="preserve">
+        <value>Inserir Formulários</value>
+    </data>
+    <data name="sistemaFormulariosTituloEditar" xml:space="preserve">
+        <value>Editar Formulários</value>
+    </data>
+    <data name="sistemaFormulariosTbFormularios" xml:space="preserve">
+        <value>Inserir Novo Formulário</value>
+    </data>
+    <data name="sistemaFormulariosTbFormulariosEditar" xml:space="preserve">
+        <value>Editar Formulário</value>
+    </data>
+    <data name="sistemaFormulariosNome" xml:space="preserve">
+        <value>Nome do Formulário</value>
+    </data>
+    <data name="sistemaFormulariosAssunto" xml:space="preserve">
+        <value>Assunto</value>
+    </data>
+    <data name="sistemaFormulariosNomeEmailDestinatario" xml:space="preserve">
+        <value>Nome do Destinatário</value>
+    </data>
+    <data name="sistemaFormulariosEmailDestinatario" xml:space="preserve">
+        <value>e-mail do Destinatário</value>
+    </data>
+    <data name="sistemaFormulariosEmailCopia" xml:space="preserve">
+        <value>e-mail Cópia</value>
+    </data>
+    <data name="sistemaFormulariosConfigMensagemSucesso" xml:space="preserve">
+        <value>Mensagem Sucesso</value>
+    </data>
+    <data name="sistemaFormulariosInformacoes" xml:space="preserve">
+        <value>Informações</value>
+    </data>
+    <data name="sistemaFormulariosFuncoes" xml:space="preserve">
+        <value>Funções</value>
+    </data>
+    <data name="sistemaFormulariosCamposGerenciar" xml:space="preserve">
+        <value>Gerenciar Campos</value>
+    </data>
+    <!--Campos.-->
+    <data name="sistemaFormulariosCamposTitulo" xml:space="preserve">
+        <value>Inserir Campos</value>
+    </data>
+    <data name="sistemaFormulariosCamposTituloEditar" xml:space="preserve">
+        <value>Editar Campos</value>
+    </data>
+    <data name="sistemaFormulariosCamposTbCampos" xml:space="preserve">
+        <value>Inserir Novo Campo</value>
+    </data>
+    <data name="sistemaFormulariosCamposTbCamposEditar" xml:space="preserve">
+        <value>Editar Campo</value>
+    </data>
+    <data name="sistemaFormulariosCamposNome" xml:space="preserve">
+        <value>Nome do Campo</value>
+    </data>
+    <data name="sistemaFormulariosCamposTipo" xml:space="preserve">
+        <value>Tipo do Campo</value>
+    </data>
+    <data name="sistemaFormulariosCamposSelecao" xml:space="preserve">
+        <value>Seleção</value>
+    </data>
+    <data name="sistemaFormulariosCamposExemplo" xml:space="preserve">
+        <value>Exemplo do Campo</value>
+    </data>
+    <data name="sistemaFormulariosCamposDescricao" xml:space="preserve">
+        <value>Descrição dos tipos de Campos</value>
+    </data>
+        <data name="sistemaFormulariosCamposDescricaoCaixaTexto" xml:space="preserve">
+            <value>Caixa de Texto</value>
+        </data>
+        <data name="sistemaFormulariosCamposDescricaoAreaTexto" xml:space="preserve">
+            <value>Área de Texto</value>
+        </data>
+        <data name="sistemaFormulariosCamposDescricaoCheckBox" xml:space="preserve">
+            <value>Check Box (Seleção Múltipla)</value>
+        </data>
+        <data name="sistemaFormulariosCamposDescricaoRadio" xml:space="preserve">
+            <value>Grupo de Opções (Seleção Única)</value>
+        </data>
+        <data name="sistemaFormulariosCamposDescricaoDropDown" xml:space="preserve">
+            <value>Caixa de Listagem</value>
+        </data>
+            <data name="sistemaFormulariosCamposDescricaoDropDown01" xml:space="preserve">
+                <value>Exmeplo 01</value>
+            </data>
+            <data name="sistemaFormulariosCamposDescricaoDropDown02" xml:space="preserve">
+                <value>Exmeplo 02</value>
+            </data>
+            <data name="sistemaFormulariosCamposDescricaoDropDown03" xml:space="preserve">
+                <value>Exmeplo 03</value>
+            </data>
+        <data name="sistemaFormulariosCamposDescricaoTexto" xml:space="preserve">
+            <value>Texto de Instrução</value>
+        </data>
+        <data name="sistemaFormulariosCamposDescricaoSubtitulo" xml:space="preserve">
+            <value>Subtitulo de Instrução</value>
+        </data>
+        <data name="sistemaFormulariosCamposDescricaoData" xml:space="preserve">
+            <value>Campo Seleção de Data</value>
+        </data>
+        <data name="sistemaFormulariosCamposDescricaoHorario" xml:space="preserve">
+            <value>Campo Seleção de Horário</value>
+        </data>
+    <data name="sistemaFormulariosCamposTamanho" xml:space="preserve">
+        <value>Tamanho do Campo</value>
+    </data>
+    <data name="sistemaFormulariosCamposAltura" xml:space="preserve">
+        <value>Altura do Campo</value>
+    </data>
+        <data name="sistemaFormulariosCamposAlturaObs" xml:space="preserve">
+            <value>(somente para o tipo área de texto)</value>
+        </data>
+    <data name="sistemaFormulariosCamposObrigatorio" xml:space="preserve">
+        <value>Obrigatório</value>
+    </data>
+        <data name="sistemaFormulariosCamposObrigatorio0" xml:space="preserve">
+            <value>Não</value>
+        </data>
+        <data name="sistemaFormulariosCamposObrigatorio1" xml:space="preserve">
+            <value>Sim</value>
+        </data>
+    <data name="sistemaFormulariosCamposFuncoes" xml:space="preserve">
+        <value>Funções</value>
+    </data>
+        <data name="sistemaFormulariosCamposInserirOpcoes" xml:space="preserve">
+            <value>Inserir Opções</value>
+        </data>
+    <!--Campos opções.-->
+    <data name="sistemaFormulariosCamposOpcoesTitulo" xml:space="preserve">
+        <value>Inserir Opções</value>
+    </data>
+    <data name="sistemaFormulariosCamposOpcoesTituloEditar" xml:space="preserve">
+        <value>Editar Opções</value>
+    </data>
+    <data name="sistemaFormulariosCamposOpcoesTbCampos" xml:space="preserve">
+        <value>Inserir Nova Opção</value>
+    </data>
+    <data name="sistemaFormulariosCamposOpcoesTbCamposEditar" xml:space="preserve">
+        <value>Editar Opção</value>
+    </data>
+    <data name="sistemaFormulariosCamposOpcoesNomeOpcao" xml:space="preserve">
+        <value>Opção</value>
+    </data>
+    <data name="sistemaFormulariosCamposOpcoesVoltar" xml:space="preserve">
+        <value>Voltar Para Edição de Campos do Formulário</value>
+    </data>
+    <data name="sistemaFormulariosCamposOpcoesVazioAletaEditar" xml:space="preserve">
+        <value>Acione o link ao lado para inserir opções.</value>
+    </data>
+
+    <!--**************************************************************************************-->
+
+
+    <!--Fórum.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaForumTopicosTitulo" xml:space="preserve">
+        <value>Inserir Tópicos</value>
+    </data>
+    <data name="sistemaForumTopicosTituloEditar" xml:space="preserve">
+        <value>Editar Tópicos</value>
+    </data>
+    <data name="sistemaForumTopicosPostagegensAdministrar" xml:space="preserve">
+        <value>Administrar Teste de Solubilidade</value>
+    </data>
+
+    <data name="sistemaForumTopicosTbTopicos" xml:space="preserve">
+        <value>Inserir Novo Tópico</value>
+    </data>
+    <data name="sistemaForumTopicosTbTopicosEditar" xml:space="preserve">
+        <value>Editar Tópico</value>
+    </data>
+    <data name="sistemaForumTopico" xml:space="preserve">
+        <value>Tópico</value>
+    </data>
+    <data name="sistemaForumTopicosAssunto" xml:space="preserve">
+        <value>Assunto</value>
+    </data>
+    <data name="sistemaForumTopicosCadastroUsuario" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+
+    <!--Postagens.-->
+    <data name="sistemaForumPostagensTitulo" xml:space="preserve">
+        <value>Inserir Teste de Solubilidade</value>
+    </data>
+    <data name="sistemaForumPostagensTituloEditar" xml:space="preserve">
+        <value>Editar Teste de Solubilidade</value>
+    </data>
+    <data name="sistemaForumPostagensTbPostagens" xml:space="preserve">
+        <value>Inserir Teste de Solubilidade</value>
+    </data>
+    <data name="sistemaForumPostagensTbPostagensEditar" xml:space="preserve">
+        <value>Editar Teste de Solubilidade</value>
+    </data>
+
+    <data name="sistemaForumPostagem" xml:space="preserve">
+        <value>Resultado</value>
+    </data>
+    <data name="sistemaForumPostagemNome" xml:space="preserve">
+        <value>Nome</value>
+    </data>
+    <data name="sistemaForumPostagemEmail" xml:space="preserve">
+        <value>e-mail</value>
+    </data>
+    <data name="sistemaForumPostagensCadastroUsuario" xml:space="preserve">
+        <value>Usuário</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Enquetes/Questões.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaEnquetes" xml:space="preserve">
+        <value>Inserir Enquetes</value>
+    </data>
+    <data name="sistemaEnquetesEditar" xml:space="preserve">
+        <value>Editar Enquetes</value>
+    </data>
+    <data name="sistemaQuestoes" xml:space="preserve">
+        <value>Inserir Questões</value>
+    </data>
+    <data name="sistemaQuestoesEditar" xml:space="preserve">
+        <value>Editar Questões</value>
+    </data>
+
+    <data name="sistemaEnquetesTbEnquetes" xml:space="preserve">
+        <value>Inserir Nova Enquete</value>
+    </data>
+    <data name="sistemaEnquetesTbEnquetesEditar" xml:space="preserve">
+        <value>Editar Enquete</value>
+    </data>
+    <data name="sistemaQuestoesTbQuestoes" xml:space="preserve">
+        <value>Inserir Nova Questão</value>
+    </data>
+    <data name="sistemaQuestoesTbQuestoesEditar" xml:space="preserve">
+        <value>Inserir Nova Questão</value>
+    </data>
+
+    <data name="sistemaEnquetesDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="sistemaEnquetesTipo" xml:space="preserve">
+        <value>Tipo</value>
+    </data>
+        <data name="sistemaEnquetesTipo1" xml:space="preserve">
+            <value>Enquete</value>
+        </data>
+            <data name="sistemaEnquetesTipo1a" xml:space="preserve">
+                <value>E</value>
+            </data>
+        <data name="sistemaEnquetesTipo2" xml:space="preserve">
+            <value>Múltipla Escolha</value>
+        </data>
+            <data name="sistemaEnquetesTipo2a" xml:space="preserve">
+                <value>M</value>
+            </data>
+        <data name="sistemaEnquetesTipo3" xml:space="preserve">
+            <value>Gabarito</value>
+        </data>
+            <data name="sistemaEnquetesTipo3a" xml:space="preserve">
+                <value>G</value>
+            </data>
+    <data name="sistemaEnquetesOpcoesGerenciar" xml:space="preserve">
+        <value>Gerenciar Opções</value>
+    </data>
+    <data name="sistemaEnquetesCadastroVinculado" xml:space="preserve">
+        <value>Cadastro</value>
+    </data>
+        <data name="sistemaEnquetesCadastroNenhumDropDown" xml:space="preserve">
+            <value>Nenhum</value>
+        </data>
+
+    <!--Opções.-->
+    <data name="sistemaEnquetesOpcoesTitulo" xml:space="preserve">
+        <value>Inserir Opções</value>
+    </data>
+    <data name="sistemaEnquetesOpcoesTituloEditar" xml:space="preserve">
+        <value>Editar Opções</value>
+    </data>
+    <data name="sistemaEnquetesOpcoesTbEnquetes" xml:space="preserve">
+        <value>Inserir Nova Opção</value>
+    </data>
+    <data name="sistemaEnquetesOpcoesTbEnquetesEditar" xml:space="preserve">
+        <value>Editar Opção</value>
+    </data>
+    <data name="sistemaEnquetesOpcoes" xml:space="preserve">
+        <value>Opções</value>
+    </data>
+    <data name="sistemaEnquetesOpcao" xml:space="preserve">
+        <value>Opção</value>
+    </data>
+    <data name="sistemaEnquetesNVotos" xml:space="preserve">
+        <value>Nº Votos</value>
+    </data>
+    <data name="sistemaEnquetesResposta" xml:space="preserve">
+        <value>Resposta</value>
+    </data>
+        <data name="sistemaEnquetesRespostaa" xml:space="preserve">
+            <value>Resp.</value>
+        </data>
+        <data name="sistemaEnquetesRespostaSim" xml:space="preserve">
+            <value>Sim</value>
+        </data>
+        <data name="sistemaEnquetesRespostaNao" xml:space="preserve">
+            <value>Não</value>
+        </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Newsletter.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaNewsletter" xml:space="preserve">
+        <value>Inserir Newsletter</value>
+    </data>
+    <data name="sistemaNewsletterTbNewsletter" xml:space="preserve">
+        <value>Criar Newsletter</value>
+    </data>
+    <data name="sistemaNewsletterTbNewsletterEditar" xml:space="preserve">
+        <value>Editar Newsletter</value>
+    </data>
+    <data name="sistemaNewsletterTipoCadastro" xml:space="preserve">
+        <value>Tipos de Cadastro</value>
+    </data>
+    <data name="sistemaNewsletterNClassificacao" xml:space="preserve">
+        <value>Nº de Class.</value>
+    </data>
+    <data name="sistemaNewsletterCampanha" xml:space="preserve">
+        <value>Campanha</value>
+    </data>
+
+    <data name="sistemaNewsletterCorInterna" xml:space="preserve">
+        <value>Cor Interna</value>
+    </data>
+    <data name="sistemaNewsletterCorFundo" xml:space="preserve">
+        <value>Cor do Fundo</value>
+    </data>
+    <data name="sistemaNewsletterCorBorda" xml:space="preserve">
+        <value>Cor da Borda</value>
+    </data>
+    <data name="sistemaNewsletterLargura" xml:space="preserve">
+        <value>Largura</value>
+    </data>
+    <data name="sistemaNewsletterMontarConteudo" xml:space="preserve">
+        <value>Montar Conteúdo</value>
+    </data>
+    <data name="sistemaNewsletterEnviar" xml:space="preserve">
+        <value>Enviar Newsletter</value>
+    </data>
+    <data name="sistemaNewsletterEnviarResultado01" xml:space="preserve">
+        <value>Resultado da operação:</value>
+    </data>
+    <data name="sistemaNewsletterEnviarResultado02" xml:space="preserve">
+        <value>E-mails cadastrado(s)</value>
+    </data>
+    <data name="sistemaNewsletterVisualizar" xml:space="preserve">
+        <value>Visualizar Newsletter</value>
+    </data>
+    <data name="sistemaNewsletterVisualizarNovaJanela" xml:space="preserve">
+        <value>Clique aqui para visualizar em uma nova janela com o endereço completo.</value>
+    </data>
+    <data name="sistemaNewsletterEmailAvulsoIncluir" xml:space="preserve">
+        <value>Incluir Lista de e-mails</value>
+    </data>
+    <data name="sistemaNewsletterLinkDesativar" xml:space="preserve">
+        <value>Para NÃO fazer mais parte desta lista de envio de informações, acesse este link.</value>
+    </data>
+    <!--Grupos de e-mail.-->
+    <data name="sistemaNewsletterGruposEmailAvulsoTitulo" xml:space="preserve">
+        <value>Inserir Grupos de e-mails Avulso</value>
+    </data>
+    <data name="sistemaNewsletterGruposEmailAvulsoTituloEditar" xml:space="preserve">
+        <value>Editar Grupos de e-mails Avulso</value>
+    </data>
+    <data name="sistemaNewsletterGruposEmailAvulsoGrupoEmails" xml:space="preserve">
+        <value>Grupo</value>
+    </data>
+    <data name="sistemaNewsletterGruposEmailAvulsoIncluirEmails" xml:space="preserve">
+        <value>Incluir e-mails</value>
+    </data>
+    <data name="sistemaNewsletterGruposEmailAvulsoNEmails" xml:space="preserve">
+        <value>Número de e-mails</value>
+    </data>
+    <data name="sistemaNewsletterGruposEmailAvulsoTbGrupo" xml:space="preserve">
+        <value>Criar Grupo</value>
+    </data>
+    <data name="sistemaNewsletterGruposEmailAvulsoTbGrupoEditar" xml:space="preserve">
+        <value>Editar Grupo</value>
+    </data>
+    <data name="sistemaNewsletterGruposEmailAvulsoTbGrupoVinculo" xml:space="preserve">
+        <value>Vínculo</value>
+    </data>
+    <data name="sistemaNewsletterGruposEmailAvulsoLimite01" xml:space="preserve">
+        <value>Limite de e-mails Por Grupo</value>
+    </data>
+    <data name="sistemaNewsletterGruposEmailAvulsoLimite02" xml:space="preserve">
+        <value>(0 - não divide em nenhum grupo limitado por e-mails. Recurso indicado para servidores que possuem política de limite de envio de e-mails por conta/hora/dia.) </value>
+    </data>
+    <data name="sistemaNewsletterGruposEmailAvulsoLimite03" xml:space="preserve">
+        <value>Campo para fazer upload de arquivo texto com lista de e-mails, caso seja necessário.</value>
+    </data>
+    <!--**************************************************************************************-->
+
+    
+    <!--Banners.-->
+    <!--**************************************************************************************-->
+    <!--Banners - grupos.-->
+    <data name="sistemaBannersTitulo" xml:space="preserve">
+        <value>Inserir Grupo de Banners</value>
+    </data>
+    <data name="sistemaBannersTituloEditar" xml:space="preserve">
+        <value>Editar Grupo de Banners</value>
+    </data>
+    <data name="sistemaBannersTbBanners" xml:space="preserve">
+        <value>Inserir Novo Grupo</value>
+    </data>
+    <data name="sistemaBannersTbBannersEditar" xml:space="preserve">
+        <value>Editar Grupo de Banners</value>
+    </data>
+    <data name="sistemaBannersID" xml:space="preserve">
+        <value>ID</value>
+    </data>
+    <data name="sistemaBannersGrupo" xml:space="preserve">
+        <value>Grupo</value>
+    </data>
+    <data name="sistemaBannersN" xml:space="preserve">
+        <value>Nº de Banners</value>
+    </data>
+    <data name="sistemaBannersNDescricao" xml:space="preserve">
+        <value>(Número de posições de banners para este grupo)</value>
+    </data>
+    <data name="sistemaBannersDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="sistemaBannersInserir" xml:space="preserve">
+        <value>Inserir Banners</value>
+    </data>
+
+    <!--Banners - arquivos.-->
+    <data name="sistemaBannersArquivosTitulo" xml:space="preserve">
+        <value>Inserir Arquivos de Banners</value>
+    </data>
+    <data name="sistemaBannersArquivosTituloEditar" xml:space="preserve">
+        <value>Editar Arquivos de Banners</value>
+    </data>
+    <data name="sistemaBannersArquivosTbTitulo" xml:space="preserve">
+        <value>Inserir Novo Arquivo de Banner</value>
+    </data>
+    <data name="sistemaBannersArquivosTbTituloEditar" xml:space="preserve">
+        <value>Editar Arquivo de Banner</value>
+    </data>
+    <data name="sistemaBannersArquivosTipoPublicacao" xml:space="preserve">
+        <value>Tipo de Publicação</value>
+    </data>
+    <data name="sistemaBannersArquivosTipoPublicacao1" xml:space="preserve">
+        <value>Fixo</value>
+    </data>
+    <data name="sistemaBannersArquivosTipoPublicacao2" xml:space="preserve">
+        <value>Randômico</value>
+    </data>
+    <data name="sistemaBannersArquivosData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+    <data name="sistemaBannersArquivosBanner" xml:space="preserve">
+        <value>Banner</value>
+    </data>
+    <data name="sistemaBannersArquivosEnderecoEletronico" xml:space="preserve">
+        <value>Endereço Eletrônico</value>
+    </data>
+    <data name="sistemaBannersArquivosOBS" xml:space="preserve">
+        <value>Obs</value>
+    </data>
+    <data name="sistemaBannersArquivosDimensoes" xml:space="preserve">
+        <value>Dimensões</value>
+    </data>
+    <data name="sistemaBannersArquivosDimensoesW" xml:space="preserve">
+        <value>Largura</value>
+    </data>
+    <data name="sistemaBannersArquivosDimensoesH" xml:space="preserve">
+        <value>Altura</value>
+    </data>
+    <data name="sistemaBannersArquivosImpressoes" xml:space="preserve">
+        <value>Impressões</value>
+    </data>
+    <data name="sistemaBannersArquivosCliques" xml:space="preserve">
+        <value>Cliques</value>
+    </data>
+    <data name="sistemaBannersArquivosContratacao" xml:space="preserve">
+        <value>Contratação</value>
+    </data>
+    <data name="sistemaBannersArquivosContratacaoInstrucoes" xml:space="preserve">
+        <value>deixe em -1 para desabilitar - dúvidas, entre em contato com o desenvolvedor</value>
+    </data>
+    <data name="sistemaBannersArquivosDefinirCategorias" xml:space="preserve">
+        <value>Definir links para exibição.</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Páginas.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaPaginasTitulo" xml:space="preserve">
+        <value>Gerenciamento de Páginas</value>
+    </data>
+    <data name="sistemaPaginasTituloEditar" xml:space="preserve">
+        <value>Editar Páginas</value>
+    </data>
+    <data name="sistemaPaginasTbPaginas" xml:space="preserve">
+        <value>Inserir Página</value>
+    </data>
+    <data name="sistemaPaginasTbPaginasEditar" xml:space="preserve">
+        <value>Editar Página</value>
+    </data>
+
+    <data name="sistemaPagina" xml:space="preserve">
+        <value>Título da Página</value>
+    </data>
+    <data name="sistemaPaginaDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Páginas.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaPaginasManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Páginas</value>
+    </data>
+    <data name="sistemaPaginasManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Páginas - Editar</value>
+    </data>
+    <data name="sistemaPaginasManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sistemaPaginasManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sistemaPaginasManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaPaginasManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Processos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaProcessosTitulo" xml:space="preserve">
+        <value>Gerenciamento de Processos</value>
+    </data>
+    <data name="sistemaProcessosTituloEditar" xml:space="preserve">
+        <value>Editar Processos</value>
+    </data>
+    <data name="sistemaProcessosTbProcessos" xml:space="preserve">
+        <value>Inserir Processo</value>
+    </data>
+    <data name="sistemaProcessosTbProcessosEditar" xml:space="preserve">
+        <value>Editar Processo</value>
+    </data>
+	
+    <data name="sistemaProcessosDatas" xml:space="preserve">
+        <value>Data(s)</value>
+    </data>
+    <data name="sistemaProcessosDataCriacao" xml:space="preserve">
+        <value>Data de Criação</value>
+    </data>
+    <data name="sistemaProcessosDataAbertura" xml:space="preserve">
+        <value>Data de Abertura</value>
+    </data>
+    <data name="sistemaProcessosDataDistribuicao" xml:space="preserve">
+        <value>Data de Distribuição</value>
+    </data>
+    <data name="sistemaProcessosDataAdmissao" xml:space="preserve">
+        <value>Data de Admissão</value>
+    </data>
+    <data name="sistemaProcessosDataDemissao" xml:space="preserve">
+        <value>Data de Demissão</value>
+    </data>
+
+    <data name="sistemaProcesso" xml:space="preserve">
+        <value>Processo</value>
+    </data>
+    <data name="sistemaProcessosDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="sistemaProcessosStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="sistemaProcessosValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Processos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaProcessosManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Processos</value>
+    </data>
+    <data name="sistemaProcessosManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Processos - Editar</value>
+    </data>
+    <data name="sistemaProcessosManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sistemaProcessosManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sistemaProcessosManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaProcessosManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Turmas.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaTurmasTitulo" xml:space="preserve">
+        <value>Gerenciamento de Turmas</value>
+    </data>
+    <data name="sistemaTurmasTituloEditar" xml:space="preserve">
+        <value>Editar Turmas</value>
+    </data>
+    <data name="sistemaTurmasTbTurmas" xml:space="preserve">
+        <value>Inserir Turmas</value>
+    </data>
+    <data name="sistemaTurmasTbTurmasEditar" xml:space="preserve">
+        <value>Editar Turmas</value>
+    </data>
+	
+    <data name="sistemaTurmasDatas" xml:space="preserve">
+        <value>Data(s)</value>
+    </data>
+    <data name="sistemaTurmasDataCriacao" xml:space="preserve">
+        <value>Data de Criação</value>
+    </data>
+    <data name="sistemaTurmasDataInicio" xml:space="preserve">
+        <value>Data Início</value>
+    </data>
+    <data name="sistemaTurmasDataFinal" xml:space="preserve">
+        <value>Data Final</value>
+    </data>
+
+    <data name="sistemaTurmasNome" xml:space="preserve">
+        <value>Nome da Turma</value>
+    </data>
+    <data name="sistemaTurmasCodigo" xml:space="preserve">
+        <value>Código da Turma</value>
+    </data>
+    <data name="sistemaTurmasDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="sistemaTurmasStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="sistemaTurmasValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="sistemaTurmasAnotacoesInternas" xml:space="preserve">
+        <value>Anotações Internas</value>
+    </data>
+	
+    <data name="sistemaTurmasLembreteEnvio" xml:space="preserve">
+        <value>Enviar Lembrete</value>
+    </data>
+		<data name="sistemaTurmasLembreteEnvioAssuntoEmail" xml:space="preserve">
+			<value>Lembrete: </value>
+		</data>
+    <!--**************************************************************************************-->
+
+
+    <!--Manutenção - Turmas.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaTurmasManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Turmas</value>
+    </data>
+    <data name="sistemaTurmasManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Turmas - Editar</value>
+    </data>
+    <data name="sistemaTurmasManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sistemaTurmasManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sistemaTurmasManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaTurmasManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Módulos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaModulosTitulo" xml:space="preserve">
+        <value>Gerenciamento de Módulos</value>
+    </data>
+    <data name="sistemaModulosTituloEditar" xml:space="preserve">
+        <value>Editar Módulos</value>
+    </data>
+    <data name="sistemaModulosTbModulos" xml:space="preserve">
+        <value>Inserir Módulo</value>
+    </data>
+    <data name="sistemaModulosTbModulosEditar" xml:space="preserve">
+        <value>Editar Módulo</value>
+    </data>
+	
+    <data name="sistemaModulosDatas" xml:space="preserve">
+        <value>Data(s)</value>
+    </data>
+    <data name="sistemaModulosDataCriacao" xml:space="preserve">
+        <value>Data de Criação</value>
+    </data>
+    <data name="sistemaModulosDataInicio" xml:space="preserve">
+        <value>Data Início</value>
+    </data>
+    <data name="sistemaModulosDataFinal" xml:space="preserve">
+        <value>Data Final</value>
+    </data>
+
+    <data name="sistemaModulosNome" xml:space="preserve">
+        <value>Nome da Módulo</value>
+    </data>
+    <data name="sistemaModulosDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="sistemaModulosStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="sistemaModulosValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="sistemaModulosCargaHoraria" xml:space="preserve">
+        <value>Carga Horária</value>
+    </data>
+		<data name="sistemaModulosCargaHorariaInstrucoesM" xml:space="preserve">
+			<value>Informar valores em minutos.</value>
+		</data>
+    <data name="sistemaModulosDuracaoAula" xml:space="preserve">
+        <value>Duração de Cada Aula</value>
+    </data>
+    <data name="sistemaModulosAnotacoesInternas" xml:space="preserve">
+        <value>Anotações Internas</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Manutenção - Módulos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaModulosManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Módulos</value>
+    </data>
+    <data name="sistemaModulosManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Módulos - Editar</value>
+    </data>
+    <data name="sistemaModulosManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sistemaModulosManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sistemaModulosManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaModulosManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Aulas.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaAulasTitulo" xml:space="preserve">
+        <value>Gerenciamento de Aulas</value>
+    </data>
+    <data name="sistemaAulasTituloEditar" xml:space="preserve">
+        <value>Editar Aulas</value>
+    </data>
+    <data name="sistemaAulasTbAulas" xml:space="preserve">
+        <value>Inserir Aula</value>
+    </data>
+    <data name="sistemaAulasTbAulasEditar" xml:space="preserve">
+        <value>Editar Aula</value>
+    </data>
+	
+    <data name="sistemaAulasDatas" xml:space="preserve">
+        <value>Data(s)</value>
+    </data>
+    <data name="sistemaAulasDataCriacao" xml:space="preserve">
+        <value>Data de Criação</value>
+    </data>
+    <data name="sistemaAulasDataAula" xml:space="preserve">
+        <value>Data da Aula</value>
+    </data>
+
+    <data name="sistemaAulasTema" xml:space="preserve">
+        <value>Tema</value>
+    </data>
+    <data name="sistemaAulasDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <data name="sistemaAulasLocal" xml:space="preserve">
+        <value>Local</value>
+    </data>
+    <data name="sistemaAulasStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="sistemaAulasValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="sistemaAulasCargaHoraria" xml:space="preserve">
+        <value>Carga Horária</value>
+    </data>
+		<data name="sistemaAulasCargaHorariaInstrucoesM" xml:space="preserve">
+			<value>Informar valores em minutos.</value>
+		</data>
+    <data name="sistemaAulasReposicao" xml:space="preserve">
+        <value>Reposição</value>
+    </data>
+    <data name="sistemaAulasAnotacoesInternas" xml:space="preserve">
+        <value>Anotações Internas</value>
+    </data>
+	
+		<data name="sistemaAulasEnvioAssuntoEmail" xml:space="preserve">
+			<value>Aula: </value>
+		</data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Aulas.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaAulasManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Aulas</value>
+    </data>
+    <data name="sistemaAulasManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Aulas - Editar</value>
+    </data>
+    <data name="sistemaAulasManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sistemaAulasManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sistemaAulasManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaAulasManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Fluxo de caixa.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaFluxoTitulo" xml:space="preserve">
+        <value>Inserir Fluxos</value>
+    </data>
+    <data name="sistemaFluxoTituloEditar" xml:space="preserve">
+        <value>Editar Fluxos</value>
+    </data>
+    <data name="sistemaFluxoTbFluxo" xml:space="preserve">
+        <value>Inserir Fluxo</value>
+    </data>
+    <data name="sistemaFluxoTbFluxoEditar" xml:space="preserve">
+        <value>Editar Fluxo</value>
+    </data>
+	
+    <data name="sistemaFluxoID" xml:space="preserve">
+        <value>ID</value>
+    </data>
+    <data name="sistemaFluxoDataLancamento" xml:space="preserve">
+        <value>Data Lançamento</value>
+    </data>
+    <data name="sistemaFluxoDataContabilizacao" xml:space="preserve">
+        <value>Data Contabilização</value>
+    </data>
+    <data name="sistemaFluxoDebitoCredito" xml:space="preserve">
+        <value>Débito/Crédito</value>
+    </data>
+		<data name="sistemaFluxoDebitoCreditoA" xml:space="preserve">
+			<value>Déb./Créd.</value>
+		</data>
+		<data name="sistemaFluxoDebito" xml:space="preserve">
+			<value>Débito</value>
+		</data>
+		<data name="sistemaFluxoDebitoA" xml:space="preserve">
+			<value>Déb.</value>
+		</data>
+		<data name="sistemaFluxoCredito" xml:space="preserve">
+			<value>Crédito</value>
+		</data>
+		<data name="sistemaFluxoCreditoA" xml:space="preserve">
+			<value>Créd.</value>
+		</data>
+    <data name="sistemaFluxoCadastro" xml:space="preserve">
+        <value>Cadastro Principal</value>
+    </data>
+    <data name="sistemaFluxoCadastroUsuario" xml:space="preserve">
+        <value>Cadastro Vinculado</value>
+    </data>
+    <data name="sistemaFluxoLancamento" xml:space="preserve">
+        <value>Lançamento</value>
+    </data>
+		<data name="sistemaFluxoLancamento1" xml:space="preserve">
+			<value>Lançamento Automatizado</value>
+		</data>
+
+    <data name="sistemaFluxoTipo" xml:space="preserve">
+        <value>Tipo</value>
+    </data>
+    <data name="sistemaFluxoStatus" xml:space="preserve">
+        <value>Status</value>
+    </data>
+	
+    <data name="sistemaFluxoValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <data name="sistemaFluxoNDocumento" xml:space="preserve">
+        <value>Nº do Documento</value>
+    </data>
+    <data name="sistemaFluxoAutenticacao" xml:space="preserve">
+        <value>Autenticação</value>
+    </data>
+	
+    <data name="sistemaFluxoOBS" xml:space="preserve">
+        <value>Obs.</value>
+    </data>
+    <data name="sistemaFluxoAtivacaoContabilizacao" xml:space="preserve">
+        <value>Ativação Contabilização</value>
+    </data>
+		<data name="sistemaFluxoAtivacaoContabilizacaoA" xml:space="preserve">
+			<value>Ativ. Cont.</value>
+		</data>
+		
+    <data name="sistemaFluxoValorSaldo" xml:space="preserve">
+        <value>Saldo</value>
+    </data>
+    <data name="sistemaFluxoValorSaldoTotal" xml:space="preserve">
+        <value>Total</value>
+    </data>
+    <data name="sistemaFluxoValorSaldoTotalAtivado" xml:space="preserve">
+        <value>Total Ativado</value>
+    </data>
+    <data name="sistemaFluxoValorSaldoTotalDesativado" xml:space="preserve">
+        <value>Total Não Ativado</value>
+    </data>
+    <data name="sistemaFluxoValorSaldoTotalAtivadoCantabilizacao" xml:space="preserve">
+        <value>Total Contabilizado</value>
+    </data>
+    <data name="sistemaFluxoValorSaldoTotalDesativadoCantabilizacao" xml:space="preserve">
+        <value>Total Não Contabilizado</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--Manutenção - Fluxo.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaFluxoManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Fluxo</value>
+    </data>
+    <data name="sistemaFluxoManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Fluxo - Editar</value>
+    </data>
+    <data name="sistemaFluxoManutencaoTbStatus" xml:space="preserve">
+        <value>Inserir Status</value>
+    </data>
+    <data name="sistemaFluxoManutencaoTbTipo" xml:space="preserve">
+        <value>Inserir Tipo de Fluxo</value>
+    </data>
+    <data name="sistemaFluxoManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sistemaFluxoManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaFluxoManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Busca no sistema.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaBuscaTitulo" xml:space="preserve">
+        <value>Busca no Sistema</value>
+    </data>
+	
+    <data name="sistemaBuscaTbCategorias" xml:space="preserve">
+        <value>Busca em Categorias</value>
+    </data>	
+    <data name="sistemaBuscaTbCadastro" xml:space="preserve">
+        <value>Busca no Cadastro</value>
+    </data>	
+    <data name="sistemaBuscaTbCadastroContatos" xml:space="preserve">
+        <value>Busca de Contatos</value>
+    </data>	
+    <data name="sistemaBuscaTbCadastroContasBancarias" xml:space="preserve">
+        <value>Busca de Contas Bancárias</value>
+    </data>	
+    <data name="sistemaBuscaTbPublicacoes" xml:space="preserve">
+        <value>Busca nas Publicações</value>
+    </data>	
+    <data name="sistemaBuscaTbPaginas" xml:space="preserve">
+        <value>Busca nas Páginas</value>
+    </data>	
+    <data name="sistemaBuscaTbTarefas" xml:space="preserve">
+        <value>Busca em Tarefas</value>
+    </data>	
+    <data name="sistemaBuscaTbProcessos" xml:space="preserve">
+        <value>Busca em Processos</value>
+    </data>	
+    <data name="sistemaBuscaTbLocalidade" xml:space="preserve">
+        <value>Busca em Localidade</value>
+    </data>	
+    <data name="sistemaBuscaTbPeriodo" xml:space="preserve">
+        <value>Busca Por Período</value>
+    </data>
+
+    <data name="sistemaBuscaPalavraChave" xml:space="preserve">
+        <value>Palavra-Chave</value>
+    </data>
+    <data name="sistemaBuscaLocalidade" xml:space="preserve">
+        <value>Localidade</value>
+    </data>
+
+	<!--Filtros - Seleção.-->
+    <data name="sistemaBuscaPeriodo" xml:space="preserve">
+        <value>Período</value>
+    </data>
+    <data name="sistemaBuscaFiltros" xml:space="preserve">
+        <value>Filtros</value>
+    </data>
+    <data name="sistemaBuscaCriterioClassificacao" xml:space="preserve">
+        <value>Critério de Classificação</value>
+    </data>
+    <data name="sistemaBuscaData" xml:space="preserve">
+        <value>Data</value>
+    </data>
+		<data name="sistemaBuscaDataInicial" xml:space="preserve">
+			<value>Data Inicial</value>
+		</data>
+		<data name="sistemaBuscaDataFinal" xml:space="preserve">
+			<value>Data Final</value>
+		</data>
+	<data name="sistemaBuscaFiltroSelecaoIndiferente" xml:space="preserve">
+		<value>Indiferente</value>
+	</data>
+	<data name="sistemaBuscaFiltroSelecaoNenhum" xml:space="preserve">
+		<value>Nenhum</value>
+	</data>
+    <!--**************************************************************************************-->
+
+
+    <!--Itens - Vínculos.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaItensVinculoTitulo" xml:space="preserve">
+        <value>Inserir Vínculo</value>
+    </data>
+	
+    <data name="sistemaItensVinculoTbTitulo" xml:space="preserve">
+        <value>Inserir Novo Vínculo</value>
+    </data>
+    <data name="sistemaItensVinculoTbTituloEditar" xml:space="preserve">
+        <value>Editar Vínculo</value>
+    </data>
+
+    <data name="sistemaItensVinculoSelecaoNenhum" xml:space="preserve">
+        <value>Nenhum</value>
+    </data>
+	
+    <data name="sistemaItensRelacaoRegistroValor" xml:space="preserve">
+        <value>Valor</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Relatórios no sistema.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaRelatoriosTitulo" xml:space="preserve">
+        <value>Relatórios</value>
+    </data>
+    <data name="sistemaRelatoriosPeriodo" xml:space="preserve">
+        <value>Período</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Importação.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaImportacaoTitulo" xml:space="preserve">
+        <value>Importação</value>
+    </data>
+    <data name="sistemaImportacaoTbTitulo" xml:space="preserve">
+        <value>Importação de Arquivos</value>
+    </data>
+	
+    <data name="sistemaImportacaoDados" xml:space="preserve">
+        <value>Dados</value>
+    </data>
+    <data name="sistemaImportacaoDadosTratamento" xml:space="preserve">
+        <value>Tratamento de Dados</value>
+    </data>
+    <data name="sistemaImportacaoResultado" xml:space="preserve">
+        <value>Resultado</value>
+    </data>
+	
+    <data name="sistemaImportacaoDataUltima" xml:space="preserve">
+        <value>Data da Última Importação</value>
+    </data>
+    <data name="sistemaImportacaoAtualizar" xml:space="preserve">
+        <value>Atualizar Importação</value>
+    </data>
+    <data name="sistemaImportacaoExcluirArquivos" xml:space="preserve">
+        <value>Limpar Diretório Temporário</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+	
+    <!--DB IBGE.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaDBIBGETitulo" xml:space="preserve">
+        <value>DB IBGE</value>
+    </data>
+    <data name="sistemaDBIBGEEditarTitulo" xml:space="preserve">
+        <value>Editar DB IBGE</value>
+    </data>
+	
+    <data name="sistemaDBIBGECodigo" xml:space="preserve">
+        <value>Cód. IBGE</value>
+    </data>
+    <data name="sistemaDBIBGEPercentualICMS" xml:space="preserve">
+        <value>Percentual ICMS</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+	<!--Localização.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaLocalizacao" xml:space="preserve">
+        <value>Localização</value>
+    </data>
+	
+    <data name="sistemaLocalizacaoPaisesTitulo" xml:space="preserve">
+        <value>Países</value>
+    </data>
+    <data name="sistemaLocalizacaoPaisesEditarTitulo" xml:space="preserve">
+        <value>Editar Países</value>
+    </data>
+	
+    <data name="sistemaLocalizacaoTbPais" xml:space="preserve">
+        <value>Inserir País</value>
+    </data>
+    <data name="sistemaLocalizacaoTbPaisEditar" xml:space="preserve">
+        <value>Editar País</value>
+    </data>
+	
+    <data name="sistemaLocalizacaoEstadosTitulo" xml:space="preserve">
+        <value>Estados</value>
+    </data>
+    <data name="sistemaLocalizacaoEstadosEditarTitulo" xml:space="preserve">
+        <value>Editar Estados</value>
+    </data>
+	
+    <data name="sistemaLocalizacaoTbEstado" xml:space="preserve">
+        <value>Inserir Estado</value>
+    </data>
+    <data name="sistemaLocalizacaoTbEstadoEditar" xml:space="preserve">
+        <value>Editar Estado</value>
+    </data>
+	
+    <data name="sistemaLocalizacaoEstadoSigla" xml:space="preserve">
+        <value>Sigla</value>
+    </data>
+	
+    <data name="sistemaLocalizacaoCidadesTitulo" xml:space="preserve">
+        <value>Cidades</value>
+    </data>
+    <data name="sistemaLocalizacaoCidadesEditarTitulo" xml:space="preserve">
+        <value>Editar Cidades</value>
+    </data>
+	
+    <data name="sistemaLocalizacaoTbCidade" xml:space="preserve">
+        <value>Inserir Cidade</value>
+    </data>
+    <data name="sistemaLocalizacaoTbCidadeEditar" xml:space="preserve">
+        <value>Editar Cidade</value>
+    </data>
+	
+    <data name="sistemaLocalizacaoBairrosTitulo" xml:space="preserve">
+        <value>Bairros</value>
+    </data>
+    <data name="sistemaLocalizacaoBairrosEditarTitulo" xml:space="preserve">
+        <value>Editar Bairros</value>
+    </data>
+	
+    <data name="sistemaLocalizacaoTbBairro" xml:space="preserve">
+        <value>Inserir Bairro</value>
+    </data>
+    <data name="sistemaLocalizacaoTbBairroEditar" xml:space="preserve">
+        <value>Editar Bairro</value>
+    </data>
+	
+    <data name="sistemaLocalizacaoLogradourosTitulo" xml:space="preserve">
+        <value>Logradouros</value>
+    </data>
+    <data name="sistemaLocalizacaoLogradourosEditarTitulo" xml:space="preserve">
+        <value>Editar Logradouros</value>
+    </data>
+	
+    <data name="sistemaLocalizacaoTbLogradouro" xml:space="preserve">
+        <value>Inserir Logradouro</value>
+    </data>
+    <data name="sistemaLocalizacaoTbLogradouroEditar" xml:space="preserve">
+        <value>Editar Logradouro</value>
+    </data>
+	
+    <data name="sistemaLocalizacaoCodigoPostal" xml:space="preserve">
+        <value>Cod. Postal</value>
+    </data>
+    <!--**************************************************************************************-->
+
+
+    <!--Manutenção - Log.-->
+    <!--**************************************************************************************-->
+    <data name="sistemaLogManutencaoTitulo" xml:space="preserve">
+        <value>Manutenção - Log</value>
+    </data>
+    <data name="sistemaLogManutencaoTituloEditar" xml:space="preserve">
+        <value>Manutenção - Log - Editar</value>
+    </data>
+    <data name="sistemaLogManutencaoTbEditar" xml:space="preserve">
+        <value>Editar Registro</value>
+    </data>
+    <data name="sistemaLogManutencaoComplemento" xml:space="preserve">
+        <value>Complemento</value>
+    </data>
+    <data name="sistemaLogManutencaoDescricao" xml:space="preserve">
+        <value>Descrição</value>
+    </data>
+    <!--**************************************************************************************-->
+	
+
+    <!--Mensagem de status.-->
+    <!--**************************************************************************************-->
+    <!--Status genéricos.-->
+    <data name="sistemaStatus1" xml:space="preserve">
+        <value>Nenhum registro encontrado.</value>
+    </data>
+    <data name="sistemaStatus2" xml:space="preserve">
+        <value>registro(s) incluído(s) com sucesso.</value>
+    </data>
+    <data name="sistemaStatus3" xml:space="preserve">
+        <value>Erro ao incluir registro(s).</value>
+    </data>
+    <data name="sistemaStatus4" xml:space="preserve">
+        <value>Nenhum arquivo selecionado.</value>
+    </data>
+    <data name="sistemaStatus5" xml:space="preserve">
+        <value>Nenhum arquivo vinculado.</value>
+    </data>
+    <data name="sistemaStatus6" xml:space="preserve">
+        <value>Arquivo(s) excluídos com sucesso.</value>
+    </data>
+    <data name="sistemaStatus7" xml:space="preserve">
+        <value>registro(s) atualizado(s) com sucesso.</value>
+    </data>
+    <data name="sistemaStatus8" xml:space="preserve">
+        <value>Erro ao atualizar registro(s).</value>
+    </data>
+    <data name="sistemaStatus9" xml:space="preserve">
+        <value>Erro na leitura de registro(s) no banco de dados.</value>
+    </data>
+    <data name="sistemaStatus10" xml:space="preserve">
+        <value>registro(s) excluídos(s) com sucesso.</value>
+    </data>
+    <data name="sistemaStatus11" xml:space="preserve">
+        <value>Mudança de status de ativação realizada com sucesso.</value>
+    </data>
+    <data name="sistemaStatus12" xml:space="preserve">
+        <value>Erro na mudança de status de ativação.</value>
+    </data>
+    <data name="sistemaStatus13" xml:space="preserve">
+        <value>Sucesso - e-mail enviado:</value>
+    </data>
+    <data name="sistemaStatus14" xml:space="preserve">
+        <value>Erro - e-mail não enviado:</value>
+    </data>
+    <data name="sistemaStatus15" xml:space="preserve">
+        <value>Erro ao excluir registro(s).</value>
+    </data>
+    <data name="sistemaStatus16" xml:space="preserve">
+        <value>Erro - Endereço de e-mail sem formatação válida:</value>
+    </data>
+    <data name="sistemaStatus17" xml:space="preserve">
+        <value>Upload de arquivo realizado com sucesso.</value>
+    </data>
+    <data name="sistemaStatus18" xml:space="preserve">
+        <value>Mensagem enviada com sucesso.</value>
+    </data>
+    <data name="sistemaStatus19" xml:space="preserve">
+        <value></value>
+    </data>
+	<!--Formato não permitido para redimensionamento.-->
+    <data name="sistemaStatus20" xml:space="preserve">
+        <value>Mudança de critério de classificação realizada com sucesso.</value>
+    </data>
+    <data name="sistemaStatus21" xml:space="preserve">
+        <value>Item incluído com sucesso.</value>
+    </data>
+    <data name="sistemaStatus21e" xml:space="preserve">
+        <value>Erro na inclusão do item.</value>
+    </data>
+    <data name="sistemaStatus22" xml:space="preserve">
+        <value>Item retirado com sucesso.</value>
+    </data>
+    <data name="sistemaStatus22e" xml:space="preserve">
+        <value>Erro na retirada do item.</value>
+    </data>
+    <data name="sistemaStatus23" xml:space="preserve">
+        <value>Comando executado com sucesso.</value>
+    </data>
+    <data name="sistemaStatus23e" xml:space="preserve">
+        <value>Erro na execução do comando.</value>
+    </data>
+    <data name="sistemaStatus24" xml:space="preserve">
+        <value>Arquivo gravado com sucesso.</value>
+    </data>
+    <data name="sistemaStatus24e" xml:space="preserve">
+        <value>Erro na execução do comando.</value>
+    </data>
+
+    <!--Críticas de formulários.-->
+    <data name="sistemaStatusCritica1" xml:space="preserve">
+        <value>(*) - Este campo aceita somente caractéres numéricos e não pode conter vírgula (,). Somente ponto (.) para números decimais.</value>
+    </data>
+    <data name="sistemaStatusCritica2" xml:space="preserve">
+        <value>(**) - Este campo requer preenchimento.</value>
+    </data>
+    <data name="sistemaStatusCritica3" xml:space="preserve">
+        <value>(***) - Este campo aceita somente caractéres numéricos.</value>
+    </data>
+
+    <!--Autenticação - erro.-->
+    <data name="sistemaStatusErro2" xml:space="preserve">
+        <value>erro: 002 - Erro na autenticação de login. Verifique se suas informações estão corretas e tente novamente. Caso o erro continue, entre em contato com a administração do site.</value>
+    </data>
+    <data name="sistemaStatusErro4" xml:space="preserve">
+        <value>erro: 004 - Erro na autenticação de login. Verifique se preencheu todos os campos e tente novamente.</value>
+    </data>
+    <data name="sistemaStatusErro20" xml:space="preserve">
+        <value>erro: 020 - Erro de sessão de autenticação ou página não autorizada. Aparentemente sua sessão de navegação expirou. Ou tentou acessar uma página sem fazer a autenticação necessária. Faça novamente sua autenticação para navegar.</value>
+    </data>
+    <!--DB - erro.-->
+    <data name="sistemaStatusErro50" xml:space="preserve">
+        <value>erro: 050 - Erro ao ler dados.</value>
+    </data>
+
+    <!--Autenticação - sucesso.-->
+    <data name="sistemaStatusSucesso2" xml:space="preserve">
+        <value>Seu log-off foi concluído com sucesso.</value>
+    </data>
+    <data name="sistemaStatusSucesso10" xml:space="preserve">
+        <value>Autenticação de informações efetuadas com sucesso. A partir deste momento, você está com o acesso liberado no sistema.</value>
+    </data>
+    <!--**************************************************************************************-->
+</root>

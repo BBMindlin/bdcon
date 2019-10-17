@@ -1,0 +1,693 @@
+﻿/*Textos.*/
+/* ************************************************************************************** */
+.TextoCopyright
+{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #B5B4B4;
+}
+
+.TextoTituloSistema
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: left;
+}
+.TextoTitulo01
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+	color: #BBC5CC;
+}
+
+.Texto01
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.Texto02
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.TextoLogin01
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+	color: #6C7880;
+}
+.TextoErro
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #FF3300;
+    text-decoration: none;
+    font-weight: bold;
+}
+.TextoSucesso
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #009933;
+    text-decoration: none;
+    font-weight: bold;
+}
+.TextoAlerta
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #f7941d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ConteudoTitulo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #000000;
+}
+.ConteudoSubtitulo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000000;
+}
+.ConteudoTexto
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	color: #000000;
+}
+.ConteudoLegenda
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 15px;
+	color: #000000;
+}
+.ConteudoLinks
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6c7880;
+	text-decoration: underline;
+}
+.ConteudoLinks:hover
+{
+	color: #000000;
+}
+/* ************************************************************************************** */
+
+
+/*Links.*/
+/* ************************************************************************************** */
+.Links01
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #6C7880;
+	text-decoration: underline;
+}
+.Links01:hover
+{
+	color: #ffffff;
+}
+
+.Links02
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	text-decoration: underline;
+}
+.Links02:hover
+{
+	color: #c36c1d;
+}
+.Links03
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #6c7880;
+	text-decoration: underline;
+}
+.Links03:hover
+{
+	color: #000000;
+}
+.Links04
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: underline;
+}
+.Links04:hover
+{
+	color: #6c7880;
+}
+.LinksConteudo01
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6C7880;
+	text-decoration: underline;
+}
+.LinksConteudo01:hover
+{
+	color: #000000;
+}
+
+.LinksExcluir01
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ff0000;
+	text-decoration: underline;
+}
+.LinksEcluir:hover
+{
+	color: #000000;
+}
+
+/* ************************************************************************************** */
+
+
+/*Tabelas.*/
+/* ************************************************************************************** */
+.TbFundoClaro
+{
+    background-color: #E2E8ED;
+}
+.TbFundoClaro:hover
+{
+    background-color: #bec7cd;
+}
+
+.TbFundoMedio
+{
+    background-color: #D1D8DC;
+}
+.TbFundoMedio:hover
+{
+    background-color: #bec7cd;
+}
+
+.TbFundoEscuro
+{
+	background-color: #6C7880;
+}
+
+.TbFundoTituloGridView01
+{
+	background-color: #6C7880;
+	height: 20px;
+}
+
+.TbFundoSelect
+{
+	background-color: #c36c1d;
+}
+
+.TbFundoAtivado
+{
+	/*background-color: #bedc78; width: 100%; height: 100%; display: table;*/
+	background-color: #bedc78; 
+	/*width: 100%; 
+	height: 100%; */
+	/*display: block; */
+	/*margin: 0; */
+	/*padding: 0; */
+}
+
+.TbFundoDesativado
+{
+	background-color: #FF8484; 
+	/*width: 100%; 
+	height: 100%; */
+	/*display: block;*/
+	/*margin: 0;*/
+	/*padding: 0;*/
+}
+
+.BordaTabela01
+{
+    border: 1px solid #6C7880;
+}
+
+.EstiloGridView01
+{
+    padding: 2px;
+    border-spacing: 1px;
+}
+
+.TabelaCampos01
+{
+	width: 100%;
+	border-spacing: 1px;
+	padding: 2px 2px 2px 2px;
+     
+}
+.TabelaCampos01Celula
+{
+	padding: 2px;     
+}
+
+/* ************************************************************************************** */
+
+
+/*Colunas de tabelas.*/
+/* ************************************************************************************** */
+.TabelaColuna01
+{
+ width: 100px;
+}
+
+.TabelaColunaTab
+{
+ width: 30px;
+}
+
+.TabelaDados01
+{
+	border-spacing: 1px; 
+	border-collapse: separate; 
+	*border-collapse: expression('separate', cellSpacing = '1px');
+}
+.TabelaDados01Celula
+{
+	padding: 2px;
+}
+
+.FormularioDados01
+{
+	margin-top: 20px;
+	padding: 0px;
+}
+.FormularioTabela01
+{
+	margin-top: 0px;
+	padding: 0px;
+}
+
+.TabelaIFrame01
+{
+	border: 0px; 
+	padding: 0px;
+	border-spacing: 0px;
+	/*width: 100%;*/
+	/*height: 100%;*/
+}
+/* ************************************************************************************** */
+
+
+/*Menu.*/
+/* ************************************************************************************** */
+.EstiloTreeViewMenuFuncoes
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+	color: #000000;
+	width: 142px;
+	text-align: left;
+	/*overflow: hidden;*/
+	/*overflow: auto;*/
+	/*white-space: nowrap;*/
+	/*white-space: pre-wrap;*/
+	white-space: normal;
+	/*text-indent: 20px;*/
+	/*margin-left: 10px;*/
+	/*line-height: 25px;*/
+}
+
+.EstiloTreeViewMenuFuncoes:hover
+{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*font-size: 12pt;*/
+	color: #c36c1d;
+	/*text-align: left;*/
+	/*overflow: hidden;*/
+	background-color: #e2e8ed;
+}
+
+.EstiloTreeViewMenuInfoApoio
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+	color: #000000;
+	text-align: left;
+	overflow: hidden;
+	/*white-space: nowrap;*/
+	line-height: 16px; 
+	text-decoration: none;
+	/*padding: 1px 1px 1px;*/
+	/*padding-bottom: 0px;*/
+	/*padding-left: 0px;*/
+	/*padding-right: 0px;*/
+	/*padding-top: 0px;*/
+	
+	
+}
+
+.EstiloTreeViewMenuInfoApoio:hover
+{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*font-size: 12pt;*/
+	color: #c36c1d;
+	/*text-align: left;*/
+	/*overflow: hidden;*/
+	/*background-color: #e2e8ed;*/
+}
+/* ************************************************************************************** */
+
+
+/*Campos.*/
+/* ************************************************************************************** */
+.CampoTexto01
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 230px;
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoTexto02
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 100px;
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoTextoFormularios01
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    /*width: 230px;*/
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoTextoArquivos
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 230px;
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoNumerico01
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 20px;
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    text-align: right;
+}
+.CampoNumerico02
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 100px;
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    text-align: right;
+}
+
+.CampoNumericoReduzido01
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 30px;
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    /*text-align: right;*/
+}
+
+.CampoNumericoGenerico01
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    /*width: 20px;*/
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    text-align: right;
+}
+
+.CampoTextoMultilinha01
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 230px;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoTextoMultilinhaArquivos
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 230px;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoTextoMultilinhaConteudo
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 400px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoTextoMultilinhaFormularios
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    /*width: 400px;*/
+    /*height: 100px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+.CampoTextoMultilinhaHTMLEditor
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 600px;
+    /*width: 100%;*/
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoTextoMultilinhaAjaxHTMLEditor
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 600px;
+    /*width: 100%;*/
+    /*height: 400px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    /*color: #000000;*/
+}
+
+.CampoTextoMultilinhaURL
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 400px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoTextoMultilinhaHTML
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 400px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+.CampoData01
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 100px;
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoDDD01
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 20px;
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+
+.CampoDropDownMenu01
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    /*width: 230px;*/
+    height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoFiltroGenericoListBox01
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    /*width: 230px;*/
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+.CampoArquivoUpload01
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 230px;
+    height: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoArquivoUploadArquivos
+{
+    background: #ffffff;
+    border: 1px solid #6c7880;
+    width: 230px;
+    height: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.CampoCheckBox01
+{
+	/*margin-right: 5px;*/
+}
+
+.CampoTextoErro
+{
+    background: #FF8484;
+    /*border: 1px solid #6c7880;*/
+    /*width: 230px;*/
+    /*height: 18px;*/
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*font-size: 12px;*/
+    /*color: #000000;*/
+}
+/* ************************************************************************************** */
+
+
+/*Editores HTML.*/
+/* ************************************************************************************** */
+.ajax__htmleditor_editor_container
+{
+    background-color:#ffffff;
+    /*height: 600px;*/
+}
+
+.ajax__htmleditor_editor_toptoolbar
+{
+    background-color:#F0F0F0;
+}
+
+.ajax__htmleditor_editor_bottomtoolbar
+{
+    background-color:#F0F0F0;
+    /*height:50px;*/
+}
+
+.ajax__htmleditor_editor_editpanel
+{
+    background-color:#F0F0F0;
+    /*height: 600px;*/
+}
+
+.ajax__htmleditor_toolbar_button
+{
+    border: 1px solid #808080;
+}
+
+.ajax__htmleditor_toolbar_button_hover
+{
+    border: 1px solid #000000;
+}
+/* ************************************************************************************** */
+
+
+/*Imagens.*/
+/* ************************************************************************************** */
+.ImagemAlinhamentoEsquerda
+{
+    float: left;
+    margin: 0px 10px 0px 0px;        
+}
+
+.ImagemAlinhamentoDireita
+{
+    float: right;
+    margin: 0px 0px 0px 10px;        
+}
+
+.ProgressBar01 
+{
+    width: 100px;
+    height: 100px;
+    /*background-color: red;*/
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+/* ************************************************************************************** */

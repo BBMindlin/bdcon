@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>jQuery UI Example Page</title>
+		<!--link type="text/css" href="css/ui-lightness/jquery-ui-1.8.24.custom.css" rel="stylesheet" /-->
+		<link type="text/css" href="css/redmond/jquery-ui-1.8.24.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+		<!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"> </script--><!--Carregador do servidor (Google). -->
+		<!--script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"> </script--><!--Carregador do servidor (Microsoft). -->
+		<script type="text/javascript" src="js/jquery-ui-1.8.24.custom.min.js"></script>
+		<script>
+		$(function() {
+			$( "#datepicker" ).datepicker({
+				dateFormat: "dd/mm/yy",
+				changeYear: true,
+				dayNames: ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"],
+				dayNamesMin: ["Do", "Se", "Te", "Qa", "Qi", "Sx", "Sá"],
+				dayNamesShort: ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"],
+				monthNames: ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"],
+				numberOfMonths: [1, 1], //Número de meses ao mostrar de uma vez no calendário [número de linhas, número de meses].
+				//yearRange: "1910:2020",
+				minDate: new Date(1910, 1 - 1, 1),
+				maxDate: "+1m +10w",
+				showAnim: "fold", //show (default).
+				firstDay: 0 //Qual dia que começa o calendário.
+			});
+		});
+		</script>
+		
+		<style type="text/css">
+			/*demo page css*/
+			body{ font: 62.5% "Trebuchet MS", sans-serif; margin: 50px;}
+			.demoHeaders { margin-top: 2em; }
+			#dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+			#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+			ul#icons {margin: 0; padding: 0;}
+			ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+			ul#icons span.ui-icon {float: left; margin: 0 4px;}
+		</style>
+	</head>
+	<body>
+
+
+
+
+<div class="demo">
+
+<p>Date: <input id="datepicker" type="text"></p>
+
+</div><!-- End demo -->
+
+
+
+<div style="display: none;" class="demo-description">
+<p>The datepicker is tied to a standard form input field.  Focus on the input (click, or use the tab key) to open an interactive calendar in a small overlay.  Choose a date, click elsewhere on the page (blur the input), or hit the Esc key to close. If a date is chosen, feedback is shown as the input's value.</p>
+</div><!-- End demo-description -->
+
+
+	</body>
+</html>

@@ -1,0 +1,202 @@
+/*Estrutura do Layout*/
+/* ************************************************************************************** */
+
+.Conteiner01
+{
+    z-index: 1;
+    width: 1015px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.FundoLayout01
+{
+    position: absolute; 
+    z-index: 0; 
+    width: 100%; 
+    /*Cor Lisa | Fundo Com Uma Imagem | Fundo Com Textura*/
+    top: 0px;
+    bottom: 0px;
+    
+    /*Cor Lisa*/
+    /*background-color: #888888;*/
+    
+    /*Fundo Com Uma Imagem*/
+    /*background-image: url(img/FundoSiteImagem01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;*/
+    
+    /*Fundo Com Textura*/
+    /*background-image: url(img/FundoSiteTextura01.jpg);
+    background-attachment: fixed;*/
+    
+    /*Fundo Com Uma Textura (repetição horizontal)*/
+    /*background-image: url(img/FundoSiteImagem01.jpg);
+    background-repeat: repeat-x;
+    background-position: center top;
+	position: fixed;
+    height: 1097px;*/
+	
+    /*Fundo Com Textura (repetição vertical)*/
+    /*background-image: url(img/FundoSiteTextura01.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;
+    background-attachment: fixed;
+	position: fixed;*/
+}
+
+.PosLayoutCentral01
+{
+     position:absolute;
+	 display:table; /*nova linha - depois verificar se vai dar problema*/
+     z-index: 2;
+     width: 1015px; 
+     height: 100%; 
+     background-color: #cccccc; 
+     top:0px; 
+     bottom:0px; 
+     border-left: 1px solid #78c3ae; 
+     border-right: 1px solid #78c3ae;   
+}
+
+.BodyMaster01
+{
+    margin: 0;
+	/*margin-left: 0px;*/
+	/*margin-top: 0px;*/
+	/*margin-right: 0px;*/
+	/*margin-bottom: 0px;*/
+	        
+	height: 100%;
+	background-color: #b98832;
+}
+.BodyMaster01SemMenu
+{
+    margin: 0;
+}
+.BodyMaster01IFrame
+{
+    margin: 0;
+}
+
+.SiteFundoCabecalho01
+{
+    background-image: url(img/FundoSiteTop01.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    width: 1013px; 
+    height: 468px;
+}
+
+.SiteConteudoConteiner01
+{
+    margin: 0px 46px 0px 46px; /*margem direita não fazendo efeito*/ 
+    background-color: #ffffff; 
+    position: relative; 
+    height: auto;  
+    /*overflow: visible;
+    float: none;
+    height: auto;
+    display: block;
+    float: left;
+
+    min-height: 100% !important;*/ 
+    width: 920px; 
+    display: inline-block;
+}
+
+.SiteTitulosFundo01
+{
+    background-image: url(img/FundoSiteTitulos01.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    height: 62px; width: 900px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-indent: 65px; 
+    line-height: 62px; 
+    /*position: relative; 
+    display: inline-block;*/
+}
+
+.SiteConteudo01
+{
+    width: 880px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    /*display: inline-block; 
+    position: relative;*/
+}
+
+.SiteFundoRodape01
+{
+    margin: 10px 46px 0px 46px; 
+    position: relative;
+}
+/* ************************************************************************************** */
+
+
+/*Recurso para aplicar layout com cabeçalho e rodapé (tamanho fixo).*/
+/* ************************************************************************************** */
+/*
+O código original continha esta parte.
+html, body {
+  height: 100%;
+}
+*/
+.BodyMaster02
+{
+	height: 100%;
+	margin: 0;
+	background-color: #78c3ae;
+}
+.Container02 {
+  min-height: 100%;
+  margin-bottom: -142px; /*Igual à altura do rodapé.*/
+}
+.Container02:after {
+  content: "";
+  display: block;
+}
+.SiteRodape02, .Container02:after {
+  height: 142px; 
+}
+.SiteRodape02 {
+  background: #cccccc;
+}
+/* ************************************************************************************** */
+
+
+/*Recurso para aplicar layout com div centralizado (tamanho fixo).*/
+/* ************************************************************************************** */
+.BodyMaster03
+{
+	margin: 0;
+	/*background-color: #78c3ae;*/
+	
+	background-image: url(img/layout-fundo-sistema.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+/* ************************************************************************************** */
+
+
+/*Recurso para aplicar layout com cabeçalho e rodapé - alternativa 04 - rodapé fixo no fundo, mesmo que o conteúdo não for o suficiente.  (tamanho fixo).*/
+/* ************************************************************************************** */
+.Container04 {
+	min-height: 100%;
+	position: relative;
+}
+
+.SiteRodape04 {
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:#78c3ae;
+}
+/* ************************************************************************************** */
